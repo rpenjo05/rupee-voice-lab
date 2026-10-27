@@ -1,0 +1,42 @@
+name: Collect OmniVoice results
+
+# Merges the artifacts of an "OmniVoice takes" run and commits them to the branch results/<run id>,
+# so they can be fetched with git (artifact downloads aren't reachable from every environment).
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: { description: "Run id of an OmniVoice takes run", required: true }
+      job: { description: "Job file", default: "jobs/mm_20261027.json" }
+  workflow_call:
+    inputs:
+      run_id: { type: string, required: true }
+      job: { type: string, required: true }
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install numpy soundfile
+      - uses: actions/download-artifact@v4
+        with:
+          path: out/all
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+      - run: rm -rf out/all/results && python run.py merge --job '${{ inputs.job }}' --inp out/all --out results
+      - run: cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit to results/<run id>
+        run: |
+          B="results/${{ inputs.run_id }}"
+          mv results /tmp/results
+          git config user.name "github-actions[bot]"; git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan "$B"; git rm -rq --cached . ; git clean -fdxq -e .git
+          cp -r /tmp/results/. .
+          git add -A; git commit -qm "OmniVoice results for run ${{ inputs.run_id }}"
+          git push -f origin "$B"

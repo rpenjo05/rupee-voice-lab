@@ -80,3 +80,14 @@ jobs:
       - run: cat results/report.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with: { name: results, path: results }
+
+  publish:
+    needs: merge
+    if: always()
+    permissions:
+      contents: write
+      actions: read
+    uses: ./.github/workflows/collect.yml
+    with:
+      run_id: ${{ github.run_id }}
+      job: ${{ inputs.job }}
