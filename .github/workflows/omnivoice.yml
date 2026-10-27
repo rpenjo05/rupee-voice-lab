@@ -1,0 +1,82 @@
+name: OmniVoice takes
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Job file"
+        default: "jobs/mm_20261027.json"
+      variants:
+        description: "Comma-separated variants (blank = all)"
+        default: ""
+      shards:
+        description: "Parallel runners per variant"
+        default: "3"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: omnivoice-${{ github.event.inputs.job }}
+  cancel-in-progress: false
+
+env:
+  OMNIVOICE_REF: 08be0b4ccbac3e13e374e86fbfead4b4cac343e2   # k2-fsa/OmniVoice, pinned (24 Aug 2026)
+  HF_HUB_DISABLE_PROGRESS_BARS: "1"
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - id: p
+        run: echo "matrix=$(python run.py plan --job '${{ inputs.job }}' --variants '${{ inputs.variants }}' --nshards ${{ inputs.shards }})" >> "$GITHUB_OUTPUT"
+
+  design:
+    # Designed voices (variants with "design") + warms the model cache for the generation runners.
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - run: python run.py design --job '${{ inputs.job }}' --out out/design
+      - uses: actions/upload-artifact@v4
+        with: { name: design, path: out/design, if-no-files-found: ignore }
+
+  gen:
+    needs: [plan, design]
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - uses: actions/download-artifact@v4
+        with: { name: design, path: out/design }
+        continue-on-error: true
+      - run: python run.py gen --job '${{ inputs.job }}' --variant ${{ matrix.variant }} --shard ${{ matrix.shard }} --nshards ${{ matrix.nshards }} --out out/gen --design out/design
+      - uses: actions/upload-artifact@v4
+        with: { name: "gen-${{ matrix.variant }}-${{ matrix.shard }}", path: out/gen }
+
+  merge:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install numpy soundfile
+      - uses: actions/download-artifact@v4
+        with: { path: out/all }
+      - run: python run.py merge --job '${{ inputs.job }}' --inp out/all --out results
+      - run: cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with: { name: results, path: results }

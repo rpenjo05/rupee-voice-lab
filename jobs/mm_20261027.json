@@ -1,0 +1,41 @@
+{
+ "name": "Market Minute 27 Oct 2026 (u_kf846TY8k)",
+ "takes": 2,
+ "gen": {"num_step": 32, "guidance_scale": 2.0},
+ "variants": {
+  "B": {"label": "Plain clone of Heart (punchy reference), original script, no instruct/tags",
+        "ref": "heart_punchy", "text_key": "plain"},
+  "C": {"label": "Directed clone of Heart: per-line reference energy (punchy / curious / calm) + consistent instruct + non-verbal tags + CMU pronunciation",
+        "ref": "per_line", "instruct": "female, young adult, american accent", "text_key": "directed"},
+  "D": {"label": "Designed Indian-English voice (instruct only), then cloned for consistency + same tags/pronunciation as C",
+        "instruct": "female, young adult, moderate pitch, indian accent", "text_key": "directed",
+        "design": {"instruct": "female, young adult, moderate pitch, indian accent", "takes": 3,
+                   "text": "Wait. The market barely moved today? But smaller companies? Up almost three percent! Here's the thing. That's huge!"}}
+ },
+ "lines": [
+  {"id": "hook_0", "ref": "heart_punchy",
+   "plain": "The Nifty today? Down zero point zero two percent. Basically flat!",
+   "text": {"directed": "The Nifty today? Down zero point zero two percent. Basically flat!"}},
+  {"id": "hook_1", "ref": "heart_punchy",
+   "plain": "But smaller companies? Up two point seven percent!",
+   "text": {"directed": "But smaller companies? [surprise-oh] Up two point seven percent!"}},
+  {"id": "hook_2", "ref": "heart_curious",
+   "plain": "Quick guess: which sector jumped the most today? Answer at the end!",
+   "text": {"directed": "Quick guess: which sector jumped the most today? Answer at the end!"}},
+  {"id": "broad_0", "ref": "heart_punchy",
+   "plain": "Midcaps? Up one percent. Smallcaps? Two point seven! The smaller the company, the bigger the jump.",
+   "text": {"directed": "Mid caps? Up one percent. Small caps? [surprise-wa] Two point seven! The smaller the company, the bigger the jump."}},
+  {"id": "trigger_0", "ref": "heart_curious",
+   "plain": "So why was the Nifty stuck? Banks! The Bank Nifty fell zero point seven percent. HDFC Bank and SBI pulled hardest.",
+   "text": {"directed": "[question-en] So why was the Nifty stuck? Banks! The Bank Nifty fell zero point seven percent. H D F C Bank and S B I pulled hardest."}},
+  {"id": "you_0", "ref": "heart_curious",
+   "plain": "In rupees? One lakh in a Nifty fund: down about fifteen rupees. One lakh tracking smallcaps? Up about two thousand seven hundred!",
+   "text": {"directed": "In rupees? One [L AA1 K] in a Nifty fund: down about fifteen rupees. One [L AA1 K] tracking small caps? Up about two thousand seven hundred!"}},
+  {"id": "reveal_0", "ref": "heart_punchy",
+   "plain": "Answer? C! Media stocks, up over three and a half percent.",
+   "text": {"directed": "Answer? C! [laughter] Media stocks, up over three and a half percent."}},
+  {"id": "reveal_1", "ref": "heart_calm",
+   "plain": "So remember... a flat Nifty isn't a flat market.",
+   "text": {"directed": "So remember... a flat Nifty isn't a flat market."}}
+ ]
+}

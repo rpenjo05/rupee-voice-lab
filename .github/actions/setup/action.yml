@@ -1,0 +1,21 @@
+name: Set up OmniVoice (CPU)
+description: Python, CPU PyTorch, pinned OmniVoice, Whisper for checks, cached model weights.
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with: { python-version: "3.11" }
+    - uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: pip-omnivoice-${{ env.OMNIVOICE_REF }}-v1
+    - uses: actions/cache@v4
+      with:
+        path: ~/.cache/huggingface
+        key: hf-omnivoice-${{ env.OMNIVOICE_REF }}-whisper-small-en-v1
+    - shell: bash
+      run: |
+        pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+        pip install "omnivoice @ git+https://github.com/k2-fsa/OmniVoice@${OMNIVOICE_REF}" jiwer soundfile librosa
+        python -c "import torch, omnivoice; print('torch', torch.__version__, 'threads', torch.get_num_threads())"
+        nproc; free -g
