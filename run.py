@@ -20,7 +20,9 @@ def plain(text):
 
 
 def norm_words(s):
-    s = s.lower().replace("%", " percent").replace("-", " ")
+    from num2words import num2words
+    s = s.lower().replace(",", "").replace("%", " percent").replace("-", " ")
+    s = re.sub(r"\d+(\.\d+)?", lambda m: " " + num2words(float(m.group()) if "." in m.group() else int(m.group())).replace("-", " ").replace(",", "") + " ", s)
     s = re.sub(r"[^a-z0-9' ]", " ", s)
     return s.split()
 

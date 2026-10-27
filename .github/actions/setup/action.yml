@@ -16,6 +16,6 @@ runs:
     - shell: bash
       run: |
         pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu
-        pip install "omnivoice @ git+https://github.com/k2-fsa/OmniVoice@${OMNIVOICE_REF}" jiwer soundfile librosa
+        pip install "omnivoice @ git+https://github.com/k2-fsa/OmniVoice@${OMNIVOICE_REF}" jiwer soundfile librosa num2words
         python -c "import torch, omnivoice; print('torch', torch.__version__, 'threads', torch.get_num_threads())"
         nproc; free -g
