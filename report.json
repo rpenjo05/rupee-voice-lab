@@ -1,0 +1,602 @@
+[
+ {
+  "variant": "C",
+  "id": "hook_2",
+  "text": "Quick guess: which sector jumped the most today? Answer at the end!",
+  "ref": "refs/heart_curious.wav",
+  "pick": "C__hook_2_t1.wav",
+  "takes": [
+   {
+    "file": "C__hook_2_t1.wav",
+    "take": 1,
+    "dur": 3.94,
+    "secs": 130.0,
+    "asr": "Quick guess, which sector jumped the most today? Answer at the end.",
+    "wer": 0.0
+   },
+   {
+    "file": "C__hook_2_t2.wav",
+    "take": 2,
+    "dur": 3.68,
+    "secs": 131.4,
+    "asr": "Quick guess, which sector jumped the most today? Answer at the end.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "you_0",
+  "text": "In rupees? One [L AA1 K] in a Nifty fund: down about fifteen rupees. One [L AA1 K] tracking small caps? Up about two thousand seven hundred!",
+  "ref": "refs/heart_curious.wav",
+  "pick": "C__you_0_t1.wav",
+  "takes": [
+   {
+    "file": "C__you_0_t1.wav",
+    "take": 1,
+    "dur": 8.13,
+    "secs": 196.4,
+    "asr": "In rupees, one lock and a nifty fund. Down about 15 rupees. One lock tracking small caps. Up about 2,700.",
+    "wer": 0.455
+   },
+   {
+    "file": "C__you_0_t2.wav",
+    "take": 2,
+    "dur": 8.2,
+    "secs": 196.6,
+    "asr": "In rupees, one lock in a difty fund, down about 15 rupees. One lock tracking small caps, up about 2,700.",
+    "wer": 0.455
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "hook_0",
+  "text": "The Nifty today? Down zero point zero two percent. Basically flat!",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__hook_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__hook_0_t1.wav",
+    "take": 1,
+    "dur": 4.28,
+    "secs": 92.3,
+    "asr": "The Nifty today? Down 0.02%, basically flat.",
+    "wer": 0.364
+   },
+   {
+    "file": "D__hook_0_t2.wav",
+    "take": 2,
+    "dur": 4.28,
+    "secs": 91.9,
+    "asr": "The Nifty today down 0.02%, basically flat.",
+    "wer": 0.364
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "broad_0",
+  "text": "Mid caps? Up one percent. Small caps? [surprise-wa] Two point seven! The smaller the company, the bigger the jump.",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__broad_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__broad_0_t1.wav",
+    "take": 1,
+    "dur": 7.08,
+    "secs": 115.7,
+    "asr": "Mid caps? Up 1%. Small caps? 2.7%. The smaller the company, the bigger the jump.",
+    "wer": 0.5
+   },
+   {
+    "file": "D__broad_0_t2.wav",
+    "take": 2,
+    "dur": 7.08,
+    "secs": 115.2,
+    "asr": "Mid caps? Up 1%. Small caps? What? 2.7. The smaller the company, the bigger the jump.",
+    "wer": 0.5
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "reveal_0",
+  "text": "Answer? C! [laughter] Media stocks, up over three and a half percent.",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__reveal_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__reveal_0_t1.wav",
+    "take": 1,
+    "dur": 4.32,
+    "secs": 91.8,
+    "asr": "Answer? C. Media stocks up over three and a half percent.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__reveal_0_t2.wav",
+    "take": 2,
+    "dur": 4.32,
+    "secs": 91.2,
+    "asr": "Answer? Media stocks up over three and a half percent.",
+    "wer": 0.091
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "hook_1",
+  "text": "But smaller companies? Up two point seven percent!",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__hook_1_t1.wav",
+  "takes": [
+   {
+    "file": "B__hook_1_t1.wav",
+    "take": 1,
+    "dur": 3.04,
+    "secs": 129.2,
+    "asr": "but smaller companies up 2.7%.",
+    "wer": 0.375
+   },
+   {
+    "file": "B__hook_1_t2.wav",
+    "take": 2,
+    "dur": 3.0,
+    "secs": 128.4,
+    "asr": "but smaller companies, up 2.7%.",
+    "wer": 0.375
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "trigger_0",
+  "text": "So why was the Nifty stuck? Banks! The Bank Nifty fell zero point seven percent. HDFC Bank and SBI pulled hardest.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__trigger_0_t1.wav",
+  "takes": [
+   {
+    "file": "B__trigger_0_t1.wav",
+    "take": 1,
+    "dur": 6.5,
+    "secs": 179.4,
+    "asr": "So why was the NFTY stuck banks? The bank NFTY fell 0.7%, HDFC bank and SBI pulled hardest.",
+    "wer": 0.238
+   },
+   {
+    "file": "B__trigger_0_t2.wav",
+    "take": 2,
+    "dur": 6.52,
+    "secs": 180.5,
+    "asr": "So why was the NFTY stuck banks? The bank NFTY fell 0.7 percent. HDFC bank and SBI pulled hardest.",
+    "wer": 0.238
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "reveal_1",
+  "text": "So remember... a flat Nifty isn't a flat market.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__reveal_1_t2.wav",
+  "takes": [
+   {
+    "file": "B__reveal_1_t1.wav",
+    "take": 1,
+    "dur": 2.73,
+    "secs": 126.2,
+    "asr": "So remember, a flat Nifty is in a flat market.",
+    "wer": 0.222
+   },
+   {
+    "file": "B__reveal_1_t2.wav",
+    "take": 2,
+    "dur": 2.63,
+    "secs": 125.8,
+    "asr": "So remember a flat Nifty is in a flat market.",
+    "wer": 0.222
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "hook_1",
+  "text": "But smaller companies? [surprise-oh] Up two point seven percent!",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__hook_1_t1.wav",
+  "takes": [
+   {
+    "file": "D__hook_1_t1.wav",
+    "take": 1,
+    "dur": 4.2,
+    "secs": 160.7,
+    "asr": "But smaller companies? Oh, up 2.7%!",
+    "wer": 0.5
+   },
+   {
+    "file": "D__hook_1_t2.wav",
+    "take": 2,
+    "dur": 4.2,
+    "secs": 160.5,
+    "asr": "But smaller companies? Oh, up 2.7%!",
+    "wer": 0.5
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "trigger_0",
+  "text": "[question-en] So why was the Nifty stuck? Banks! The Bank Nifty fell zero point seven percent. H D F C Bank and S B I pulled hardest.",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__trigger_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__trigger_0_t1.wav",
+    "take": 1,
+    "dur": 8.08,
+    "secs": 214.8,
+    "asr": "So why was the Nifty stuck? Banks! The bank Nifty fell 0.7%, HDFC bank and SBI pulled hardest.",
+    "wer": 0.143
+   },
+   {
+    "file": "D__trigger_0_t2.wav",
+    "take": 2,
+    "dur": 8.04,
+    "secs": 215.5,
+    "asr": "Mmm, so why was the Nifty stuck? Banks! The bank Nifty fell 0.7%. HDFC Bank in SB. I pulled hardest.",
+    "wer": 0.333
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "reveal_1",
+  "text": "So remember... a flat Nifty isn't a flat market.",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__reveal_1_t1.wav",
+  "takes": [
+   {
+    "file": "D__reveal_1_t1.wav",
+    "take": 1,
+    "dur": 3.01,
+    "secs": 141.7,
+    "asr": "So remember, a flat nifty isn't a flat market.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__reveal_1_t2.wav",
+    "take": 2,
+    "dur": 3.04,
+    "secs": 141.6,
+    "asr": "So remember, a flat nifty isn't a flat market.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "hook_0",
+  "text": "The Nifty today? Down zero point zero two percent. Basically flat!",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__hook_0_t1.wav",
+  "takes": [
+   {
+    "file": "B__hook_0_t1.wav",
+    "take": 1,
+    "dur": 3.87,
+    "secs": 119.7,
+    "asr": "The Nifty today, down 0.02%, basically flat.",
+    "wer": 0.364
+   },
+   {
+    "file": "B__hook_0_t2.wav",
+    "take": 2,
+    "dur": 3.79,
+    "secs": 120.7,
+    "asr": "The Nifty today, down 0.02%, basically flat.",
+    "wer": 0.364
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "broad_0",
+  "text": "Midcaps? Up one percent. Smallcaps? Two point seven! The smaller the company, the bigger the jump.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__broad_0_t1.wav",
+  "takes": [
+   {
+    "file": "B__broad_0_t1.wav",
+    "take": 1,
+    "dur": 5.67,
+    "secs": 142.0,
+    "asr": "Mid caps? Up 1%. Small caps? 2.7. The smaller the company, the bigger the jump.",
+    "wer": 0.438
+   },
+   {
+    "file": "B__broad_0_t2.wav",
+    "take": 2,
+    "dur": 5.68,
+    "secs": 141.5,
+    "asr": "Mid caps, up 1%. Small caps, 2.7. The smaller the company, the bigger the jump.",
+    "wer": 0.438
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "reveal_0",
+  "text": "Answer? C! Media stocks, up over three and a half percent.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__reveal_0_t1.wav",
+  "takes": [
+   {
+    "file": "B__reveal_0_t1.wav",
+    "take": 1,
+    "dur": 3.35,
+    "secs": 113.7,
+    "asr": "Answer C media stocks up over three and a half percent",
+    "wer": 0.0
+   },
+   {
+    "file": "B__reveal_0_t2.wav",
+    "take": 2,
+    "dur": 3.34,
+    "secs": 112.9,
+    "asr": "Answer? See media stocks up over three and a half percent.",
+    "wer": 0.091
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "hook_2",
+  "text": "Quick guess: which sector jumped the most today? Answer at the end!",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__hook_2_t2.wav",
+  "takes": [
+   {
+    "file": "B__hook_2_t1.wav",
+    "take": 1,
+    "dur": 3.84,
+    "secs": 153.2,
+    "asr": "Quick guess, which sector jumped the most today? Answer at the end.",
+    "wer": 0.0
+   },
+   {
+    "file": "B__hook_2_t2.wav",
+    "take": 2,
+    "dur": 3.89,
+    "secs": 152.7,
+    "asr": "Quick guess, which sector jumped the most today? Answer at the end.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "B",
+  "id": "you_0",
+  "text": "In rupees? One lakh in a Nifty fund: down about fifteen rupees. One lakh tracking smallcaps? Up about two thousand seven hundred!",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "B__you_0_t2.wav",
+  "takes": [
+   {
+    "file": "B__you_0_t1.wav",
+    "take": 1,
+    "dur": 7.38,
+    "secs": 208.3,
+    "asr": "In rupees, 1 lakh in a nifty fund, down about 15 rupees. 1 lakh tracking small caps, up about 2,700.",
+    "wer": 0.409
+   },
+   {
+    "file": "B__you_0_t2.wav",
+    "take": 2,
+    "dur": 7.34,
+    "secs": 208.1,
+    "asr": "In rupees, one lakh and a nifty fund, down about 15 rupees. One lakh tracking small caps, up about 2,700.",
+    "wer": 0.364
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "hook_0",
+  "text": "The Nifty today? Down zero point zero two percent. Basically flat!",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "C__hook_0_t1.wav",
+  "takes": [
+   {
+    "file": "C__hook_0_t1.wav",
+    "take": 1,
+    "dur": 3.85,
+    "secs": 143.6,
+    "asr": "The Nifty today, down 0.02%, basically flat.",
+    "wer": 0.364
+   },
+   {
+    "file": "C__hook_0_t2.wav",
+    "take": 2,
+    "dur": 3.86,
+    "secs": 143.4,
+    "asr": "The Nifty today, down 0.02%, basically flat.",
+    "wer": 0.364
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "broad_0",
+  "text": "Mid caps? Up one percent. Small caps? [surprise-wa] Two point seven! The smaller the company, the bigger the jump.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "C__broad_0_t1.wav",
+  "takes": [
+   {
+    "file": "C__broad_0_t1.wav",
+    "take": 1,
+    "dur": 6.47,
+    "secs": 183.3,
+    "asr": "Mid caps, up 1%. Small caps? What, 2.7? The smaller the company, the bigger the jump.",
+    "wer": 0.5
+   },
+   {
+    "file": "C__broad_0_t2.wav",
+    "take": 2,
+    "dur": 6.36,
+    "secs": 183.9,
+    "asr": "Mid caps? Up 1%. Small caps? WA 2.7. The smaller the company, the bigger the jump.",
+    "wer": 0.5
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "reveal_0",
+  "text": "Answer? C! [laughter] Media stocks, up over three and a half percent.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "C__reveal_0_t2.wav",
+  "takes": [
+   {
+    "file": "C__reveal_0_t1.wav",
+    "take": 1,
+    "dur": 3.74,
+    "secs": 147.1,
+    "asr": "Answer? Media stocks up over three and a half percent.",
+    "wer": 0.091
+   },
+   {
+    "file": "C__reveal_0_t2.wav",
+    "take": 2,
+    "dur": 3.82,
+    "secs": 146.8,
+    "asr": "Answer? See media stocks up over three and a half percent",
+    "wer": 0.091
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "hook_2",
+  "text": "Quick guess: which sector jumped the most today? Answer at the end!",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__hook_2_t1.wav",
+  "takes": [
+   {
+    "file": "D__hook_2_t1.wav",
+    "take": 1,
+    "dur": 4.32,
+    "secs": 162.2,
+    "asr": "Quick guess, which sector jumped the most today? Answer at the end.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__hook_2_t2.wav",
+    "take": 2,
+    "dur": 4.3,
+    "secs": 162.2,
+    "asr": "Quick guess, which sector jumped the most today? Answer at the end.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "you_0",
+  "text": "In rupees? One [L AA1 K] in a Nifty fund: down about fifteen rupees. One [L AA1 K] tracking small caps? Up about two thousand seven hundred!",
+  "ref": "out/design/D_ref.wav",
+  "pick": "D__you_0_t2.wav",
+  "takes": [
+   {
+    "file": "D__you_0_t1.wav",
+    "take": 1,
+    "dur": 8.78,
+    "secs": 228.6,
+    "asr": "In rupees? One lock in a nifty fund. Down about 15 rupees. One lock tracking small caps? Up about 2,700.",
+    "wer": 0.409
+   },
+   {
+    "file": "D__you_0_t2.wav",
+    "take": 2,
+    "dur": 8.86,
+    "secs": 229.5,
+    "asr": "In rupees, one lock in a nifty fund, down about 15 rupees. One lock tracking small caps, up about 2,700.",
+    "wer": 0.409
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "hook_1",
+  "text": "But smaller companies? [surprise-oh] Up two point seven percent!",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "C__hook_1_t1.wav",
+  "takes": [
+   {
+    "file": "C__hook_1_t1.wav",
+    "take": 1,
+    "dur": 3.71,
+    "secs": 146.3,
+    "asr": "But smaller companies? Oh, up 2.7%.",
+    "wer": 0.5
+   },
+   {
+    "file": "C__hook_1_t2.wav",
+    "take": 2,
+    "dur": 3.7,
+    "secs": 146.7,
+    "asr": "But smaller companies owe up 2.7%.",
+    "wer": 0.5
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "trigger_0",
+  "text": "[question-en] So why was the Nifty stuck? Banks! The Bank Nifty fell zero point seven percent. H D F C Bank and S B I pulled hardest.",
+  "ref": "refs/heart_curious.wav",
+  "pick": "C__trigger_0_t2.wav",
+  "takes": [
+   {
+    "file": "C__trigger_0_t1.wav",
+    "take": 1,
+    "dur": 7.52,
+    "secs": 185.3,
+    "asr": "N. So why was the NFTY stuck? Banks. The bank NFTY fell 0.7%. HDFC bank and SBI pulled hardest.",
+    "wer": 0.286
+   },
+   {
+    "file": "C__trigger_0_t2.wav",
+    "take": 2,
+    "dur": 7.45,
+    "secs": 185.4,
+    "asr": "N. So why was the NFTY stuck? Banks. The bank NFTY fell 0.7%. HDFC bank and SBI pulled hardest.",
+    "wer": 0.286
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "reveal_1",
+  "text": "So remember... a flat Nifty isn't a flat market.",
+  "ref": "refs/heart_calm.wav",
+  "pick": "C__reveal_1_t2.wav",
+  "takes": [
+   {
+    "file": "C__reveal_1_t1.wav",
+    "take": 1,
+    "dur": 2.5,
+    "secs": 101.6,
+    "asr": "So remember, a flat Nifty is in a flat market.",
+    "wer": 0.222
+   },
+   {
+    "file": "C__reveal_1_t2.wav",
+    "take": 2,
+    "dur": 2.56,
+    "secs": 102.1,
+    "asr": "So remember, a flat Nifty is in a flat market.",
+    "wer": 0.222
+   }
+  ]
+ }
+]
