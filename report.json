@@ -1,0 +1,68 @@
+[
+ {
+  "variant": "C",
+  "id": "reveal_0",
+  "text": "Answer? C! Media stocks, up over three and a half percent.",
+  "ref": "refs/heart_punchy.wav",
+  "pick": "C__reveal_0_t3.wav",
+  "takes": [
+   {
+    "file": "C__reveal_0_t1.wav",
+    "take": 1,
+    "dur": 3.35,
+    "secs": 135.7,
+    "asr": "Answer, see media stocks, up over three and a half percent.",
+    "wer": 0.091
+   },
+   {
+    "file": "C__reveal_0_t2.wav",
+    "take": 2,
+    "dur": 3.28,
+    "secs": 136.7,
+    "asr": "Answer? See media stocks up over three and a half percent.",
+    "wer": 0.091
+   },
+   {
+    "file": "C__reveal_0_t3.wav",
+    "take": 3,
+    "dur": 3.36,
+    "secs": 136.1,
+    "asr": "Answer C media stocks up over three and a half percent",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "C",
+  "id": "you_0",
+  "text": "In rupees? One lakh in a Nifty fund: down about fifteen rupees. One lakh tracking small caps? Up about two thousand seven hundred!",
+  "ref": "refs/heart_curious.wav",
+  "pick": "C__you_0_t1.wav",
+  "takes": [
+   {
+    "file": "C__you_0_t1.wav",
+    "take": 1,
+    "dur": 7.54,
+    "secs": 155.2,
+    "asr": "In rupees, one lakh and a nifty fund, down about 15 rupees. One lakh tracking small caps, up about 2,700.",
+    "wer": 0.136
+   },
+   {
+    "file": "C__you_0_t2.wav",
+    "take": 2,
+    "dur": 7.59,
+    "secs": 155.3,
+    "asr": "In rupees, one lakh and a nifty fund. Down about 15 rupees. One lakh tracking small caps. Up about 2,700.",
+    "wer": 0.136
+   },
+   {
+    "file": "C__you_0_t3.wav",
+    "take": 3,
+    "dur": 7.45,
+    "secs": 155.2,
+    "asr": "In rupees, one lakh and a nifty fund. Down about 15 rupees. One lakh tracking small caps, up about 2,700.",
+    "wer": 0.136
+   }
+  ]
+ }
+]
