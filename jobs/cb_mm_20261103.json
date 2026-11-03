@@ -1,0 +1,82 @@
+{
+ "name": "Market Minute 3 Nov 2026: Chatterbox, cloned from Heart refs, per-line energy",
+ "takes": 3,
+ "defaults": {
+  "ref": "heart_punchy",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.4,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points. Again!",
+   "check": "The Sensex just jumped one thousand two hundred and twenty five points. Again!",
+   "ref": "heart_punchy",
+   "exaggeration": 0.75
+  },
+  {
+   "id": "hook_1",
+   "text": "Quick guess: today's top Nifty gainer. What does it do? Answer at the end!",
+   "check": "Quick guess: today's top Nifty gainer. What does it do? Answer at the end!",
+   "ref": "heart_curious",
+   "exaggeration": 0.65
+  },
+  {
+   "id": "levels_0",
+   "text": "Nifty: twenty three thousand eight hundred and eleven. Sensex: seventy six thousand nine hundred and eighteen!",
+   "check": "Nifty: twenty three thousand eight hundred and eleven. Sensex: seventy six thousand nine hundred and eighteen!",
+   "ref": "heart_punchy",
+   "exaggeration": 0.6
+  },
+  {
+   "id": "levels_1",
+   "text": "Fourth day up in a row!",
+   "check": "Fourth day up in a row!",
+   "ref": "heart_punchy",
+   "exaggeration": 0.75
+  },
+  {
+   "id": "broad_0",
+   "text": "Smaller companies lagged. Smallcaps? Up just zero point three one percent.",
+   "check": "Smaller companies lagged. Smallcaps? Up just zero point three one percent.",
+   "ref": "heart_curious",
+   "exaggeration": 0.6
+  },
+  {
+   "id": "why_0",
+   "text": "Why? Oil kept cooling, and foreign investors kept buying!",
+   "check": "Why? Oil kept cooling, and foreign investors kept buying!",
+   "ref": "heart_curious",
+   "exaggeration": 0.65
+  },
+  {
+   "id": "you_0",
+   "text": "In rupees? Ten thousand with the Nifty: up about one hundred and fifty eight!",
+   "check": "In rupees? Ten thousand with the Nifty: up about one hundred and fifty eight!",
+   "ref": "heart_curious",
+   "exaggeration": 0.65
+  },
+  {
+   "id": "you_1",
+   "text": "Over two days? About three hundred and twenty nine!",
+   "check": "Over two days? About three hundred and twenty nine!",
+   "ref": "heart_punchy",
+   "exaggeration": 0.7
+  },
+  {
+   "id": "reveal_0",
+   "text": "Answer? B! B S E, the company that runs the stock exchange! Then Nesslay and Tata Consumer.",
+   "check": "Answer? B! BSE, the company that runs the stock exchange! Then Nesslay and Tata Consumer.",
+   "ref": "heart_punchy",
+   "exaggeration": 0.75
+  },
+  {
+   "id": "reveal_1",
+   "text": "And the Sensex just jumped...",
+   "check": "And the Sensex just jumped...",
+   "ref": "heart_calm",
+   "exaggeration": 0.5
+  }
+ ]
+}

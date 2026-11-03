@@ -1,0 +1,66 @@
+name: Chatterbox takes
+
+# Chatterbox (resemble-ai, MIT) on free CPU runners: N takes per line, cloned from refs/heart_*.wav,
+# Whisper picks the best; results are committed to the branch results/chatterbox-<run id>.
+on:
+  workflow_dispatch:
+    inputs:
+      job: { description: "Job file", default: "jobs/cb_mm_20261103.json" }
+      shards: { description: "Parallel runners", default: "5" }
+
+permissions:
+  contents: write
+
+env:
+  HF_HUB_DISABLE_PROGRESS_BARS: "1"
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.p.outputs.shards }}
+    steps:
+      - id: p
+        run: echo "shards=$(python3 -c "import json;print(json.dumps(list(range(${{ inputs.shards }}))))")" >> "$GITHUB_OUTPUT"
+
+  gen:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJSON(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: hf-chatterbox-whisper-v1 }
+      - run: |
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
+          pip show chatterbox-tts | head -2; python -c "import torch; print('torch', torch.__version__)"; nproc
+      - run: python chatterbox_run.py gen --job '${{ inputs.job }}' --shard ${{ matrix.shard }} --nshards ${{ inputs.shards }} --out out/gen
+      - uses: actions/upload-artifact@v4
+        with: { name: "gen-${{ matrix.shard }}", path: out/gen }
+
+  collect:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: out/all }
+      - run: python3 chatterbox_run.py merge --job '${{ inputs.job }}' --inp out/all --out results && cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit to results/chatterbox-<run id>
+        run: |
+          B="results/chatterbox-${{ github.run_id }}"
+          mv results /tmp/results
+          git config user.name "github-actions[bot]"; git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan "$B"; git rm -rq --cached . ; git clean -fdxq -e .git
+          cp -r /tmp/results/. .
+          git add -A; git commit -qm "Chatterbox results for run ${{ github.run_id }}"
+          git push -f origin "$B"
