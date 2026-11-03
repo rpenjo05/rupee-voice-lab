@@ -1,0 +1,35 @@
+[
+ {
+  "id": "reveal_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " and the Sensex just jumped.",
+  "dur": 2.3,
+  "secs": 19.3,
+  "ref": "heart_calm",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "reveal_1",
+  "take": 2,
+  "wer": 0.4,
+  "asr": " and the sun sex just jumped.",
+  "dur": 2.18,
+  "secs": 18.0,
+  "ref": "heart_calm",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "reveal_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " And the sensex just jumped.",
+  "dur": 2.14,
+  "secs": 17.8,
+  "ref": "heart_calm",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.4
+ }
+]

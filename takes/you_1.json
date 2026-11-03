@@ -1,0 +1,35 @@
+[
+ {
+  "id": "you_1",
+  "take": 1,
+  "wer": 0.556,
+  "asr": " Over two days? About 329.",
+  "dur": 3.18,
+  "secs": 24.2,
+  "ref": "heart_punchy",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "you_1",
+  "take": 0,
+  "wer": 0.556,
+  "asr": " Over two days, about 329.",
+  "dur": 2.7,
+  "secs": 22.2,
+  "ref": "heart_punchy",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "you_1",
+  "take": 2,
+  "wer": 0.556,
+  "asr": " Over two days? About 329.",
+  "dur": 3.18,
+  "secs": 23.4,
+  "ref": "heart_punchy",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.4
+ }
+]

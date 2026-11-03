@@ -1,0 +1,35 @@
+[
+ {
+  "id": "reveal_0",
+  "take": 0,
+  "wer": 0.067,
+  "asr": " Answer? B. BSE, the company that runs the stock exchange. Then Nestle and Tata Consumer.",
+  "dur": 6.34,
+  "secs": 49.9,
+  "ref": "heart_punchy",
+  "exaggeration": 0.75,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "reveal_0",
+  "take": 1,
+  "wer": 0.067,
+  "asr": " Answer? B. BSE, the company that runs the stock exchange. Then, Nestle and Tata Consumer.",
+  "dur": 7.02,
+  "secs": 54.4,
+  "ref": "heart_punchy",
+  "exaggeration": 0.75,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "reveal_0",
+  "take": 2,
+  "wer": 0.133,
+  "asr": " B. BSE, the company that runs the stock exchange. Then, Nestle and Tata Consumer.",
+  "dur": 6.54,
+  "secs": 51.1,
+  "ref": "heart_punchy",
+  "exaggeration": 0.75,
+  "cfg_weight": 0.4
+ }
+]

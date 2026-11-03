@@ -1,0 +1,35 @@
+[
+ {
+  "id": "levels_0",
+  "take": 0,
+  "wer": 0.875,
+  "asr": " Nifty, 23,811. Sensex, 76,918.",
+  "dur": 6.58,
+  "secs": 51.0,
+  "ref": "heart_punchy",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "levels_0",
+  "take": 2,
+  "wer": 0.938,
+  "asr": " Nifty, 23,811. Send sex, 76,918.",
+  "dur": 6.7,
+  "secs": 40.4,
+  "ref": "heart_punchy",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.4
+ },
+ {
+  "id": "levels_0",
+  "take": 1,
+  "wer": 0.875,
+  "asr": " Nifty, 23,811. Sensex, 76,918.",
+  "dur": 6.26,
+  "secs": 38.4,
+  "ref": "heart_punchy",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.4
+ }
+]
