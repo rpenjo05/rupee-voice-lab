@@ -47,7 +47,7 @@ def cmd_gen(a):
                                  cfg_weight=p["cfg_weight"], temperature=p["temperature"])
             out = os.path.join(a.out, f"{line['id']}__t{t}.wav")
             torchaudio.save(out, wav, model.sr)
-            hyp = asr(out)["text"]
+            hyp = asr({"raw": wav.squeeze(0).numpy(), "sampling_rate": model.sr})["text"]
             info = dict(id=line["id"], take=t, wer=round(wer(p.get("check", p["text"]), hyp), 3), asr=hyp,
                         dur=round(wav.shape[-1] / model.sr, 2), secs=round(time.time() - t0, 1),
                         ref=p["ref"], exaggeration=p["exaggeration"], cfg_weight=p["cfg_weight"])
