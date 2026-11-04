@@ -40,7 +40,7 @@ jobs:
         with: { path: ~/.cache/huggingface, key: hf-chatterbox-whisper-v1 }
       - run: |
           pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
-          pip install -q chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
+          pip install -q num2words chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
           pip show chatterbox-tts | head -2; python -c "import torch; print('torch', torch.__version__)"; nproc
       - run: python chatterbox_run.py gen --job '${{ inputs.job }}' --shard ${{ matrix.shard }} --nshards ${{ inputs.shards }} --out out/gen
       - uses: actions/upload-artifact@v4
@@ -54,7 +54,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with: { path: out/all }
-      - run: python3 chatterbox_run.py merge --job '${{ inputs.job }}' --inp out/all --out results && cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+      - run: pip install -q num2words && python3 chatterbox_run.py merge --job '${{ inputs.job }}' --inp out/all --out results && cat results/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Commit to results/chatterbox-<run id>
         run: |
           B="results/chatterbox-${{ github.run_id }}"

@@ -1,0 +1,52 @@
+{
+ "name": "Market Minute 3 Nov 2026: Chatterbox plain clone (heart_plain ref, defaults), script rewritten for Chatterbox",
+ "takes": 3,
+ "defaults": {
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points, and it did it again."
+  },
+  {
+   "id": "hook_1",
+   "text": "Quick guess: what does today's top Nifty gainer actually do? The answer is at the end."
+  },
+  {
+   "id": "levels_0",
+   "text": "The Nifty closed at twenty three thousand eight hundred and eleven, and the Sensex closed at seventy six thousand nine hundred and eighteen."
+  },
+  {
+   "id": "levels_1",
+   "text": "That makes it the fourth day up in a row."
+  },
+  {
+   "id": "broad_0",
+   "text": "Smaller companies lagged behind. Smallcaps were up just zero point three one percent."
+  },
+  {
+   "id": "why_0",
+   "text": "So why the rally? Oil kept cooling, and foreign investors kept buying."
+  },
+  {
+   "id": "you_0",
+   "text": "In rupees, ten thousand with the Nifty is up about one hundred and fifty eight."
+  },
+  {
+   "id": "you_1",
+   "text": "Over two days, that adds up to about three hundred and twenty nine."
+  },
+  {
+   "id": "reveal_0",
+   "text": "The answer is B. It's B S E, the company that runs the stock exchange. Nesslay and Tata Consumer came next."
+  },
+  {
+   "id": "reveal_1",
+   "text": "And once again, the Sensex just jumped."
+  }
+ ]
+}

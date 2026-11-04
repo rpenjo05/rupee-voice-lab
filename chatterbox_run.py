@@ -10,8 +10,16 @@ Each line gets `takes` seeds; Whisper small.en scores each take against the text
 """
 import argparse, json, os, re, glob, shutil, time
 
+def _num(m):
+    try:
+        from num2words import num2words
+        return " " + num2words(float(m.group(0)) if "." in m.group(0) else int(m.group(0))) + " "
+    except Exception:
+        return m.group(0)
+
 def norm_words(s):
-    s = s.lower().replace("-", " ")
+    s = re.sub(r"\d+(\.\d+)?", _num, s.replace(",", "").replace("%", " percent"))
+    s = s.lower().replace("-", " ").replace(" and ", " ")
     return re.sub(r"[^a-z0-9' ]+", " ", s).split()
 
 def wer(ref, hyp):
