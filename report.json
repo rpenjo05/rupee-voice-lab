@@ -1,0 +1,332 @@
+[
+ {
+  "variant": "P",
+  "id": "levels_0",
+  "text": "The Nifty closed at twenty three thousand eight hundred and eleven, and the Sensex closed at seventy six thousand nine hundred and eighteen.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__levels_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__levels_0_t1.wav",
+    "take": 1,
+    "dur": 8.24,
+    "secs": 187.8,
+    "asr": "The Nifty closed at 23,811, and the Sensex closed at 76,918.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_0_t2.wav",
+    "take": 2,
+    "dur": 8.3,
+    "secs": 186.8,
+    "asr": "The Nifty closed at 23,811, and the Sensex closed at 76,918.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_0_t3.wav",
+    "take": 3,
+    "dur": 8.37,
+    "secs": 190.9,
+    "asr": "The Nifty closed at 23,811, and the Sensex closed at 76,918.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "you_1",
+  "text": "Over two days, that adds up to about three hundred and twenty nine.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__you_1_t2.wav",
+  "takes": [
+   {
+    "file": "P__you_1_t1.wav",
+    "take": 1,
+    "dur": 3.52,
+    "secs": 139.3,
+    "asr": "Over two days, that adds up to about 329.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_1_t2.wav",
+    "take": 2,
+    "dur": 3.91,
+    "secs": 142.8,
+    "asr": "Over two days, that adds up to about 329.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_1_t3.wav",
+    "take": 3,
+    "dur": 3.95,
+    "secs": 142.6,
+    "asr": "Over two days, that adds up to about 329.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "hook_0",
+  "text": "The Sensex just jumped one thousand two hundred and twenty five points, and it did it again.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__hook_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__hook_0_t1.wav",
+    "take": 1,
+    "dur": 5.31,
+    "secs": 140.5,
+    "asr": "The Sensex just jumped 1,225 points, and it did it again.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_0_t2.wav",
+    "take": 2,
+    "dur": 5.37,
+    "secs": 144.1,
+    "asr": "The Sensex just jumped 1,225 points, and it did it again.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_0_t3.wav",
+    "take": 3,
+    "dur": 5.39,
+    "secs": 150.4,
+    "asr": "The Sensex just jumped 1,225 points, and it did it again.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "why_0",
+  "text": "So why the rally? Oil kept cooling, and foreign investors kept buying.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__why_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__why_0_t1.wav",
+    "take": 1,
+    "dur": 4.24,
+    "secs": 136.1,
+    "asr": "So why the rally? Oil kept cooling and foreign investors kept buying.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__why_0_t2.wav",
+    "take": 2,
+    "dur": 4.24,
+    "secs": 129.2,
+    "asr": "So why the rally? Oil kept cooling and foreign investors kept buying.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__why_0_t3.wav",
+    "take": 3,
+    "dur": 4.24,
+    "secs": 136.0,
+    "asr": "So why the rally? Oil kept cooling and foreign investors kept buying.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "hook_1",
+  "text": "Quick guess: what does today's top Nifty gainer actually do? The answer is at the end.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__hook_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__hook_1_t1.wav",
+    "take": 1,
+    "dur": 5.08,
+    "secs": 175.1,
+    "asr": "Quick guess, what does today's top nifty gainer actually do? The answer is at the end.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_1_t2.wav",
+    "take": 2,
+    "dur": 5.08,
+    "secs": 175.5,
+    "asr": "Quick guess, what does today's top nifty gainer actually do? The answer is at the end.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_1_t3.wav",
+    "take": 3,
+    "dur": 5.08,
+    "secs": 176.6,
+    "asr": "Quick guess. What does today's top Nifty Gainer actually do? The answer is at the end.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "you_0",
+  "text": "In rupees, ten thousand with the Nifty is up about one hundred and fifty eight.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__you_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__you_0_t1.wav",
+    "take": 1,
+    "dur": 4.72,
+    "secs": 172.0,
+    "asr": "In rupees, 10,000 with the Nifty is up about 158.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_0_t2.wav",
+    "take": 2,
+    "dur": 4.72,
+    "secs": 172.7,
+    "asr": "In rupees, 10,000 with the Nifty is up about 158.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_0_t3.wav",
+    "take": 3,
+    "dur": 4.72,
+    "secs": 170.7,
+    "asr": "In rupees, 10,000 with the Nifty is up about 158.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "broad_0",
+  "text": "Smaller companies lagged behind. Smallcaps were up just zero point three one percent.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__broad_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__broad_0_t1.wav",
+    "take": 1,
+    "dur": 5.24,
+    "secs": 149.0,
+    "asr": "Smaller companies lagged behind. Small caps were up just 0.31 percent.",
+    "wer": 0.154
+   },
+   {
+    "file": "P__broad_0_t2.wav",
+    "take": 2,
+    "dur": 5.24,
+    "secs": 150.2,
+    "asr": "Smaller companies lagged behind. Small caps were up just 0.31 percent.",
+    "wer": 0.154
+   },
+   {
+    "file": "P__broad_0_t3.wav",
+    "take": 3,
+    "dur": 5.24,
+    "secs": 149.6,
+    "asr": "Smaller companies lagged behind. Small caps were up just 0.31 percent.",
+    "wer": 0.154
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reveal_1",
+  "text": "And once again, the Sensex just jumped.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reveal_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__reveal_1_t1.wav",
+    "take": 1,
+    "dur": 2.44,
+    "secs": 120.3,
+    "asr": "And once again, the Sensex just jumped.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_1_t2.wav",
+    "take": 2,
+    "dur": 2.44,
+    "secs": 120.2,
+    "asr": "And once again, the Sensex just jumped.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_1_t3.wav",
+    "take": 3,
+    "dur": 2.44,
+    "secs": 120.2,
+    "asr": "And once again, the Sensex just jumped.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "levels_1",
+  "text": "That makes it the fourth day up in a row.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__levels_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__levels_1_t1.wav",
+    "take": 1,
+    "dur": 2.3,
+    "secs": 144.7,
+    "asr": "That makes it the fourth day up in a row.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_1_t2.wav",
+    "take": 2,
+    "dur": 2.22,
+    "secs": 144.6,
+    "asr": "That makes it the fourth day up in a row.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_1_t3.wav",
+    "take": 3,
+    "dur": 2.44,
+    "secs": 143.7,
+    "asr": "That makes it the fourth day up in a row.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reveal_0",
+  "text": "The answer is B. It's B S E, the company that runs the stock exchange. [N EH1 S L EY0] and Tata Consumer came next.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reveal_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__reveal_0_t1.wav",
+    "take": 1,
+    "dur": 6.8,
+    "secs": 199.6,
+    "asr": "The answer is B. It's BSE, the company that runs the stock exchange. Nestle and Tata Consumer came next.",
+    "wer": 0.143
+   },
+   {
+    "file": "P__reveal_0_t2.wav",
+    "take": 2,
+    "dur": 6.8,
+    "secs": 201.4,
+    "asr": "The answer is B. It's B-S-E, the company that runs the stock exchange. Nestle and Tata Consumer came next.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_0_t3.wav",
+    "take": 3,
+    "dur": 6.8,
+    "secs": 201.0,
+    "asr": "The answer is B. It's B-S-E, the company that runs the stock exchange. Nestle and Tata Consumer came next.",
+    "wer": 0.0
+   }
+  ]
+ }
+]
