@@ -1,0 +1,35 @@
+[
+ {
+  "id": "broad_0",
+  "take": 0,
+  "wer": 0.154,
+  "asr": " Smaller companies lagged behind. Small caps were up just 0.31%.",
+  "dur": 5.34,
+  "secs": 70.3,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "broad_0",
+  "take": 1,
+  "wer": 0.154,
+  "asr": " Smaller companies lagged behind. Small caps were up just 0.31 percent.",
+  "dur": 5.42,
+  "secs": 56.4,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "broad_0",
+  "take": 2,
+  "wer": 0.154,
+  "asr": " Smaller companies lagged behind. Small caps were up just 0.31 percent.",
+  "dur": 5.46,
+  "secs": 57.6,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

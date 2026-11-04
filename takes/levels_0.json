@@ -1,0 +1,35 @@
+[
+ {
+  "id": "levels_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " The Nifty closed at 23,811, and the Sensex closed at 76,918.",
+  "dur": 7.02,
+  "secs": 61.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "levels_0",
+  "take": 2,
+  "wer": 0.05,
+  "asr": " The NFTY closed at 23,811, and the SENSEX closed at 76,918.",
+  "dur": 7.34,
+  "secs": 64.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "levels_0",
+  "take": 0,
+  "wer": 0.05,
+  "asr": " The Nifty closed at 23,811, and the Sunsex closed at 76,918.",
+  "dur": 6.9,
+  "secs": 72.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

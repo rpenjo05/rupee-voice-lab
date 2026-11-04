@@ -1,0 +1,35 @@
+[
+ {
+  "id": "levels_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " That makes it the fourth day up in a row.",
+  "dur": 2.18,
+  "secs": 50.9,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "levels_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " That makes it the fourth day up in a row.",
+  "dur": 2.86,
+  "secs": 41.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "levels_1",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " That makes it the fourth day up in a row.",
+  "dur": 2.18,
+  "secs": 38.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

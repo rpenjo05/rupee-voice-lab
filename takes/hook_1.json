@@ -1,0 +1,35 @@
+[
+ {
+  "id": "hook_1",
+  "take": 1,
+  "wer": 0.062,
+  "asr": " Quick guess, what does today's top mifty gainer actually do? The answer is at the end.",
+  "dur": 5.82,
+  "secs": 62.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "hook_1",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " Quick guess, what does today's top nifty gainer actually do? The answer is at the end.",
+  "dur": 6.62,
+  "secs": 67.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "hook_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " Quick guess, what does today's top nifty gainer actually do? The answer is at the end.",
+  "dur": 6.02,
+  "secs": 76.2,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]
