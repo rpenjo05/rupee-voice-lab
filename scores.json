@@ -1,0 +1,1937 @@
+{
+ "summary": {
+  "A_kokoro_mm": {
+   "utmos.mos": 3.42,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 3.97,
+   "prosody.f0_range_st": 11.85,
+   "prosody.loud_sd_db": 8.84,
+   "prosody.wpm": 152.96,
+   "prosody.dur": 37.1
+  },
+  "B_chatterbox_energy_mm": {
+   "utmos.mos": 3.35,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 3.69,
+   "prosody.f0_range_st": 10.33,
+   "prosody.loud_sd_db": 9.92,
+   "prosody.wpm": 124.72,
+   "prosody.dur": 43.4
+  },
+  "C_chatterbox_plain_mm": {
+   "utmos.mos": 3.4,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 3.53,
+   "prosody.f0_range_st": 10.11,
+   "prosody.loud_sd_db": 9.09,
+   "prosody.wpm": 146.47,
+   "prosody.dur": 50.2
+  },
+  "D_kokoro_rewind": {
+   "utmos.mos": 3.66,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 3.97,
+   "prosody.f0_range_st": 12.98,
+   "prosody.loud_sd_db": 8.42,
+   "prosody.wpm": 181.1,
+   "prosody.dur": 60.9
+  },
+  "E_chatterbox_dramatic_rewind": {
+   "utmos.mos": 3.72,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 3.73,
+   "prosody.f0_range_st": 10.94,
+   "prosody.loud_sd_db": 9.19,
+   "prosody.wpm": 171.01,
+   "prosody.dur": 69.0
+  },
+  "F_omnivoice_plain_mm": {
+   "utmos.mos": 3.88,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 4.17,
+   "prosody.f0_range_st": 13.3,
+   "prosody.loud_sd_db": 8.81,
+   "prosody.wpm": 155.3,
+   "prosody.dur": 48.4
+  },
+  "G_omnivoice_dramatic_rewind": {
+   "utmos.mos": 3.97,
+   "aesthetics.CE": null,
+   "aesthetics.PQ": null,
+   "emotion.non_neutral": 0.0,
+   "prosody.f0_sd_st": 3.52,
+   "prosody.f0_range_st": 10.37,
+   "prosody.loud_sd_db": 8.5,
+   "prosody.wpm": 169.08,
+   "prosody.dur": 69.5
+  }
+ },
+ "lines": {
+  "emotion": {
+   "A_kokoro_mm/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/reveal_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "A_kokoro_mm/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/reveal_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "B_chatterbox_energy_mm/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/reveal_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "C_chatterbox_plain_mm/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/empty_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/open_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/pawn_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "D_kokoro_rewind/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/empty_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/open_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/pawn_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "E_chatterbox_dramatic_rewind/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/reveal_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "F_omnivoice_plain_mm/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/empty_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/open_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/pawn_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "G_omnivoice_dramatic_rewind/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   }
+  },
+  "prosody": {
+   "A_kokoro_mm/broad_0": {
+    "f0_hz": 198.6,
+    "f0_sd_st": 4.67,
+    "f0_range_st": 16.14,
+    "loud_sd_db": 8.76,
+    "pause": 0.176,
+    "dur": 4.49,
+    "wpm": 106.8,
+    "asr": "Smaller companies lagged, small caps, up just 0.31%."
+   },
+   "A_kokoro_mm/hook_0": {
+    "f0_hz": 201.4,
+    "f0_sd_st": 3.37,
+    "f0_range_st": 9.39,
+    "loud_sd_db": 8.67,
+    "pause": 0.164,
+    "dur": 4.12,
+    "wpm": 102.0,
+    "asr": "The Sensex just jumped 1,225 points. Again."
+   },
+   "A_kokoro_mm/hook_1": {
+    "f0_hz": 192.4,
+    "f0_sd_st": 3.33,
+    "f0_range_st": 9.93,
+    "loud_sd_db": 8.44,
+    "pause": 0.193,
+    "dur": 3.96,
+    "wpm": 212.3,
+    "asr": "Quick guess today's top nifty gainer. What does it do? Answer at the end."
+   },
+   "A_kokoro_mm/levels_0": {
+    "f0_hz": 193.5,
+    "f0_sd_st": 3.51,
+    "f0_range_st": 9.04,
+    "loud_sd_db": 8.32,
+    "pause": 0.173,
+    "dur": 6.0,
+    "wpm": 40.0,
+    "asr": "Nifty, 23,811. Sensex, 76,918."
+   },
+   "A_kokoro_mm/levels_1": {
+    "f0_hz": 210.6,
+    "f0_sd_st": 2.89,
+    "f0_range_st": 8.68,
+    "loud_sd_db": 9.52,
+    "pause": 0.083,
+    "dur": 1.23,
+    "wpm": 293.2,
+    "asr": "Fourth day up in a row."
+   },
+   "A_kokoro_mm/reveal_0": {
+    "f0_hz": 200.5,
+    "f0_sd_st": 3.53,
+    "f0_range_st": 9.4,
+    "loud_sd_db": 8.06,
+    "pause": 0.151,
+    "dur": 5.82,
+    "wpm": 154.6,
+    "asr": "Answer B, BSC, the company that runs the stock exchange, then Nestle and Tata Consumer."
+   },
+   "A_kokoro_mm/reveal_1": {
+    "f0_hz": 212.9,
+    "f0_sd_st": 4.63,
+    "f0_range_st": 11.07,
+    "loud_sd_db": 10.33,
+    "pause": 0.102,
+    "dur": 1.44,
+    "wpm": 208.6,
+    "asr": "and the sensex just jumped."
+   },
+   "A_kokoro_mm/why_0": {
+    "f0_hz": 199.0,
+    "f0_sd_st": 4.5,
+    "f0_range_st": 18.21,
+    "loud_sd_db": 9.34,
+    "pause": 0.154,
+    "dur": 3.21,
+    "wpm": 168.3,
+    "asr": "why oil kept cooling and foreign investors kept buying."
+   },
+   "A_kokoro_mm/you_0": {
+    "f0_hz": 202.4,
+    "f0_sd_st": 4.44,
+    "f0_range_st": 9.39,
+    "loud_sd_db": 8.86,
+    "pause": 0.176,
+    "dur": 4.2,
+    "wpm": 128.6,
+    "asr": "In rupees, 10,000 with the Nifty, up about 158."
+   },
+   "A_kokoro_mm/you_1": {
+    "f0_hz": 199.9,
+    "f0_sd_st": 4.79,
+    "f0_range_st": 17.21,
+    "loud_sd_db": 8.09,
+    "pause": 0.148,
+    "dur": 2.6,
+    "wpm": 115.2,
+    "asr": "Over two days, about 329."
+   },
+   "B_chatterbox_energy_mm/broad_0": {
+    "f0_hz": 196.2,
+    "f0_sd_st": 3.14,
+    "f0_range_st": 9.99,
+    "loud_sd_db": 9.77,
+    "pause": 0.235,
+    "dur": 5.34,
+    "wpm": 89.9,
+    "asr": "Smaller companies lagged. Small caps up just 0.31%."
+   },
+   "B_chatterbox_energy_mm/hook_0": {
+    "f0_hz": 217.9,
+    "f0_sd_st": 4.23,
+    "f0_range_st": 10.0,
+    "loud_sd_db": 10.01,
+    "pause": 0.255,
+    "dur": 4.1,
+    "wpm": 102.4,
+    "asr": "The Sensex just jumped 1,225 points. Again."
+   },
+   "B_chatterbox_energy_mm/hook_1": {
+    "f0_hz": 229.4,
+    "f0_sd_st": 3.5,
+    "f0_range_st": 11.15,
+    "loud_sd_db": 9.41,
+    "pause": 0.316,
+    "dur": 4.98,
+    "wpm": 168.7,
+    "asr": "Quick guess, today's top nifty gainer. What does it do? Answer at the end."
+   },
+   "B_chatterbox_energy_mm/levels_0": {
+    "f0_hz": 208.5,
+    "f0_sd_st": 4.28,
+    "f0_range_st": 11.11,
+    "loud_sd_db": 9.5,
+    "pause": 0.243,
+    "dur": 6.58,
+    "wpm": 36.5,
+    "asr": "Nifty, 23,811. Sensex, 76,918."
+   },
+   "B_chatterbox_energy_mm/levels_1": {
+    "f0_hz": 211.4,
+    "f0_sd_st": 2.91,
+    "f0_range_st": 8.89,
+    "loud_sd_db": 12.04,
+    "pause": 0.286,
+    "dur": 1.5,
+    "wpm": 240.0,
+    "asr": "Fourth day up in a row."
+   },
+   "B_chatterbox_energy_mm/reveal_0": {
+    "f0_hz": 216.3,
+    "f0_sd_st": 4.05,
+    "f0_range_st": 11.62,
+    "loud_sd_db": 9.17,
+    "pause": 0.276,
+    "dur": 6.34,
+    "wpm": 142.0,
+    "asr": "Answer? B. BSE, the company that runs the stock exchange. Then Nestle and Tata Consumer."
+   },
+   "B_chatterbox_energy_mm/reveal_1": {
+    "f0_hz": 195.4,
+    "f0_sd_st": 3.79,
+    "f0_range_st": 9.31,
+    "loud_sd_db": 9.71,
+    "pause": 0.264,
+    "dur": 2.3,
+    "wpm": 130.4,
+    "asr": "and the Sensex just jumped."
+   },
+   "B_chatterbox_energy_mm/why_0": {
+    "f0_hz": 213.6,
+    "f0_sd_st": 4.27,
+    "f0_range_st": 11.39,
+    "loud_sd_db": 9.54,
+    "pause": 0.327,
+    "dur": 4.94,
+    "wpm": 109.3,
+    "asr": "Why? Oil kept cooling and foreign investors kept buying."
+   },
+   "B_chatterbox_energy_mm/you_0": {
+    "f0_hz": 230.4,
+    "f0_sd_st": 3.42,
+    "f0_range_st": 10.71,
+    "loud_sd_db": 10.0,
+    "pause": 0.268,
+    "dur": 4.62,
+    "wpm": 116.9,
+    "asr": "In rupees, 10,000 with the Nifty, up about 158."
+   },
+   "B_chatterbox_energy_mm/you_1": {
+    "f0_hz": 230.7,
+    "f0_sd_st": 3.36,
+    "f0_range_st": 9.09,
+    "loud_sd_db": 10.03,
+    "pause": 0.248,
+    "dur": 2.7,
+    "wpm": 111.1,
+    "asr": "Over two days, about 329."
+   },
+   "C_chatterbox_plain_mm/broad_0": {
+    "f0_hz": 192.2,
+    "f0_sd_st": 2.63,
+    "f0_range_st": 7.05,
+    "loud_sd_db": 9.81,
+    "pause": 0.191,
+    "dur": 5.34,
+    "wpm": 112.4,
+    "asr": "Smaller companies lagged behind. Small caps were up just 0.31%."
+   },
+   "C_chatterbox_plain_mm/hook_0": {
+    "f0_hz": 190.8,
+    "f0_sd_st": 2.48,
+    "f0_range_st": 8.8,
+    "loud_sd_db": 8.55,
+    "pause": 0.19,
+    "dur": 5.02,
+    "wpm": 131.5,
+    "asr": "The Sensex just jumped 1,225 points, and it did it again."
+   },
+   "C_chatterbox_plain_mm/hook_1": {
+    "f0_hz": 188.0,
+    "f0_sd_st": 4.6,
+    "f0_range_st": 14.08,
+    "loud_sd_db": 8.18,
+    "pause": 0.284,
+    "dur": 6.02,
+    "wpm": 159.5,
+    "asr": "Quick guess, what does today's top nifty gainer actually do? The answer is at the end."
+   },
+   "C_chatterbox_plain_mm/levels_0": {
+    "f0_hz": 188.8,
+    "f0_sd_st": 4.31,
+    "f0_range_st": 11.7,
+    "loud_sd_db": 8.71,
+    "pause": 0.169,
+    "dur": 7.02,
+    "wpm": 94.0,
+    "asr": "The Nifty closed at 23,811, and the Sensex closed at 76,918."
+   },
+   "C_chatterbox_plain_mm/levels_1": {
+    "f0_hz": 189.5,
+    "f0_sd_st": 4.11,
+    "f0_range_st": 12.46,
+    "loud_sd_db": 10.52,
+    "pause": 0.234,
+    "dur": 2.18,
+    "wpm": 275.2,
+    "asr": "That makes it the fourth day up in a row."
+   },
+   "C_chatterbox_plain_mm/reveal_0": {
+    "f0_hz": 197.7,
+    "f0_sd_st": 3.56,
+    "f0_range_st": 8.61,
+    "loud_sd_db": 9.1,
+    "pause": 0.271,
+    "dur": 8.26,
+    "wpm": 138.0,
+    "asr": "The answer is B. It's B-S-E, the company that runs the stock exchange. Nestle and Tata Consumer came next."
+   },
+   "C_chatterbox_plain_mm/reveal_1": {
+    "f0_hz": 188.7,
+    "f0_sd_st": 2.92,
+    "f0_range_st": 8.76,
+    "loud_sd_db": 9.51,
+    "pause": 0.248,
+    "dur": 3.3,
+    "wpm": 127.3,
+    "asr": "And once again, the Sensex just jumped."
+   },
+   "C_chatterbox_plain_mm/why_0": {
+    "f0_hz": 191.2,
+    "f0_sd_st": 3.94,
+    "f0_range_st": 9.32,
+    "loud_sd_db": 9.25,
+    "pause": 0.23,
+    "dur": 4.82,
+    "wpm": 149.4,
+    "asr": "So why the rally? Oil kept cooling and foreign investors kept buying."
+   },
+   "C_chatterbox_plain_mm/you_0": {
+    "f0_hz": 188.6,
+    "f0_sd_st": 3.7,
+    "f0_range_st": 11.65,
+    "loud_sd_db": 8.58,
+    "pause": 0.207,
+    "dur": 4.62,
+    "wpm": 129.9,
+    "asr": "In Rupees, 10,000 with the Nifty is up about 158."
+   },
+   "C_chatterbox_plain_mm/you_1": {
+    "f0_hz": 189.3,
+    "f0_sd_st": 3.06,
+    "f0_range_st": 8.71,
+    "loud_sd_db": 8.72,
+    "pause": 0.176,
+    "dur": 3.66,
+    "wpm": 147.5,
+    "asr": "Over two days, that adds up to about 329."
+   },
+   "D_kokoro_rewind/empty_0": {
+    "f0_hz": 199.7,
+    "f0_sd_st": 2.65,
+    "f0_range_st": 8.49,
+    "loud_sd_db": 7.47,
+    "pause": 0.149,
+    "dur": 3.81,
+    "wpm": 141.8,
+    "asr": "Rewind to 1991. India is running out of dollars."
+   },
+   "D_kokoro_rewind/empty_1": {
+    "f0_hz": 197.4,
+    "f0_sd_st": 2.98,
+    "f0_range_st": 8.61,
+    "loud_sd_db": 9.4,
+    "pause": 0.116,
+    "dur": 2.48,
+    "wpm": 241.8,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "D_kokoro_rewind/empty_2": {
+    "f0_hz": 217.0,
+    "f0_sd_st": 4.25,
+    "f0_range_st": 10.01,
+    "loud_sd_db": 10.02,
+    "pause": 0.193,
+    "dur": 1.95,
+    "wpm": 153.5,
+    "asr": "run out, and India defaults."
+   },
+   "D_kokoro_rewind/home_0": {
+    "f0_hz": 195.4,
+    "f0_sd_st": 3.48,
+    "f0_range_st": 9.89,
+    "loud_sd_db": 8.23,
+    "pause": 0.166,
+    "dur": 6.33,
+    "wpm": 161.2,
+    "asr": "In 2024, the RBI moved about 100 tons of its gold from the UK. Back to India."
+   },
+   "D_kokoro_rewind/loop_0": {
+    "f0_hz": 186.5,
+    "f0_sd_st": 5.05,
+    "f0_range_st": 20.77,
+    "loud_sd_db": 8.27,
+    "pause": 0.161,
+    "dur": 3.27,
+    "wpm": 201.6,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "D_kokoro_rewind/open_0": {
+    "f0_hz": 202.7,
+    "f0_sd_st": 3.33,
+    "f0_range_st": 8.83,
+    "loud_sd_db": 7.35,
+    "pause": 0.132,
+    "dur": 3.23,
+    "wpm": 185.6,
+    "asr": "Gold just hit a one-year low, days before done terrace."
+   },
+   "D_kokoro_rewind/open_1": {
+    "f0_hz": 203.5,
+    "f0_sd_st": 5.38,
+    "f0_range_st": 21.02,
+    "loud_sd_db": 8.31,
+    "pause": 0.166,
+    "dur": 4.84,
+    "wpm": 186.1,
+    "asr": "But in 1991, India had to pawn its own gold just to pay its bills."
+   },
+   "D_kokoro_rewind/pawn_0": {
+    "f0_hz": 197.7,
+    "f0_sd_st": 3.87,
+    "f0_range_st": 9.6,
+    "loud_sd_db": 7.85,
+    "pause": 0.134,
+    "dur": 3.27,
+    "wpm": 128.3,
+    "asr": "In return, about $400 million in loans."
+   },
+   "D_kokoro_rewind/pawn_1": {
+    "f0_hz": 209.8,
+    "f0_sd_st": 3.58,
+    "f0_range_st": 10.56,
+    "loud_sd_db": 9.79,
+    "pause": 0.169,
+    "dur": 1.73,
+    "wpm": 208.5,
+    "asr": "A pawn shop for a country."
+   },
+   "D_kokoro_rewind/pledge_0": {
+    "f0_hz": 196.3,
+    "f0_sd_st": 2.85,
+    "f0_range_st": 9.05,
+    "loud_sd_db": 8.1,
+    "pause": 0.151,
+    "dur": 6.3,
+    "wpm": 190.5,
+    "asr": "So the RBI pledges 47 tons of its own gold, with the Bank of England and the Bank of Japan."
+   },
+   "D_kokoro_rewind/pledge_1": {
+    "f0_hz": 196.5,
+    "f0_sd_st": 3.48,
+    "f0_range_st": 10.36,
+    "loud_sd_db": 8.06,
+    "pause": 0.131,
+    "dur": 2.44,
+    "wpm": 196.9,
+    "asr": "The gold leaves the country as a guarantee."
+   },
+   "D_kokoro_rewind/reform_0": {
+    "f0_hz": 194.1,
+    "f0_sd_st": 4.93,
+    "f0_range_st": 20.76,
+    "loud_sd_db": 8.46,
+    "pause": 0.163,
+    "dur": 4.73,
+    "wpm": 190.4,
+    "asr": "That July, the rupee is cut in value, and India starts opening up its economy."
+   },
+   "D_kokoro_rewind/smuggled_0": {
+    "f0_hz": 200.5,
+    "f0_sd_st": 4.58,
+    "f0_range_st": 17.88,
+    "loud_sd_db": 8.75,
+    "pause": 0.153,
+    "dur": 5.15,
+    "wpm": 197.9,
+    "asr": "First, 20 tons of gold seized from smugglers is sold, with a promise to buy it back."
+   },
+   "D_kokoro_rewind/smuggled_1": {
+    "f0_hz": 194.9,
+    "f0_sd_st": 5.1,
+    "f0_range_st": 21.47,
+    "loud_sd_db": 8.16,
+    "pause": 0.151,
+    "dur": 2.7,
+    "wpm": 111.2,
+    "asr": "About $200 million, not enough."
+   },
+   "D_kokoro_rewind/today_0": {
+    "f0_hz": 200.5,
+    "f0_sd_st": 3.68,
+    "f0_range_st": 9.47,
+    "loud_sd_db": 7.76,
+    "pause": 0.157,
+    "dur": 3.96,
+    "wpm": 197.2,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "D_kokoro_rewind/today_1": {
+    "f0_hz": 204.2,
+    "f0_sd_st": 4.32,
+    "f0_range_st": 10.89,
+    "loud_sd_db": 8.74,
+    "pause": 0.151,
+    "dur": 4.68,
+    "wpm": 205.1,
+    "asr": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold."
+   },
+   "E_chatterbox_dramatic_rewind/empty_0": {
+    "f0_hz": 205.1,
+    "f0_sd_st": 3.7,
+    "f0_range_st": 11.7,
+    "loud_sd_db": 7.24,
+    "pause": 0.164,
+    "dur": 3.78,
+    "wpm": 142.9,
+    "asr": "Rewind to 1991. India is running out of dollars."
+   },
+   "E_chatterbox_dramatic_rewind/empty_1": {
+    "f0_hz": 211.5,
+    "f0_sd_st": 2.86,
+    "f0_range_st": 8.52,
+    "loud_sd_db": 10.12,
+    "pause": 0.194,
+    "dur": 3.1,
+    "wpm": 193.5,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "E_chatterbox_dramatic_rewind/empty_2": {
+    "f0_hz": 196.3,
+    "f0_sd_st": 3.38,
+    "f0_range_st": 10.36,
+    "loud_sd_db": 9.41,
+    "pause": 0.311,
+    "dur": 2.42,
+    "wpm": 173.6,
+    "asr": "If the dollars run out, India defaults."
+   },
+   "E_chatterbox_dramatic_rewind/home_0": {
+    "f0_hz": 196.1,
+    "f0_sd_st": 4.0,
+    "f0_range_st": 11.17,
+    "loud_sd_db": 8.37,
+    "pause": 0.205,
+    "dur": 6.18,
+    "wpm": 165.0,
+    "asr": "In 2024, the RBI moved about 100 tons of its gold from the UK back to India."
+   },
+   "E_chatterbox_dramatic_rewind/loop_0": {
+    "f0_hz": 191.4,
+    "f0_sd_st": 3.4,
+    "f0_range_st": 10.77,
+    "loud_sd_db": 8.98,
+    "pause": 0.184,
+    "dur": 3.1,
+    "wpm": 212.9,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "E_chatterbox_dramatic_rewind/open_0": {
+    "f0_hz": 196.5,
+    "f0_sd_st": 3.63,
+    "f0_range_st": 10.29,
+    "loud_sd_db": 9.03,
+    "pause": 0.201,
+    "dur": 4.58,
+    "wpm": 131.0,
+    "asr": "Gold just hit a one-year low, only days before Dantares."
+   },
+   "E_chatterbox_dramatic_rewind/open_1": {
+    "f0_hz": 218.3,
+    "f0_sd_st": 3.36,
+    "f0_range_st": 9.82,
+    "loud_sd_db": 10.59,
+    "pause": 0.205,
+    "dur": 4.98,
+    "wpm": 180.7,
+    "asr": "But in 1991, India had to pawn its own gold just to pay its bills."
+   },
+   "E_chatterbox_dramatic_rewind/pawn_0": {
+    "f0_hz": 206.0,
+    "f0_sd_st": 3.7,
+    "f0_range_st": 12.7,
+    "loud_sd_db": 8.7,
+    "pause": 0.216,
+    "dur": 4.42,
+    "wpm": 122.2,
+    "asr": "In return, India gets about $400 million in loans."
+   },
+   "E_chatterbox_dramatic_rewind/pawn_1": {
+    "f0_hz": 218.7,
+    "f0_sd_st": 4.05,
+    "f0_range_st": 13.0,
+    "loud_sd_db": 8.89,
+    "pause": 0.292,
+    "dur": 2.82,
+    "wpm": 191.5,
+    "asr": "It is a pawn shop for an entire country."
+   },
+   "E_chatterbox_dramatic_rewind/pledge_0": {
+    "f0_hz": 202.4,
+    "f0_sd_st": 4.18,
+    "f0_range_st": 11.37,
+    "loud_sd_db": 9.84,
+    "pause": 0.195,
+    "dur": 6.42,
+    "wpm": 186.9,
+    "asr": "So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan."
+   },
+   "E_chatterbox_dramatic_rewind/pledge_1": {
+    "f0_hz": 207.4,
+    "f0_sd_st": 3.23,
+    "f0_range_st": 8.73,
+    "loud_sd_db": 8.27,
+    "pause": 0.17,
+    "dur": 2.9,
+    "wpm": 165.5,
+    "asr": "The gold leaves the country as a guarantee."
+   },
+   "E_chatterbox_dramatic_rewind/reform_0": {
+    "f0_hz": 194.5,
+    "f0_sd_st": 4.75,
+    "f0_range_st": 11.41,
+    "loud_sd_db": 10.49,
+    "pause": 0.232,
+    "dur": 5.18,
+    "wpm": 173.7,
+    "asr": "That July, the rupee is cut in value and India starts opening up its economy."
+   },
+   "E_chatterbox_dramatic_rewind/smuggled_0": {
+    "f0_hz": 190.0,
+    "f0_sd_st": 3.91,
+    "f0_range_st": 11.88,
+    "loud_sd_db": 9.56,
+    "pause": 0.181,
+    "dur": 5.38,
+    "wpm": 189.6,
+    "asr": "First, 20 tons of gold seized from smugglers is sold, with a promise to buy it back."
+   },
+   "E_chatterbox_dramatic_rewind/smuggled_1": {
+    "f0_hz": 193.4,
+    "f0_sd_st": 3.73,
+    "f0_range_st": 10.57,
+    "loud_sd_db": 9.36,
+    "pause": 0.231,
+    "dur": 3.78,
+    "wpm": 158.7,
+    "asr": "That brings in about $200 million. It is not enough."
+   },
+   "E_chatterbox_dramatic_rewind/today_0": {
+    "f0_hz": 208.1,
+    "f0_sd_st": 3.85,
+    "f0_range_st": 11.31,
+    "loud_sd_db": 9.54,
+    "pause": 0.243,
+    "dur": 4.78,
+    "wpm": 163.2,
+    "asr": "So, gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "E_chatterbox_dramatic_rewind/today_1": {
+    "f0_hz": 194.3,
+    "f0_sd_st": 3.97,
+    "f0_range_st": 11.39,
+    "loud_sd_db": 8.6,
+    "pause": 0.211,
+    "dur": 5.18,
+    "wpm": 185.3,
+    "asr": "But the real lesson? Keep cash for emergencies so you never have to pawn the gold."
+   },
+   "F_omnivoice_plain_mm/broad_0": {
+    "f0_hz": 187.0,
+    "f0_sd_st": 3.5,
+    "f0_range_st": 8.79,
+    "loud_sd_db": 8.48,
+    "pause": 0.134,
+    "dur": 5.24,
+    "wpm": 126.0,
+    "asr": "Smaller companies lagged behind. Small caps were up just 0.31 percent."
+   },
+   "F_omnivoice_plain_mm/hook_0": {
+    "f0_hz": 184.7,
+    "f0_sd_st": 3.4,
+    "f0_range_st": 7.39,
+    "loud_sd_db": 8.55,
+    "pause": 0.169,
+    "dur": 5.37,
+    "wpm": 122.9,
+    "asr": "The Sensex just jumped 1,225 points, and it did it again."
+   },
+   "F_omnivoice_plain_mm/hook_1": {
+    "f0_hz": 204.1,
+    "f0_sd_st": 5.63,
+    "f0_range_st": 21.35,
+    "loud_sd_db": 8.56,
+    "pause": 0.171,
+    "dur": 5.08,
+    "wpm": 189.0,
+    "asr": "Quick guess, what does today's top nifty gainer actually do? The answer is at the end."
+   },
+   "F_omnivoice_plain_mm/levels_0": {
+    "f0_hz": 190.4,
+    "f0_sd_st": 3.45,
+    "f0_range_st": 10.2,
+    "loud_sd_db": 8.67,
+    "pause": 0.147,
+    "dur": 8.3,
+    "wpm": 79.5,
+    "asr": "The Nifty closed at 23,811, and the Sensex closed at 76,918."
+   },
+   "F_omnivoice_plain_mm/levels_1": {
+    "f0_hz": 178.6,
+    "f0_sd_st": 3.64,
+    "f0_range_st": 7.41,
+    "loud_sd_db": 9.52,
+    "pause": 0.178,
+    "dur": 2.3,
+    "wpm": 260.9,
+    "asr": "That makes it the fourth day up in a row."
+   },
+   "F_omnivoice_plain_mm/reveal_0": {
+    "f0_hz": 196.2,
+    "f0_sd_st": 3.36,
+    "f0_range_st": 8.49,
+    "loud_sd_db": 8.53,
+    "pause": 0.163,
+    "dur": 6.8,
+    "wpm": 167.6,
+    "asr": "The answer is B. It's B-S-E, the company that runs the stock exchange. Nestle and Tata Consumer came next."
+   },
+   "F_omnivoice_plain_mm/reveal_1": {
+    "f0_hz": 197.4,
+    "f0_sd_st": 4.55,
+    "f0_range_st": 16.03,
+    "loud_sd_db": 8.78,
+    "pause": 0.235,
+    "dur": 2.44,
+    "wpm": 172.1,
+    "asr": "And once again, the Sensex just jumped."
+   },
+   "F_omnivoice_plain_mm/why_0": {
+    "f0_hz": 190.2,
+    "f0_sd_st": 4.96,
+    "f0_range_st": 19.49,
+    "loud_sd_db": 9.05,
+    "pause": 0.213,
+    "dur": 4.24,
+    "wpm": 169.8,
+    "asr": "So why the rally? Oil kept cooling and foreign investors kept buying."
+   },
+   "F_omnivoice_plain_mm/you_0": {
+    "f0_hz": 196.6,
+    "f0_sd_st": 5.52,
+    "f0_range_st": 23.45,
+    "loud_sd_db": 9.18,
+    "pause": 0.211,
+    "dur": 4.72,
+    "wpm": 127.1,
+    "asr": "In rupees, 10,000 with the Nifty is up about 158."
+   },
+   "F_omnivoice_plain_mm/you_1": {
+    "f0_hz": 209.1,
+    "f0_sd_st": 3.69,
+    "f0_range_st": 10.4,
+    "loud_sd_db": 8.8,
+    "pause": 0.203,
+    "dur": 3.91,
+    "wpm": 138.1,
+    "asr": "Over two days, that adds up to about 329."
+   },
+   "G_omnivoice_dramatic_rewind/empty_0": {
+    "f0_hz": 191.9,
+    "f0_sd_st": 3.22,
+    "f0_range_st": 10.9,
+    "loud_sd_db": 7.08,
+    "pause": 0.17,
+    "dur": 4.17,
+    "wpm": 129.5,
+    "asr": "Rewind to 1991. India is running out of dollars."
+   },
+   "G_omnivoice_dramatic_rewind/empty_1": {
+    "f0_hz": 190.8,
+    "f0_sd_st": 3.49,
+    "f0_range_st": 11.34,
+    "loud_sd_db": 9.59,
+    "pause": 0.163,
+    "dur": 3.02,
+    "wpm": 198.7,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "G_omnivoice_dramatic_rewind/empty_2": {
+    "f0_hz": 202.7,
+    "f0_sd_st": 2.4,
+    "f0_range_st": 8.12,
+    "loud_sd_db": 9.42,
+    "pause": 0.289,
+    "dur": 2.59,
+    "wpm": 162.2,
+    "asr": "If the dollars run out, India defaults."
+   },
+   "G_omnivoice_dramatic_rewind/home_0": {
+    "f0_hz": 196.7,
+    "f0_sd_st": 4.05,
+    "f0_range_st": 10.03,
+    "loud_sd_db": 8.66,
+    "pause": 0.145,
+    "dur": 6.19,
+    "wpm": 164.8,
+    "asr": "In 2024, the RBI moved about 100 tons of its gold from the UK back to India."
+   },
+   "G_omnivoice_dramatic_rewind/loop_0": {
+    "f0_hz": 178.3,
+    "f0_sd_st": 3.43,
+    "f0_range_st": 9.91,
+    "loud_sd_db": 8.14,
+    "pause": 0.186,
+    "dur": 3.68,
+    "wpm": 179.3,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "G_omnivoice_dramatic_rewind/open_0": {
+    "f0_hz": 189.3,
+    "f0_sd_st": 3.3,
+    "f0_range_st": 7.32,
+    "loud_sd_db": 7.53,
+    "pause": 0.084,
+    "dur": 3.62,
+    "wpm": 165.7,
+    "asr": "Gold just hit a one-year low only days before Dantares."
+   },
+   "G_omnivoice_dramatic_rewind/open_1": {
+    "f0_hz": 196.4,
+    "f0_sd_st": 3.07,
+    "f0_range_st": 9.05,
+    "loud_sd_db": 8.47,
+    "pause": 0.193,
+    "dur": 5.11,
+    "wpm": 176.1,
+    "asr": "But in 1991, India had to pawn its own gold just to pay its bills."
+   },
+   "G_omnivoice_dramatic_rewind/pawn_0": {
+    "f0_hz": 192.1,
+    "f0_sd_st": 4.4,
+    "f0_range_st": 10.74,
+    "loud_sd_db": 8.42,
+    "pause": 0.126,
+    "dur": 4.3,
+    "wpm": 125.6,
+    "asr": "In return, India gets about $400 million in loans."
+   },
+   "G_omnivoice_dramatic_rewind/pawn_1": {
+    "f0_hz": 209.5,
+    "f0_sd_st": 4.03,
+    "f0_range_st": 8.46,
+    "loud_sd_db": 10.35,
+    "pause": 0.237,
+    "dur": 3.04,
+    "wpm": 177.6,
+    "asr": "It is a pawn shop for an entire country."
+   },
+   "G_omnivoice_dramatic_rewind/pledge_0": {
+    "f0_hz": 189.9,
+    "f0_sd_st": 3.3,
+    "f0_range_st": 9.14,
+    "loud_sd_db": 8.56,
+    "pause": 0.14,
+    "dur": 6.48,
+    "wpm": 185.2,
+    "asr": "So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan."
+   },
+   "G_omnivoice_dramatic_rewind/pledge_1": {
+    "f0_hz": 196.0,
+    "f0_sd_st": 4.17,
+    "f0_range_st": 8.84,
+    "loud_sd_db": 7.98,
+    "pause": 0.152,
+    "dur": 2.67,
+    "wpm": 179.8,
+    "asr": "The gold leaves the country as a guarantee."
+   },
+   "G_omnivoice_dramatic_rewind/reform_0": {
+    "f0_hz": 193.2,
+    "f0_sd_st": 2.83,
+    "f0_range_st": 9.71,
+    "loud_sd_db": 8.17,
+    "pause": 0.149,
+    "dur": 4.93,
+    "wpm": 182.6,
+    "asr": "That July the rupee is cut in value and India starts opening up its economy."
+   },
+   "G_omnivoice_dramatic_rewind/smuggled_0": {
+    "f0_hz": 185.3,
+    "f0_sd_st": 3.07,
+    "f0_range_st": 9.04,
+    "loud_sd_db": 8.71,
+    "pause": 0.177,
+    "dur": 5.76,
+    "wpm": 177.1,
+    "asr": "First, 20 tons of gold seized from smugglers is sold, with a promise to buy it back."
+   },
+   "G_omnivoice_dramatic_rewind/smuggled_1": {
+    "f0_hz": 184.6,
+    "f0_sd_st": 2.53,
+    "f0_range_st": 8.11,
+    "loud_sd_db": 8.26,
+    "pause": 0.205,
+    "dur": 4.25,
+    "wpm": 141.2,
+    "asr": "That brings in about $200 million. It is not enough."
+   },
+   "G_omnivoice_dramatic_rewind/today_0": {
+    "f0_hz": 191.6,
+    "f0_sd_st": 5.24,
+    "f0_range_st": 23.34,
+    "loud_sd_db": 8.18,
+    "pause": 0.208,
+    "dur": 4.38,
+    "wpm": 178.1,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "G_omnivoice_dramatic_rewind/today_1": {
+    "f0_hz": 204.8,
+    "f0_sd_st": 3.81,
+    "f0_range_st": 11.82,
+    "loud_sd_db": 8.55,
+    "pause": 0.205,
+    "dur": 5.28,
+    "wpm": 181.8,
+    "asr": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold."
+   }
+  },
+  "utmos": {
+   "A_kokoro_mm/broad_0": {
+    "mos": 3.626
+   },
+   "A_kokoro_mm/hook_0": {
+    "mos": 3.536
+   },
+   "A_kokoro_mm/hook_1": {
+    "mos": 2.818
+   },
+   "A_kokoro_mm/levels_0": {
+    "mos": 3.933
+   },
+   "A_kokoro_mm/levels_1": {
+    "mos": 3.081
+   },
+   "A_kokoro_mm/reveal_0": {
+    "mos": 3.736
+   },
+   "A_kokoro_mm/reveal_1": {
+    "mos": 2.898
+   },
+   "A_kokoro_mm/why_0": {
+    "mos": 3.688
+   },
+   "A_kokoro_mm/you_0": {
+    "mos": 3.281
+   },
+   "A_kokoro_mm/you_1": {
+    "mos": 3.565
+   },
+   "B_chatterbox_energy_mm/broad_0": {
+    "mos": 3.532
+   },
+   "B_chatterbox_energy_mm/hook_0": {
+    "mos": 3.058
+   },
+   "B_chatterbox_energy_mm/hook_1": {
+    "mos": 3.871
+   },
+   "B_chatterbox_energy_mm/levels_0": {
+    "mos": 3.496
+   },
+   "B_chatterbox_energy_mm/levels_1": {
+    "mos": 3.123
+   },
+   "B_chatterbox_energy_mm/reveal_0": {
+    "mos": 2.981
+   },
+   "B_chatterbox_energy_mm/reveal_1": {
+    "mos": 3.224
+   },
+   "B_chatterbox_energy_mm/why_0": {
+    "mos": 3.817
+   },
+   "B_chatterbox_energy_mm/you_0": {
+    "mos": 3.115
+   },
+   "B_chatterbox_energy_mm/you_1": {
+    "mos": 3.265
+   },
+   "C_chatterbox_plain_mm/broad_0": {
+    "mos": 3.697
+   },
+   "C_chatterbox_plain_mm/hook_0": {
+    "mos": 3.441
+   },
+   "C_chatterbox_plain_mm/hook_1": {
+    "mos": 3.353
+   },
+   "C_chatterbox_plain_mm/levels_0": {
+    "mos": 3.551
+   },
+   "C_chatterbox_plain_mm/levels_1": {
+    "mos": 3.104
+   },
+   "C_chatterbox_plain_mm/reveal_0": {
+    "mos": 3.358
+   },
+   "C_chatterbox_plain_mm/reveal_1": {
+    "mos": 3.046
+   },
+   "C_chatterbox_plain_mm/why_0": {
+    "mos": 3.475
+   },
+   "C_chatterbox_plain_mm/you_0": {
+    "mos": 3.455
+   },
+   "C_chatterbox_plain_mm/you_1": {
+    "mos": 3.548
+   },
+   "D_kokoro_rewind/empty_0": {
+    "mos": 3.851
+   },
+   "D_kokoro_rewind/empty_1": {
+    "mos": 3.522
+   },
+   "D_kokoro_rewind/empty_2": {
+    "mos": 3.5
+   },
+   "D_kokoro_rewind/home_0": {
+    "mos": 3.737
+   },
+   "D_kokoro_rewind/loop_0": {
+    "mos": 4.058
+   },
+   "D_kokoro_rewind/open_0": {
+    "mos": 3.644
+   },
+   "D_kokoro_rewind/open_1": {
+    "mos": 3.672
+   },
+   "D_kokoro_rewind/pawn_0": {
+    "mos": 3.427
+   },
+   "D_kokoro_rewind/pawn_1": {
+    "mos": 3.849
+   },
+   "D_kokoro_rewind/pledge_0": {
+    "mos": 4.171
+   },
+   "D_kokoro_rewind/pledge_1": {
+    "mos": 3.498
+   },
+   "D_kokoro_rewind/reform_0": {
+    "mos": 3.386
+   },
+   "D_kokoro_rewind/smuggled_0": {
+    "mos": 3.707
+   },
+   "D_kokoro_rewind/smuggled_1": {
+    "mos": 3.53
+   },
+   "D_kokoro_rewind/today_0": {
+    "mos": 3.404
+   },
+   "D_kokoro_rewind/today_1": {
+    "mos": 3.616
+   },
+   "E_chatterbox_dramatic_rewind/empty_0": {
+    "mos": 3.517
+   },
+   "E_chatterbox_dramatic_rewind/empty_1": {
+    "mos": 3.63
+   },
+   "E_chatterbox_dramatic_rewind/empty_2": {
+    "mos": 3.396
+   },
+   "E_chatterbox_dramatic_rewind/home_0": {
+    "mos": 3.942
+   },
+   "E_chatterbox_dramatic_rewind/loop_0": {
+    "mos": 4.003
+   },
+   "E_chatterbox_dramatic_rewind/open_0": {
+    "mos": 3.768
+   },
+   "E_chatterbox_dramatic_rewind/open_1": {
+    "mos": 4.069
+   },
+   "E_chatterbox_dramatic_rewind/pawn_0": {
+    "mos": 3.355
+   },
+   "E_chatterbox_dramatic_rewind/pawn_1": {
+    "mos": 3.741
+   },
+   "E_chatterbox_dramatic_rewind/pledge_0": {
+    "mos": 3.582
+   },
+   "E_chatterbox_dramatic_rewind/pledge_1": {
+    "mos": 3.369
+   },
+   "E_chatterbox_dramatic_rewind/reform_0": {
+    "mos": 3.581
+   },
+   "E_chatterbox_dramatic_rewind/smuggled_0": {
+    "mos": 3.787
+   },
+   "E_chatterbox_dramatic_rewind/smuggled_1": {
+    "mos": 3.941
+   },
+   "E_chatterbox_dramatic_rewind/today_0": {
+    "mos": 4.13
+   },
+   "E_chatterbox_dramatic_rewind/today_1": {
+    "mos": 3.67
+   },
+   "F_omnivoice_plain_mm/broad_0": {
+    "mos": 3.718
+   },
+   "F_omnivoice_plain_mm/hook_0": {
+    "mos": 3.998
+   },
+   "F_omnivoice_plain_mm/hook_1": {
+    "mos": 3.924
+   },
+   "F_omnivoice_plain_mm/levels_0": {
+    "mos": 3.742
+   },
+   "F_omnivoice_plain_mm/levels_1": {
+    "mos": 3.491
+   },
+   "F_omnivoice_plain_mm/reveal_0": {
+    "mos": 4.243
+   },
+   "F_omnivoice_plain_mm/reveal_1": {
+    "mos": 4.066
+   },
+   "F_omnivoice_plain_mm/why_0": {
+    "mos": 4.104
+   },
+   "F_omnivoice_plain_mm/you_0": {
+    "mos": 3.677
+   },
+   "F_omnivoice_plain_mm/you_1": {
+    "mos": 3.813
+   },
+   "G_omnivoice_dramatic_rewind/empty_0": {
+    "mos": 4.211
+   },
+   "G_omnivoice_dramatic_rewind/empty_1": {
+    "mos": 3.932
+   },
+   "G_omnivoice_dramatic_rewind/empty_2": {
+    "mos": 3.954
+   },
+   "G_omnivoice_dramatic_rewind/home_0": {
+    "mos": 3.616
+   },
+   "G_omnivoice_dramatic_rewind/loop_0": {
+    "mos": 4.033
+   },
+   "G_omnivoice_dramatic_rewind/open_0": {
+    "mos": 3.717
+   },
+   "G_omnivoice_dramatic_rewind/open_1": {
+    "mos": 3.857
+   },
+   "G_omnivoice_dramatic_rewind/pawn_0": {
+    "mos": 4.158
+   },
+   "G_omnivoice_dramatic_rewind/pawn_1": {
+    "mos": 4.12
+   },
+   "G_omnivoice_dramatic_rewind/pledge_0": {
+    "mos": 3.998
+   },
+   "G_omnivoice_dramatic_rewind/pledge_1": {
+    "mos": 4.036
+   },
+   "G_omnivoice_dramatic_rewind/reform_0": {
+    "mos": 4.093
+   },
+   "G_omnivoice_dramatic_rewind/smuggled_0": {
+    "mos": 4.2
+   },
+   "G_omnivoice_dramatic_rewind/smuggled_1": {
+    "mos": 3.902
+   },
+   "G_omnivoice_dramatic_rewind/today_0": {
+    "mos": 3.871
+   },
+   "G_omnivoice_dramatic_rewind/today_1": {
+    "mos": 3.886
+   }
+  }
+ }
+}
