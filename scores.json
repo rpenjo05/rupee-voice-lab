@@ -1,0 +1,5176 @@
+{
+ "summary": {
+  "H_kokoro_mm_v2": {
+   "utmos.mos": 3.31,
+   "aesthetics.CE": 5.97,
+   "aesthetics.PQ": 7.28,
+   "emotion.non_neutral": 0.05,
+   "prosody.f0_sd_st": 4.15,
+   "prosody.f0_range_st": 12.55,
+   "prosody.loud_sd_db": 8.74,
+   "prosody.wpm": 179.2,
+   "prosody.dur": 36.7
+  },
+  "H_kokoro_mm_v3": {
+   "utmos.mos": 3.21,
+   "aesthetics.CE": 5.99,
+   "aesthetics.PQ": 7.28,
+   "emotion.non_neutral": 0.05,
+   "prosody.f0_sd_st": 4.09,
+   "prosody.f0_range_st": 12.87,
+   "prosody.loud_sd_db": 8.77,
+   "prosody.wpm": 173.6,
+   "prosody.dur": 38.1
+  },
+  "I_omnivoice_mm_v2": {
+   "utmos.mos": 3.31,
+   "aesthetics.CE": 5.8,
+   "aesthetics.PQ": 7.26,
+   "emotion.non_neutral": 0.03,
+   "prosody.f0_sd_st": 3.28,
+   "prosody.f0_range_st": 10.29,
+   "prosody.loud_sd_db": 8.36,
+   "prosody.wpm": 209.17,
+   "prosody.dur": 32.9
+  },
+  "I_omnivoice_mm_v3": {
+   "utmos.mos": 3.49,
+   "aesthetics.CE": 5.95,
+   "aesthetics.PQ": 7.38,
+   "emotion.non_neutral": 0.01,
+   "prosody.f0_sd_st": 3.65,
+   "prosody.f0_range_st": 11.46,
+   "prosody.loud_sd_db": 8.45,
+   "prosody.wpm": 182.97,
+   "prosody.dur": 38.9
+  },
+  "J_kokoro_rewind_v2": {
+   "utmos.mos": 3.48,
+   "aesthetics.CE": 6.0,
+   "aesthetics.PQ": 7.39,
+   "emotion.non_neutral": 0.06,
+   "prosody.f0_sd_st": 3.84,
+   "prosody.f0_range_st": 12.09,
+   "prosody.loud_sd_db": 8.48,
+   "prosody.wpm": 185.46,
+   "prosody.dur": 60.9
+  },
+  "J_kokoro_rewind_v3": {
+   "utmos.mos": 3.5,
+   "aesthetics.CE": 6.05,
+   "aesthetics.PQ": 7.39,
+   "emotion.non_neutral": 0.09,
+   "prosody.f0_sd_st": 3.92,
+   "prosody.f0_range_st": 11.85,
+   "prosody.loud_sd_db": 8.38,
+   "prosody.wpm": 156.52,
+   "prosody.dur": 73.5
+  },
+  "K_omnivoice_rewind_v2": {
+   "utmos.mos": 3.47,
+   "aesthetics.CE": 5.94,
+   "aesthetics.PQ": 7.44,
+   "emotion.non_neutral": 0.06,
+   "prosody.f0_sd_st": 3.64,
+   "prosody.f0_range_st": 11.6,
+   "prosody.loud_sd_db": 8.37,
+   "prosody.wpm": 192.44,
+   "prosody.dur": 57.4
+  },
+  "K_omnivoice_rewind_v3": {
+   "utmos.mos": 3.52,
+   "aesthetics.CE": 6.03,
+   "aesthetics.PQ": 7.51,
+   "emotion.non_neutral": 0.08,
+   "prosody.f0_sd_st": 3.51,
+   "prosody.f0_range_st": 10.59,
+   "prosody.loud_sd_db": 8.55,
+   "prosody.wpm": 171.32,
+   "prosody.dur": 67.2
+  }
+ },
+ "lines": {
+  "emotion": {
+   "H_kokoro_mm_v2/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/broad_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/guess_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/guess_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/reveal_1": {
+    "emotion": "angry",
+    "conf": 0.4,
+    "non_neutral": 0.96,
+    "happy": 0.31,
+    "surprised": 0.05,
+    "sad": 0.14
+   },
+   "H_kokoro_mm_v2/reveal_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/reveal_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/why_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v2/you_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/broad_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/guess_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/guess_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/reveal_1": {
+    "emotion": "angry",
+    "conf": 0.55,
+    "non_neutral": 0.98,
+    "happy": 0.19,
+    "surprised": 0.01,
+    "sad": 0.14
+   },
+   "H_kokoro_mm_v3/reveal_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/reveal_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/why_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "H_kokoro_mm_v3/you_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/broad_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/broad_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/guess_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/guess_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/hook_1": {
+    "emotion": "neutral",
+    "conf": 0.98,
+    "non_neutral": 0.02,
+    "happy": 0.01,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/reveal_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/reveal_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/reveal_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/reveal_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/why_0": {
+    "emotion": "neutral",
+    "conf": 0.53,
+    "non_neutral": 0.47,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/why_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v2/you_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/broad_0": {
+    "emotion": "neutral",
+    "conf": 0.92,
+    "non_neutral": 0.08,
+    "happy": 0.08,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/broad_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/guess_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/guess_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/hook_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/hook_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/levels_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/levels_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/reveal_0": {
+    "emotion": "neutral",
+    "conf": 0.89,
+    "non_neutral": 0.11,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/reveal_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/reveal_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/reveal_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/why_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/why_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/you_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/you_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "I_omnivoice_mm_v3/you_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/empty_2": {
+    "emotion": "neutral",
+    "conf": 0.97,
+    "non_neutral": 0.03,
+    "happy": 0.03,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/empty_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/home_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/open_0": {
+    "emotion": "happy",
+    "conf": 1.0,
+    "non_neutral": 1.0,
+    "happy": 1.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/open_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/open_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pawn_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pawn_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pledge_1b": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pledge_2": {
+    "emotion": "neutral",
+    "conf": 0.98,
+    "non_neutral": 0.02,
+    "happy": 0.02,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/pledge_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/reform_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/smuggled_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/smuggled_3": {
+    "emotion": "angry",
+    "conf": 0.61,
+    "non_neutral": 0.61,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v2/today_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/empty_2": {
+    "emotion": "sad",
+    "conf": 1.0,
+    "non_neutral": 1.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 1.0
+   },
+   "J_kokoro_rewind_v3/empty_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/home_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/open_0": {
+    "emotion": "happy",
+    "conf": 1.0,
+    "non_neutral": 1.0,
+    "happy": 1.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/open_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/open_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pawn_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pawn_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pledge_1b": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pledge_2": {
+    "emotion": "neutral",
+    "conf": 0.65,
+    "non_neutral": 0.35,
+    "happy": 0.35,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/pledge_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/reform_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/smuggled_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/smuggled_3": {
+    "emotion": "neutral",
+    "conf": 0.8,
+    "non_neutral": 0.2,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.01
+   },
+   "J_kokoro_rewind_v3/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "J_kokoro_rewind_v3/today_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/empty_2": {
+    "emotion": "neutral",
+    "conf": 0.53,
+    "non_neutral": 0.47,
+    "happy": 0.0,
+    "surprised": 0.47,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/empty_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/home_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/open_0": {
+    "emotion": "neutral",
+    "conf": 0.84,
+    "non_neutral": 0.16,
+    "happy": 0.16,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/open_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/open_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pawn_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pawn_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pledge_1b": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pledge_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/pledge_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/reform_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/smuggled_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/smuggled_3": {
+    "emotion": "angry",
+    "conf": 1.0,
+    "non_neutral": 1.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v2/today_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/empty_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/empty_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/empty_2": {
+    "emotion": "neutral",
+    "conf": 0.71,
+    "non_neutral": 0.29,
+    "happy": 0.0,
+    "surprised": 0.29,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/empty_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/home_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/home_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/loop_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/open_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/open_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/open_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/open_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pawn_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pawn_1": {
+    "emotion": "surprised",
+    "conf": 0.98,
+    "non_neutral": 1.0,
+    "happy": 0.01,
+    "surprised": 0.98,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pawn_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pledge_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pledge_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pledge_1b": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pledge_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/pledge_3": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/reform_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/reform_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/smuggled_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/smuggled_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/smuggled_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/smuggled_3": {
+    "emotion": "angry",
+    "conf": 1.0,
+    "non_neutral": 1.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/today_0": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/today_1": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   },
+   "K_omnivoice_rewind_v3/today_2": {
+    "emotion": "neutral",
+    "conf": 1.0,
+    "non_neutral": 0.0,
+    "happy": 0.0,
+    "surprised": 0.0,
+    "sad": 0.0
+   }
+  },
+  "mix": {
+   "H_kokoro_mm_v2": {
+    "CE": 6.72,
+    "CU": 8.11,
+    "PC": 5.23,
+    "PQ": 8.33,
+    "total_s": 44.78,
+    "voice_share": 0.82,
+    "pause_mean": 0.4,
+    "pause_reveal": 0.9
+   },
+   "H_kokoro_mm_v3": {
+    "CE": 6.66,
+    "CU": 8.11,
+    "PC": 5.17,
+    "PQ": 8.31,
+    "total_s": 47.16,
+    "voice_share": 0.81,
+    "pause_mean": 0.46,
+    "pause_reveal": 1.3
+   },
+   "I_omnivoice_mm_v2": {
+    "CE": 6.68,
+    "CU": 8.12,
+    "PC": 5.49,
+    "PQ": 8.3,
+    "total_s": 41.03,
+    "voice_share": 0.8,
+    "pause_mean": 0.4,
+    "pause_reveal": 0.9
+   },
+   "I_omnivoice_mm_v3": {
+    "CE": 6.64,
+    "CU": 8.15,
+    "PC": 5.4,
+    "PQ": 8.31,
+    "total_s": 48.02,
+    "voice_share": 0.81,
+    "pause_mean": 0.46,
+    "pause_reveal": 1.3
+   },
+   "J_kokoro_rewind_v2": {
+    "CE": 6.24,
+    "CU": 7.68,
+    "PC": 4.64,
+    "PQ": 8.07,
+    "total_s": 74.29,
+    "voice_share": 0.82,
+    "pause_mean": 0.45,
+    "pause_reveal": 0.58
+   },
+   "J_kokoro_rewind_v3": {
+    "CE": 6.21,
+    "CU": 7.54,
+    "PC": 4.77,
+    "PQ": 7.97,
+    "total_s": 91.22,
+    "voice_share": 0.81,
+    "pause_mean": 0.61,
+    "pause_reveal": 0.8
+   },
+   "K_omnivoice_rewind_v2": {
+    "CE": 6.45,
+    "CU": 7.87,
+    "PC": 4.88,
+    "PQ": 8.13,
+    "total_s": 70.73,
+    "voice_share": 0.81,
+    "pause_mean": 0.45,
+    "pause_reveal": 0.58
+   },
+   "K_omnivoice_rewind_v3": {
+    "CE": 6.36,
+    "CU": 7.76,
+    "PC": 4.94,
+    "PQ": 8.05,
+    "total_s": 84.94,
+    "voice_share": 0.79,
+    "pause_mean": 0.61,
+    "pause_reveal": 0.8
+   },
+   "v1_kokoro_mm": {
+    "CE": 6.91,
+    "CU": 8.16,
+    "PC": 4.96,
+    "PQ": 8.45
+   },
+   "v1_kokoro_rewind": {
+    "CE": 6.59,
+    "CU": 8.04,
+    "PC": 4.91,
+    "PQ": 8.37
+   },
+   "v1_omnivoice_mm": {
+    "CE": 6.79,
+    "CU": 8.07,
+    "PC": 4.55,
+    "PQ": 8.34
+   },
+   "v1_omnivoice_rewind": {
+    "CE": 6.79,
+    "CU": 8.09,
+    "PC": 5.04,
+    "PQ": 8.44
+   }
+  },
+  "prosody": {
+   "H_kokoro_mm_v2/broad_0": {
+    "f0_hz": 203.9,
+    "f0_sd_st": 7.05,
+    "f0_range_st": 22.84,
+    "loud_sd_db": 9.47,
+    "pause": 0.098,
+    "dur": 1.06,
+    "wpm": 226.5,
+    "asr": "But here's the catch."
+   },
+   "H_kokoro_mm_v2/broad_1": {
+    "f0_hz": 200.0,
+    "f0_sd_st": 6.25,
+    "f0_range_st": 22.7,
+    "loud_sd_db": 8.8,
+    "pause": 0.14,
+    "dur": 2.98,
+    "wpm": 100.8,
+    "asr": "smaller companies, up to 0.3%."
+   },
+   "H_kokoro_mm_v2/guess_0": {
+    "f0_hz": 194.0,
+    "f0_sd_st": 2.91,
+    "f0_range_st": 9.34,
+    "loud_sd_db": 8.64,
+    "pause": 0.162,
+    "dur": 3.5,
+    "wpm": 188.4,
+    "asr": "Quick guess today's top nifty gainer. What does it actually do?"
+   },
+   "H_kokoro_mm_v2/guess_1": {
+    "f0_hz": 202.3,
+    "f0_sd_st": 2.79,
+    "f0_range_st": 8.48,
+    "loud_sd_db": 7.71,
+    "pause": 0.148,
+    "dur": 2.32,
+    "wpm": 258.6,
+    "asr": "Lock it in, the answer is at the very end."
+   },
+   "H_kokoro_mm_v2/hook_0": {
+    "f0_hz": 197.2,
+    "f0_sd_st": 3.17,
+    "f0_range_st": 9.37,
+    "loud_sd_db": 9.18,
+    "pause": 0.135,
+    "dur": 3.73,
+    "wpm": 96.6,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "H_kokoro_mm_v2/hook_1": {
+    "f0_hz": 210.5,
+    "f0_sd_st": 2.23,
+    "f0_range_st": 6.02,
+    "loud_sd_db": 8.78,
+    "pause": 0.109,
+    "dur": 0.57,
+    "wpm": 104.4,
+    "asr": "again."
+   },
+   "H_kokoro_mm_v2/levels_0": {
+    "f0_hz": 206.7,
+    "f0_sd_st": 6.33,
+    "f0_range_st": 22.41,
+    "loud_sd_db": 9.9,
+    "pause": 0.161,
+    "dur": 1.74,
+    "wpm": 172.7,
+    "asr": "Nifty and Sensex, both up."
+   },
+   "H_kokoro_mm_v2/levels_1": {
+    "f0_hz": 224.5,
+    "f0_sd_st": 3.09,
+    "f0_range_st": 10.09,
+    "loud_sd_db": 8.6,
+    "pause": 0.094,
+    "dur": 1.21,
+    "wpm": 247.4,
+    "asr": "four days in a row."
+   },
+   "H_kokoro_mm_v2/loop_0": {
+    "f0_hz": 214.9,
+    "f0_sd_st": 4.61,
+    "f0_range_st": 11.15,
+    "loud_sd_db": 10.46,
+    "pause": 0.096,
+    "dur": 1.42,
+    "wpm": 212.0,
+    "asr": "and the Sensex just jumped."
+   },
+   "H_kokoro_mm_v2/reveal_0": {
+    "f0_hz": 206.8,
+    "f0_sd_st": 2.43,
+    "f0_range_st": 6.39,
+    "loud_sd_db": 8.36,
+    "pause": 0.052,
+    "dur": 1.11,
+    "wpm": 162.5,
+    "asr": "Now, your answer."
+   },
+   "H_kokoro_mm_v2/reveal_1": {
+    "f0_hz": 212.6,
+    "f0_sd_st": 5.3,
+    "f0_range_st": 18.1,
+    "loud_sd_db": 9.32,
+    "pause": 0.109,
+    "dur": 0.67,
+    "wpm": 178.7,
+    "asr": "It's B."
+   },
+   "H_kokoro_mm_v2/reveal_2": {
+    "f0_hz": 204.4,
+    "f0_sd_st": 2.84,
+    "f0_range_st": 8.34,
+    "loud_sd_db": 8.41,
+    "pause": 0.134,
+    "dur": 3.04,
+    "wpm": 158.1,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "H_kokoro_mm_v2/reveal_3": {
+    "f0_hz": 193.3,
+    "f0_sd_st": 2.81,
+    "f0_range_st": 7.77,
+    "loud_sd_db": 8.18,
+    "pause": 0.05,
+    "dur": 1.8,
+    "wpm": 167.0,
+    "asr": "then Nestle and Tata Consumer."
+   },
+   "H_kokoro_mm_v2/why_0": {
+    "f0_hz": 209.9,
+    "f0_sd_st": 7.36,
+    "f0_range_st": 22.37,
+    "loud_sd_db": 7.38,
+    "pause": 0.069,
+    "dur": 1.01,
+    "wpm": 238.5,
+    "asr": "So why the rally?"
+   },
+   "H_kokoro_mm_v2/why_1": {
+    "f0_hz": 205.6,
+    "f0_sd_st": 3.62,
+    "f0_range_st": 9.43,
+    "loud_sd_db": 9.24,
+    "pause": 0.142,
+    "dur": 2.85,
+    "wpm": 168.4,
+    "asr": "Oil kept cooling and foreign investors kept buying."
+   },
+   "H_kokoro_mm_v2/you_0": {
+    "f0_hz": 217.0,
+    "f0_sd_st": 3.32,
+    "f0_range_st": 10.33,
+    "loud_sd_db": 8.3,
+    "pause": 0.049,
+    "dur": 1.17,
+    "wpm": 307.5,
+    "asr": "What does that mean for you?"
+   },
+   "H_kokoro_mm_v2/you_1": {
+    "f0_hz": 203.4,
+    "f0_sd_st": 4.61,
+    "f0_range_st": 9.86,
+    "loud_sd_db": 8.34,
+    "pause": 0.158,
+    "dur": 3.86,
+    "wpm": 124.3,
+    "asr": "10,000 rupees in the Nifty, up about 158."
+   },
+   "H_kokoro_mm_v2/you_2": {
+    "f0_hz": 201.5,
+    "f0_sd_st": 4.02,
+    "f0_range_st": 10.99,
+    "loud_sd_db": 8.2,
+    "pause": 0.137,
+    "dur": 2.65,
+    "wpm": 113.2,
+    "asr": "Over two days, about 329."
+   },
+   "H_kokoro_mm_v3/broad_0": {
+    "f0_hz": 217.8,
+    "f0_sd_st": 5.0,
+    "f0_range_st": 19.75,
+    "loud_sd_db": 9.34,
+    "pause": 0.111,
+    "dur": 1.13,
+    "wpm": 211.8,
+    "asr": "But here's the catch."
+   },
+   "H_kokoro_mm_v3/broad_1": {
+    "f0_hz": 199.1,
+    "f0_sd_st": 6.06,
+    "f0_range_st": 22.57,
+    "loud_sd_db": 9.19,
+    "pause": 0.154,
+    "dur": 3.25,
+    "wpm": 92.2,
+    "asr": "smaller companies, up just 0.3%."
+   },
+   "H_kokoro_mm_v3/guess_0": {
+    "f0_hz": 194.9,
+    "f0_sd_st": 4.03,
+    "f0_range_st": 10.35,
+    "loud_sd_db": 8.68,
+    "pause": 0.154,
+    "dur": 3.54,
+    "wpm": 186.6,
+    "asr": "Quick guess today's top nifty gainer. What does it actually do?"
+   },
+   "H_kokoro_mm_v3/guess_1": {
+    "f0_hz": 199.6,
+    "f0_sd_st": 3.91,
+    "f0_range_st": 9.66,
+    "loud_sd_db": 7.89,
+    "pause": 0.144,
+    "dur": 2.37,
+    "wpm": 252.8,
+    "asr": "Lock it in, the answer is at the very end."
+   },
+   "H_kokoro_mm_v3/hook_0": {
+    "f0_hz": 195.8,
+    "f0_sd_st": 2.92,
+    "f0_range_st": 9.62,
+    "loud_sd_db": 9.25,
+    "pause": 0.142,
+    "dur": 3.67,
+    "wpm": 98.0,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "H_kokoro_mm_v3/hook_1": {
+    "f0_hz": 211.1,
+    "f0_sd_st": 2.18,
+    "f0_range_st": 5.93,
+    "loud_sd_db": 8.11,
+    "pause": 0.109,
+    "dur": 0.57,
+    "wpm": 104.5,
+    "asr": "again."
+   },
+   "H_kokoro_mm_v3/levels_0": {
+    "f0_hz": 202.6,
+    "f0_sd_st": 5.71,
+    "f0_range_st": 22.27,
+    "loud_sd_db": 9.98,
+    "pause": 0.181,
+    "dur": 1.9,
+    "wpm": 157.7,
+    "asr": "Nifty and Sensex, both up."
+   },
+   "H_kokoro_mm_v3/levels_1": {
+    "f0_hz": 219.8,
+    "f0_sd_st": 3.1,
+    "f0_range_st": 10.48,
+    "loud_sd_db": 8.78,
+    "pause": 0.062,
+    "dur": 1.28,
+    "wpm": 234.8,
+    "asr": "four days in a row."
+   },
+   "H_kokoro_mm_v3/loop_0": {
+    "f0_hz": 214.9,
+    "f0_sd_st": 4.61,
+    "f0_range_st": 11.15,
+    "loud_sd_db": 10.46,
+    "pause": 0.096,
+    "dur": 1.42,
+    "wpm": 212.0,
+    "asr": "and the Sensex just jumped."
+   },
+   "H_kokoro_mm_v3/reveal_0": {
+    "f0_hz": 209.8,
+    "f0_sd_st": 2.48,
+    "f0_range_st": 6.99,
+    "loud_sd_db": 8.29,
+    "pause": 0.051,
+    "dur": 1.13,
+    "wpm": 159.7,
+    "asr": "Now, your answer."
+   },
+   "H_kokoro_mm_v3/reveal_1": {
+    "f0_hz": 209.1,
+    "f0_sd_st": 5.49,
+    "f0_range_st": 17.93,
+    "loud_sd_db": 9.13,
+    "pause": 0.107,
+    "dur": 0.68,
+    "wpm": 175.8,
+    "asr": "It's B."
+   },
+   "H_kokoro_mm_v3/reveal_2": {
+    "f0_hz": 204.6,
+    "f0_sd_st": 4.05,
+    "f0_range_st": 10.42,
+    "loud_sd_db": 8.5,
+    "pause": 0.134,
+    "dur": 3.17,
+    "wpm": 151.3,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "H_kokoro_mm_v3/reveal_3": {
+    "f0_hz": 193.3,
+    "f0_sd_st": 2.81,
+    "f0_range_st": 7.77,
+    "loud_sd_db": 8.18,
+    "pause": 0.05,
+    "dur": 1.8,
+    "wpm": 167.0,
+    "asr": "then Nestle and Tata Consumer."
+   },
+   "H_kokoro_mm_v3/why_0": {
+    "f0_hz": 209.9,
+    "f0_sd_st": 7.36,
+    "f0_range_st": 22.37,
+    "loud_sd_db": 7.38,
+    "pause": 0.069,
+    "dur": 1.01,
+    "wpm": 238.5,
+    "asr": "So why the rally?"
+   },
+   "H_kokoro_mm_v3/why_1": {
+    "f0_hz": 209.4,
+    "f0_sd_st": 2.69,
+    "f0_range_st": 9.0,
+    "loud_sd_db": 9.38,
+    "pause": 0.154,
+    "dur": 2.92,
+    "wpm": 164.6,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "H_kokoro_mm_v3/you_0": {
+    "f0_hz": 213.5,
+    "f0_sd_st": 3.36,
+    "f0_range_st": 10.02,
+    "loud_sd_db": 8.44,
+    "pause": 0.057,
+    "dur": 1.22,
+    "wpm": 296.2,
+    "asr": "What does that mean for you?"
+   },
+   "H_kokoro_mm_v3/you_1": {
+    "f0_hz": 204.1,
+    "f0_sd_st": 3.49,
+    "f0_range_st": 10.27,
+    "loud_sd_db": 8.43,
+    "pause": 0.163,
+    "dur": 4.2,
+    "wpm": 114.2,
+    "asr": "10,000 rupees in the Nifty, up about 158."
+   },
+   "H_kokoro_mm_v3/you_2": {
+    "f0_hz": 198.0,
+    "f0_sd_st": 4.41,
+    "f0_range_st": 15.17,
+    "loud_sd_db": 8.44,
+    "pause": 0.145,
+    "dur": 2.8,
+    "wpm": 107.1,
+    "asr": "Over two days, about 329."
+   },
+   "I_omnivoice_mm_v2/broad_0": {
+    "f0_hz": 206.0,
+    "f0_sd_st": 2.07,
+    "f0_range_st": 6.52,
+    "loud_sd_db": 8.81,
+    "pause": 0.119,
+    "dur": 1.16,
+    "wpm": 206.4,
+    "asr": "But here's the catch."
+   },
+   "I_omnivoice_mm_v2/broad_1": {
+    "f0_hz": 210.6,
+    "f0_sd_st": 4.29,
+    "f0_range_st": 11.73,
+    "loud_sd_db": 8.75,
+    "pause": 0.077,
+    "dur": 2.44,
+    "wpm": 122.9,
+    "asr": "Smaller companies up just 0.3%."
+   },
+   "I_omnivoice_mm_v2/guess_0": {
+    "f0_hz": 179.4,
+    "f0_sd_st": 3.49,
+    "f0_range_st": 9.42,
+    "loud_sd_db": 7.72,
+    "pause": 0.084,
+    "dur": 2.75,
+    "wpm": 239.6,
+    "asr": "Quick guess, today's top nifty gainer, what does it actually do?"
+   },
+   "I_omnivoice_mm_v2/guess_1": {
+    "f0_hz": 168.5,
+    "f0_sd_st": 1.91,
+    "f0_range_st": 6.05,
+    "loud_sd_db": 6.74,
+    "pause": 0.031,
+    "dur": 1.79,
+    "wpm": 335.1,
+    "asr": "Lock it in, the answer is at the very end."
+   },
+   "I_omnivoice_mm_v2/hook_0": {
+    "f0_hz": 194.3,
+    "f0_sd_st": 2.57,
+    "f0_range_st": 8.42,
+    "loud_sd_db": 8.16,
+    "pause": 0.064,
+    "dur": 3.26,
+    "wpm": 110.5,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "I_omnivoice_mm_v2/hook_1": {
+    "f0_hz": 178.4,
+    "f0_sd_st": 2.77,
+    "f0_range_st": 9.39,
+    "loud_sd_db": 7.33,
+    "pause": 0.063,
+    "dur": 1.09,
+    "wpm": 275.3,
+    "asr": "and it did it again."
+   },
+   "I_omnivoice_mm_v2/levels_0": {
+    "f0_hz": 191.1,
+    "f0_sd_st": 2.91,
+    "f0_range_st": 9.48,
+    "loud_sd_db": 9.36,
+    "pause": 0.067,
+    "dur": 1.5,
+    "wpm": 279.2,
+    "asr": "the Nifty and the Sensex both up."
+   },
+   "I_omnivoice_mm_v2/levels_1": {
+    "f0_hz": 187.3,
+    "f0_sd_st": 2.73,
+    "f0_range_st": 8.13,
+    "loud_sd_db": 8.44,
+    "pause": 0.087,
+    "dur": 1.17,
+    "wpm": 255.6,
+    "asr": "four days in a row."
+   },
+   "I_omnivoice_mm_v2/loop_0": {
+    "f0_hz": 186.8,
+    "f0_sd_st": 3.22,
+    "f0_range_st": 6.88,
+    "loud_sd_db": 9.37,
+    "pause": 0.132,
+    "dur": 1.45,
+    "wpm": 206.4,
+    "asr": "and the Sensex just jumped."
+   },
+   "I_omnivoice_mm_v2/reveal_0": {
+    "f0_hz": 187.9,
+    "f0_sd_st": 3.99,
+    "f0_range_st": 13.5,
+    "loud_sd_db": 9.75,
+    "pause": 0.118,
+    "dur": 1.25,
+    "wpm": 143.8,
+    "asr": "Now, your answer."
+   },
+   "I_omnivoice_mm_v2/reveal_1": {
+    "f0_hz": 202.6,
+    "f0_sd_st": 2.58,
+    "f0_range_st": 8.03,
+    "loud_sd_db": 9.02,
+    "pause": 0.092,
+    "dur": 1.12,
+    "wpm": 213.4,
+    "asr": "The answer is B."
+   },
+   "I_omnivoice_mm_v2/reveal_2": {
+    "f0_hz": 174.5,
+    "f0_sd_st": 3.54,
+    "f0_range_st": 14.82,
+    "loud_sd_db": 8.2,
+    "pause": 0.046,
+    "dur": 2.17,
+    "wpm": 221.3,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "I_omnivoice_mm_v2/reveal_3": {
+    "f0_hz": 185.2,
+    "f0_sd_st": 5.15,
+    "f0_range_st": 20.83,
+    "loud_sd_db": 7.22,
+    "pause": 0.031,
+    "dur": 1.48,
+    "wpm": 162.4,
+    "asr": "The Nestle Intada consumer."
+   },
+   "I_omnivoice_mm_v2/why_0": {
+    "f0_hz": 182.3,
+    "f0_sd_st": 3.36,
+    "f0_range_st": 5.58,
+    "loud_sd_db": 7.36,
+    "pause": 0.048,
+    "dur": 1.2,
+    "wpm": 200.5,
+    "asr": "So why the rally?"
+   },
+   "I_omnivoice_mm_v2/why_1": {
+    "f0_hz": 181.9,
+    "f0_sd_st": 2.09,
+    "f0_range_st": 6.89,
+    "loud_sd_db": 9.19,
+    "pause": 0.074,
+    "dur": 2.37,
+    "wpm": 202.5,
+    "asr": "Oil kept cooling and foreign investors kept buying."
+   },
+   "I_omnivoice_mm_v2/you_0": {
+    "f0_hz": 201.6,
+    "f0_sd_st": 4.08,
+    "f0_range_st": 11.11,
+    "loud_sd_db": 8.66,
+    "pause": 0.055,
+    "dur": 1.24,
+    "wpm": 289.2,
+    "asr": "What does that mean for you?"
+   },
+   "I_omnivoice_mm_v2/you_1": {
+    "f0_hz": 181.9,
+    "f0_sd_st": 3.86,
+    "f0_range_st": 10.67,
+    "loud_sd_db": 8.48,
+    "pause": 0.068,
+    "dur": 3.2,
+    "wpm": 169.0,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "I_omnivoice_mm_v2/you_2": {
+    "f0_hz": 180.1,
+    "f0_sd_st": 4.41,
+    "f0_range_st": 17.81,
+    "loud_sd_db": 7.97,
+    "pause": 0.131,
+    "dur": 2.27,
+    "wpm": 132.0,
+    "asr": "Over two days, about 329."
+   },
+   "I_omnivoice_mm_v3/broad_0": {
+    "f0_hz": 256.2,
+    "f0_sd_st": 2.48,
+    "f0_range_st": 7.08,
+    "loud_sd_db": 8.45,
+    "pause": 0.128,
+    "dur": 1.08,
+    "wpm": 221.2,
+    "asr": "But here's the catch."
+   },
+   "I_omnivoice_mm_v3/broad_1": {
+    "f0_hz": 197.2,
+    "f0_sd_st": 2.56,
+    "f0_range_st": 8.43,
+    "loud_sd_db": 9.72,
+    "pause": 0.155,
+    "dur": 3.17,
+    "wpm": 94.6,
+    "asr": "Smaller companies up just 0.3%."
+   },
+   "I_omnivoice_mm_v3/guess_0": {
+    "f0_hz": 203.9,
+    "f0_sd_st": 4.18,
+    "f0_range_st": 14.38,
+    "loud_sd_db": 7.79,
+    "pause": 0.191,
+    "dur": 3.37,
+    "wpm": 195.7,
+    "asr": "quick guess. Today's top nifty gainer, what does it actually do?"
+   },
+   "I_omnivoice_mm_v3/guess_1": {
+    "f0_hz": 185.5,
+    "f0_sd_st": 4.96,
+    "f0_range_st": 17.22,
+    "loud_sd_db": 8.37,
+    "pause": 0.083,
+    "dur": 2.13,
+    "wpm": 281.9,
+    "asr": "Lock it in. The answer is at the very end."
+   },
+   "I_omnivoice_mm_v3/hook_0": {
+    "f0_hz": 192.9,
+    "f0_sd_st": 3.08,
+    "f0_range_st": 9.97,
+    "loud_sd_db": 8.63,
+    "pause": 0.058,
+    "dur": 3.56,
+    "wpm": 101.1,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "I_omnivoice_mm_v3/hook_1": {
+    "f0_hz": 188.2,
+    "f0_sd_st": 4.61,
+    "f0_range_st": 6.15,
+    "loud_sd_db": 7.89,
+    "pause": 0.078,
+    "dur": 1.32,
+    "wpm": 227.4,
+    "asr": "and it did it again."
+   },
+   "I_omnivoice_mm_v3/levels_0": {
+    "f0_hz": 194.9,
+    "f0_sd_st": 4.94,
+    "f0_range_st": 20.45,
+    "loud_sd_db": 8.99,
+    "pause": 0.099,
+    "dur": 1.92,
+    "wpm": 218.9,
+    "asr": "The Nifty and the Sensex, both up."
+   },
+   "I_omnivoice_mm_v3/levels_1": {
+    "f0_hz": 174.0,
+    "f0_sd_st": 2.41,
+    "f0_range_st": 6.75,
+    "loud_sd_db": 8.55,
+    "pause": 0.041,
+    "dur": 1.39,
+    "wpm": 216.4,
+    "asr": "four days in a row."
+   },
+   "I_omnivoice_mm_v3/loop_0": {
+    "f0_hz": 188.0,
+    "f0_sd_st": 1.98,
+    "f0_range_st": 6.35,
+    "loud_sd_db": 8.87,
+    "pause": 0.108,
+    "dur": 1.65,
+    "wpm": 181.3,
+    "asr": "and the Sensex just jumped."
+   },
+   "I_omnivoice_mm_v3/reveal_0": {
+    "f0_hz": 181.6,
+    "f0_sd_st": 2.26,
+    "f0_range_st": 6.56,
+    "loud_sd_db": 8.65,
+    "pause": 0.279,
+    "dur": 1.46,
+    "wpm": 123.3,
+    "asr": "Now, your answer."
+   },
+   "I_omnivoice_mm_v3/reveal_1": {
+    "f0_hz": 209.3,
+    "f0_sd_st": 3.48,
+    "f0_range_st": 10.35,
+    "loud_sd_db": 9.16,
+    "pause": 0.102,
+    "dur": 1.23,
+    "wpm": 194.7,
+    "asr": "The answer is B."
+   },
+   "I_omnivoice_mm_v3/reveal_2": {
+    "f0_hz": 184.1,
+    "f0_sd_st": 4.31,
+    "f0_range_st": 16.3,
+    "loud_sd_db": 7.86,
+    "pause": 0.028,
+    "dur": 2.73,
+    "wpm": 175.6,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "I_omnivoice_mm_v3/reveal_3": {
+    "f0_hz": 194.0,
+    "f0_sd_st": 2.54,
+    "f0_range_st": 8.08,
+    "loud_sd_db": 7.03,
+    "pause": 0.032,
+    "dur": 1.73,
+    "wpm": 173.6,
+    "asr": "the Nestle and Tata consumer."
+   },
+   "I_omnivoice_mm_v3/why_0": {
+    "f0_hz": 179.2,
+    "f0_sd_st": 4.25,
+    "f0_range_st": 17.08,
+    "loud_sd_db": 6.43,
+    "pause": 0.038,
+    "dur": 1.21,
+    "wpm": 197.6,
+    "asr": "So why the rally?"
+   },
+   "I_omnivoice_mm_v3/why_1": {
+    "f0_hz": 204.5,
+    "f0_sd_st": 5.0,
+    "f0_range_st": 18.96,
+    "loud_sd_db": 9.33,
+    "pause": 0.135,
+    "dur": 2.75,
+    "wpm": 174.2,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "I_omnivoice_mm_v3/you_0": {
+    "f0_hz": 203.7,
+    "f0_sd_st": 5.14,
+    "f0_range_st": 13.94,
+    "loud_sd_db": 9.13,
+    "pause": 0.088,
+    "dur": 1.3,
+    "wpm": 277.3,
+    "asr": "What does that mean for you?"
+   },
+   "I_omnivoice_mm_v3/you_1": {
+    "f0_hz": 193.4,
+    "f0_sd_st": 4.51,
+    "f0_range_st": 9.21,
+    "loud_sd_db": 9.07,
+    "pause": 0.074,
+    "dur": 4.09,
+    "wpm": 132.1,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "I_omnivoice_mm_v3/you_2": {
+    "f0_hz": 190.0,
+    "f0_sd_st": 3.07,
+    "f0_range_st": 8.97,
+    "loud_sd_db": 8.24,
+    "pause": 0.172,
+    "dur": 2.82,
+    "wpm": 106.6,
+    "asr": "over two days, about 329."
+   },
+   "J_kokoro_rewind_v2/empty_0": {
+    "f0_hz": 205.4,
+    "f0_sd_st": 3.55,
+    "f0_range_st": 8.81,
+    "loud_sd_db": 7.52,
+    "pause": 0.145,
+    "dur": 3.17,
+    "wpm": 132.5,
+    "asr": "1991, India is running out of dollars."
+   },
+   "J_kokoro_rewind_v2/empty_1": {
+    "f0_hz": 197.4,
+    "f0_sd_st": 2.99,
+    "f0_range_st": 9.03,
+    "loud_sd_db": 9.21,
+    "pause": 0.12,
+    "dur": 2.48,
+    "wpm": 242.1,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "J_kokoro_rewind_v2/empty_2": {
+    "f0_hz": 228.4,
+    "f0_sd_st": 6.23,
+    "f0_range_st": 19.11,
+    "loud_sd_db": 8.68,
+    "pause": 0.104,
+    "dur": 0.79,
+    "wpm": 151.0,
+    "asr": "Run out."
+   },
+   "J_kokoro_rewind_v2/empty_3": {
+    "f0_hz": 221.7,
+    "f0_sd_st": 6.13,
+    "f0_range_st": 21.59,
+    "loud_sd_db": 9.48,
+    "pause": 0.12,
+    "dur": 1.23,
+    "wpm": 146.1,
+    "asr": "and India defaults."
+   },
+   "J_kokoro_rewind_v2/home_0": {
+    "f0_hz": 233.5,
+    "f0_sd_st": 3.26,
+    "f0_range_st": 8.5,
+    "loud_sd_db": 8.87,
+    "pause": 0.048,
+    "dur": 1.4,
+    "wpm": 128.5,
+    "asr": "and in 2024."
+   },
+   "J_kokoro_rewind_v2/home_1": {
+    "f0_hz": 195.1,
+    "f0_sd_st": 3.34,
+    "f0_range_st": 9.74,
+    "loud_sd_db": 7.79,
+    "pause": 0.13,
+    "dur": 5.24,
+    "wpm": 183.1,
+    "asr": "The RBI moved about 100 tons of its gold from the UK, back home to India."
+   },
+   "J_kokoro_rewind_v2/loop_0": {
+    "f0_hz": 186.6,
+    "f0_sd_st": 4.84,
+    "f0_range_st": 20.69,
+    "loud_sd_db": 8.16,
+    "pause": 0.165,
+    "dur": 3.24,
+    "wpm": 203.4,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "J_kokoro_rewind_v2/open_0": {
+    "f0_hz": 200.3,
+    "f0_sd_st": 3.02,
+    "f0_range_st": 9.82,
+    "loud_sd_db": 7.45,
+    "pause": 0.033,
+    "dur": 1.69,
+    "wpm": 213.2,
+    "asr": "gold just hit a one-year low."
+   },
+   "J_kokoro_rewind_v2/open_1": {
+    "f0_hz": 208.2,
+    "f0_sd_st": 3.61,
+    "f0_range_st": 9.7,
+    "loud_sd_db": 8.29,
+    "pause": 0.063,
+    "dur": 1.43,
+    "wpm": 168.2,
+    "asr": "days before done terrace."
+   },
+   "J_kokoro_rewind_v2/open_2": {
+    "f0_hz": 212.1,
+    "f0_sd_st": 3.74,
+    "f0_range_st": 7.96,
+    "loud_sd_db": 7.86,
+    "pause": 0.153,
+    "dur": 3.42,
+    "wpm": 175.2,
+    "asr": "But in 1991, India had to pawn its own gold."
+   },
+   "J_kokoro_rewind_v2/open_3": {
+    "f0_hz": 213.6,
+    "f0_sd_st": 2.69,
+    "f0_range_st": 8.14,
+    "loud_sd_db": 9.21,
+    "pause": 0.109,
+    "dur": 1.35,
+    "wpm": 223.0,
+    "asr": "just to pay its bills."
+   },
+   "J_kokoro_rewind_v2/pawn_0": {
+    "f0_hz": 197.2,
+    "f0_sd_st": 4.98,
+    "f0_range_st": 20.55,
+    "loud_sd_db": 7.82,
+    "pause": 0.128,
+    "dur": 3.24,
+    "wpm": 129.4,
+    "asr": "In return, about $400 million in loans."
+   },
+   "J_kokoro_rewind_v2/pawn_1": {
+    "f0_hz": 215.9,
+    "f0_sd_st": 4.81,
+    "f0_range_st": 14.07,
+    "loud_sd_db": 9.68,
+    "pause": 0.122,
+    "dur": 0.96,
+    "wpm": 187.8,
+    "asr": "A pawn shop."
+   },
+   "J_kokoro_rewind_v2/pawn_2": {
+    "f0_hz": 226.2,
+    "f0_sd_st": 4.72,
+    "f0_range_st": 12.99,
+    "loud_sd_db": 8.35,
+    "pause": 0.062,
+    "dur": 0.95,
+    "wpm": 190.1,
+    "asr": "for a country."
+   },
+   "J_kokoro_rewind_v2/pledge_0": {
+    "f0_hz": 202.6,
+    "f0_sd_st": 3.05,
+    "f0_range_st": 10.04,
+    "loud_sd_db": 8.54,
+    "pause": 0.076,
+    "dur": 1.9,
+    "wpm": 221.6,
+    "asr": "so the RBI takes a bigger step."
+   },
+   "J_kokoro_rewind_v2/pledge_1": {
+    "f0_hz": 192.6,
+    "f0_sd_st": 3.42,
+    "f0_range_st": 9.23,
+    "loud_sd_db": 8.45,
+    "pause": 0.085,
+    "dur": 2.58,
+    "wpm": 186.0,
+    "asr": "It pledges 47 tons of its own gold."
+   },
+   "J_kokoro_rewind_v2/pledge_1b": {
+    "f0_hz": 195.8,
+    "f0_sd_st": 4.65,
+    "f0_range_st": 16.78,
+    "loud_sd_db": 7.88,
+    "pause": 0.14,
+    "dur": 2.58,
+    "wpm": 232.3,
+    "asr": "with the Bank of England and the Bank of Japan."
+   },
+   "J_kokoro_rewind_v2/pledge_2": {
+    "f0_hz": 221.4,
+    "f0_sd_st": 3.11,
+    "f0_range_st": 9.87,
+    "loud_sd_db": 8.04,
+    "pause": 0.066,
+    "dur": 1.53,
+    "wpm": 196.5,
+    "asr": "The gold leaves the country."
+   },
+   "J_kokoro_rewind_v2/pledge_3": {
+    "f0_hz": 225.1,
+    "f0_sd_st": 5.26,
+    "f0_range_st": 20.45,
+    "loud_sd_db": 7.47,
+    "pause": 0.044,
+    "dur": 1.05,
+    "wpm": 172.2,
+    "asr": "as a guarantee."
+   },
+   "J_kokoro_rewind_v2/reform_0": {
+    "f0_hz": 197.0,
+    "f0_sd_st": 2.74,
+    "f0_range_st": 8.9,
+    "loud_sd_db": 8.29,
+    "pause": 0.123,
+    "dur": 2.24,
+    "wpm": 214.3,
+    "asr": "That July, the rupee is cut in value."
+   },
+   "J_kokoro_rewind_v2/reform_1": {
+    "f0_hz": 196.7,
+    "f0_sd_st": 3.25,
+    "f0_range_st": 10.22,
+    "loud_sd_db": 9.24,
+    "pause": 0.085,
+    "dur": 2.33,
+    "wpm": 180.1,
+    "asr": "and India starts opening up its economy."
+   },
+   "J_kokoro_rewind_v2/smuggled_0": {
+    "f0_hz": 203.5,
+    "f0_sd_st": 2.83,
+    "f0_range_st": 9.55,
+    "loud_sd_db": 8.58,
+    "pause": 0.091,
+    "dur": 3.25,
+    "wpm": 184.5,
+    "asr": "First, 20 tons of gold seized from smugglers is sold."
+   },
+   "J_kokoro_rewind_v2/smuggled_1": {
+    "f0_hz": 196.9,
+    "f0_sd_st": 3.45,
+    "f0_range_st": 9.91,
+    "loud_sd_db": 9.62,
+    "pause": 0.118,
+    "dur": 1.53,
+    "wpm": 273.7,
+    "asr": "with a promise to buy it back."
+   },
+   "J_kokoro_rewind_v2/smuggled_2": {
+    "f0_hz": 190.4,
+    "f0_sd_st": 4.0,
+    "f0_range_st": 9.38,
+    "loud_sd_db": 7.22,
+    "pause": 0.054,
+    "dur": 1.86,
+    "wpm": 96.7,
+    "asr": "about $200 million."
+   },
+   "J_kokoro_rewind_v2/smuggled_3": {
+    "f0_hz": 223.8,
+    "f0_sd_st": 4.33,
+    "f0_range_st": 15.56,
+    "loud_sd_db": 9.76,
+    "pause": 0.076,
+    "dur": 0.78,
+    "wpm": 153.0,
+    "asr": "Not enough."
+   },
+   "J_kokoro_rewind_v2/today_0": {
+    "f0_hz": 200.5,
+    "f0_sd_st": 2.84,
+    "f0_range_st": 9.32,
+    "loud_sd_db": 8.27,
+    "pause": 0.153,
+    "dur": 3.98,
+    "wpm": 196.1,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "J_kokoro_rewind_v2/today_1": {
+    "f0_hz": 220.3,
+    "f0_sd_st": 2.58,
+    "f0_range_st": 8.19,
+    "loud_sd_db": 8.71,
+    "pause": 0.081,
+    "dur": 1.13,
+    "wpm": 212.1,
+    "asr": "but the real lesson."
+   },
+   "J_kokoro_rewind_v2/today_2": {
+    "f0_hz": 196.8,
+    "f0_sd_st": 4.12,
+    "f0_range_st": 10.44,
+    "loud_sd_db": 8.95,
+    "pause": 0.133,
+    "dur": 3.6,
+    "wpm": 200.2,
+    "asr": "Keep cash for emergencies so you never have to pawn the gold."
+   },
+   "J_kokoro_rewind_v3/empty_0": {
+    "f0_hz": 200.5,
+    "f0_sd_st": 3.06,
+    "f0_range_st": 9.22,
+    "loud_sd_db": 7.59,
+    "pause": 0.154,
+    "dur": 3.67,
+    "wpm": 114.4,
+    "asr": "1991, India is running out of dollars."
+   },
+   "J_kokoro_rewind_v3/empty_1": {
+    "f0_hz": 197.3,
+    "f0_sd_st": 3.01,
+    "f0_range_st": 8.64,
+    "loud_sd_db": 9.39,
+    "pause": 0.109,
+    "dur": 2.72,
+    "wpm": 220.2,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "J_kokoro_rewind_v3/empty_2": {
+    "f0_hz": 218.6,
+    "f0_sd_st": 7.95,
+    "f0_range_st": 19.13,
+    "loud_sd_db": 7.39,
+    "pause": 0.073,
+    "dur": 1.1,
+    "wpm": 163.7,
+    "asr": "You run out."
+   },
+   "J_kokoro_rewind_v3/empty_3": {
+    "f0_hz": 223.2,
+    "f0_sd_st": 5.81,
+    "f0_range_st": 20.9,
+    "loud_sd_db": 9.7,
+    "pause": 0.124,
+    "dur": 1.54,
+    "wpm": 117.0,
+    "asr": "and India defaults."
+   },
+   "J_kokoro_rewind_v3/home_0": {
+    "f0_hz": 233.3,
+    "f0_sd_st": 3.03,
+    "f0_range_st": 8.4,
+    "loud_sd_db": 8.68,
+    "pause": 0.058,
+    "dur": 1.56,
+    "wpm": 115.6,
+    "asr": "and in 2024."
+   },
+   "J_kokoro_rewind_v3/home_1": {
+    "f0_hz": 194.5,
+    "f0_sd_st": 3.3,
+    "f0_range_st": 9.44,
+    "loud_sd_db": 8.29,
+    "pause": 0.146,
+    "dur": 7.09,
+    "wpm": 135.5,
+    "asr": "The RBI moved about 100 tons of its gold from the UK, back home to India."
+   },
+   "J_kokoro_rewind_v3/loop_0": {
+    "f0_hz": 185.0,
+    "f0_sd_st": 4.44,
+    "f0_range_st": 16.09,
+    "loud_sd_db": 8.01,
+    "pause": 0.171,
+    "dur": 4.32,
+    "wpm": 152.8,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "J_kokoro_rewind_v3/open_0": {
+    "f0_hz": 201.9,
+    "f0_sd_st": 3.82,
+    "f0_range_st": 10.45,
+    "loud_sd_db": 7.09,
+    "pause": 0.041,
+    "dur": 1.89,
+    "wpm": 190.0,
+    "asr": "Gold just hit a one-year low."
+   },
+   "J_kokoro_rewind_v3/open_1": {
+    "f0_hz": 195.8,
+    "f0_sd_st": 3.23,
+    "f0_range_st": 9.39,
+    "loud_sd_db": 8.41,
+    "pause": 0.073,
+    "dur": 1.68,
+    "wpm": 142.5,
+    "asr": "days before done terrace."
+   },
+   "J_kokoro_rewind_v3/open_2": {
+    "f0_hz": 201.1,
+    "f0_sd_st": 3.94,
+    "f0_range_st": 8.15,
+    "loud_sd_db": 7.84,
+    "pause": 0.149,
+    "dur": 3.95,
+    "wpm": 151.9,
+    "asr": "But in 1991, India had to pawn its own gold."
+   },
+   "J_kokoro_rewind_v3/open_3": {
+    "f0_hz": 203.9,
+    "f0_sd_st": 2.95,
+    "f0_range_st": 9.0,
+    "loud_sd_db": 9.27,
+    "pause": 0.103,
+    "dur": 1.53,
+    "wpm": 196.1,
+    "asr": "just to pay its bills."
+   },
+   "J_kokoro_rewind_v3/pawn_0": {
+    "f0_hz": 194.4,
+    "f0_sd_st": 3.54,
+    "f0_range_st": 9.78,
+    "loud_sd_db": 8.06,
+    "pause": 0.128,
+    "dur": 3.75,
+    "wpm": 112.1,
+    "asr": "In return, about $400 million in loans."
+   },
+   "J_kokoro_rewind_v3/pawn_1": {
+    "f0_hz": 210.5,
+    "f0_sd_st": 5.86,
+    "f0_range_st": 19.99,
+    "loud_sd_db": 9.64,
+    "pause": 0.13,
+    "dur": 1.31,
+    "wpm": 137.8,
+    "asr": "The pawn shop."
+   },
+   "J_kokoro_rewind_v3/pawn_2": {
+    "f0_hz": 203.3,
+    "f0_sd_st": 5.48,
+    "f0_range_st": 20.46,
+    "loud_sd_db": 8.18,
+    "pause": 0.073,
+    "dur": 1.25,
+    "wpm": 144.1,
+    "asr": "for a country."
+   },
+   "J_kokoro_rewind_v3/pledge_0": {
+    "f0_hz": 193.0,
+    "f0_sd_st": 3.58,
+    "f0_range_st": 10.19,
+    "loud_sd_db": 8.21,
+    "pause": 0.068,
+    "dur": 2.13,
+    "wpm": 197.1,
+    "asr": "so the RBI takes a bigger step."
+   },
+   "J_kokoro_rewind_v3/pledge_1": {
+    "f0_hz": 191.7,
+    "f0_sd_st": 3.46,
+    "f0_range_st": 10.17,
+    "loud_sd_db": 8.08,
+    "pause": 0.093,
+    "dur": 2.96,
+    "wpm": 162.4,
+    "asr": "It pledges 47 tons of its own gold."
+   },
+   "J_kokoro_rewind_v3/pledge_1b": {
+    "f0_hz": 198.9,
+    "f0_sd_st": 4.63,
+    "f0_range_st": 16.02,
+    "loud_sd_db": 8.07,
+    "pause": 0.161,
+    "dur": 3.07,
+    "wpm": 195.5,
+    "asr": "with the Bank of England and the Bank of Japan."
+   },
+   "J_kokoro_rewind_v3/pledge_2": {
+    "f0_hz": 211.9,
+    "f0_sd_st": 3.12,
+    "f0_range_st": 9.31,
+    "loud_sd_db": 8.25,
+    "pause": 0.06,
+    "dur": 1.67,
+    "wpm": 179.7,
+    "asr": "The gold leaves the country."
+   },
+   "J_kokoro_rewind_v3/pledge_3": {
+    "f0_hz": 194.6,
+    "f0_sd_st": 5.13,
+    "f0_range_st": 20.02,
+    "loud_sd_db": 8.07,
+    "pause": 0.062,
+    "dur": 1.44,
+    "wpm": 124.9,
+    "asr": "as a guarantee."
+   },
+   "J_kokoro_rewind_v3/reform_0": {
+    "f0_hz": 193.5,
+    "f0_sd_st": 2.77,
+    "f0_range_st": 9.25,
+    "loud_sd_db": 8.24,
+    "pause": 0.145,
+    "dur": 2.65,
+    "wpm": 181.0,
+    "asr": "That July, the rupee is cut in value."
+   },
+   "J_kokoro_rewind_v3/reform_1": {
+    "f0_hz": 202.2,
+    "f0_sd_st": 4.66,
+    "f0_range_st": 16.19,
+    "loud_sd_db": 9.24,
+    "pause": 0.137,
+    "dur": 2.73,
+    "wpm": 154.0,
+    "asr": "and India starts opening up its economy."
+   },
+   "J_kokoro_rewind_v3/smuggled_0": {
+    "f0_hz": 207.2,
+    "f0_sd_st": 3.6,
+    "f0_range_st": 9.55,
+    "loud_sd_db": 8.83,
+    "pause": 0.13,
+    "dur": 3.85,
+    "wpm": 156.0,
+    "asr": "First, 20 tons of gold seized from smugglers is sold."
+   },
+   "J_kokoro_rewind_v3/smuggled_1": {
+    "f0_hz": 202.1,
+    "f0_sd_st": 3.08,
+    "f0_range_st": 8.75,
+    "loud_sd_db": 9.29,
+    "pause": 0.124,
+    "dur": 1.71,
+    "wpm": 244.9,
+    "asr": "with a promise to buy it back."
+   },
+   "J_kokoro_rewind_v3/smuggled_2": {
+    "f0_hz": 189.1,
+    "f0_sd_st": 3.0,
+    "f0_range_st": 8.22,
+    "loud_sd_db": 6.72,
+    "pause": 0.066,
+    "dur": 2.03,
+    "wpm": 88.6,
+    "asr": "about $200 million."
+   },
+   "J_kokoro_rewind_v3/smuggled_3": {
+    "f0_hz": 230.7,
+    "f0_sd_st": 2.59,
+    "f0_range_st": 6.86,
+    "loud_sd_db": 8.44,
+    "pause": 0.053,
+    "dur": 1.09,
+    "wpm": 109.8,
+    "asr": "Not enough."
+   },
+   "J_kokoro_rewind_v3/today_0": {
+    "f0_hz": 206.4,
+    "f0_sd_st": 3.47,
+    "f0_range_st": 9.97,
+    "loud_sd_db": 8.09,
+    "pause": 0.164,
+    "dur": 4.7,
+    "wpm": 166.1,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "J_kokoro_rewind_v3/today_1": {
+    "f0_hz": 208.2,
+    "f0_sd_st": 3.85,
+    "f0_range_st": 8.54,
+    "loud_sd_db": 8.5,
+    "pause": 0.085,
+    "dur": 1.34,
+    "wpm": 178.8,
+    "asr": "but the real lesson."
+   },
+   "J_kokoro_rewind_v3/today_2": {
+    "f0_hz": 202.7,
+    "f0_sd_st": 3.47,
+    "f0_range_st": 9.76,
+    "loud_sd_db": 8.95,
+    "pause": 0.147,
+    "dur": 4.8,
+    "wpm": 150.1,
+    "asr": "Keep cash for emergencies so you never have to pawn the gold."
+   },
+   "K_omnivoice_rewind_v2/empty_0": {
+    "f0_hz": 183.8,
+    "f0_sd_st": 3.58,
+    "f0_range_st": 9.54,
+    "loud_sd_db": 6.88,
+    "pause": 0.101,
+    "dur": 2.94,
+    "wpm": 142.9,
+    "asr": "1991. India is running out of dollars."
+   },
+   "K_omnivoice_rewind_v2/empty_1": {
+    "f0_hz": 191.1,
+    "f0_sd_st": 2.93,
+    "f0_range_st": 9.54,
+    "loud_sd_db": 8.79,
+    "pause": 0.077,
+    "dur": 2.44,
+    "wpm": 245.7,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "K_omnivoice_rewind_v2/empty_2": {
+    "f0_hz": 206.1,
+    "f0_sd_st": 5.48,
+    "f0_range_st": 22.31,
+    "loud_sd_db": 8.94,
+    "pause": 0.103,
+    "dur": 0.7,
+    "wpm": 172.6,
+    "asr": "Run out."
+   },
+   "K_omnivoice_rewind_v2/empty_3": {
+    "f0_hz": 193.1,
+    "f0_sd_st": 4.73,
+    "f0_range_st": 16.54,
+    "loud_sd_db": 9.79,
+    "pause": 0.128,
+    "dur": 1.49,
+    "wpm": 120.5,
+    "asr": "and India defaults."
+   },
+   "K_omnivoice_rewind_v2/home_0": {
+    "f0_hz": 193.5,
+    "f0_sd_st": 3.01,
+    "f0_range_st": 8.44,
+    "loud_sd_db": 8.31,
+    "pause": 0.041,
+    "dur": 1.63,
+    "wpm": 110.6,
+    "asr": "and in 2024."
+   },
+   "K_omnivoice_rewind_v2/home_1": {
+    "f0_hz": 185.2,
+    "f0_sd_st": 4.16,
+    "f0_range_st": 11.43,
+    "loud_sd_db": 8.31,
+    "pause": 0.067,
+    "dur": 4.2,
+    "wpm": 228.4,
+    "asr": "The RBI moved about 100 tons of its gold from the UK, back home to India."
+   },
+   "K_omnivoice_rewind_v2/loop_0": {
+    "f0_hz": 186.1,
+    "f0_sd_st": 3.37,
+    "f0_range_st": 10.83,
+    "loud_sd_db": 7.93,
+    "pause": 0.044,
+    "dur": 2.99,
+    "wpm": 220.8,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "K_omnivoice_rewind_v2/open_0": {
+    "f0_hz": 205.5,
+    "f0_sd_st": 2.35,
+    "f0_range_st": 7.14,
+    "loud_sd_db": 7.1,
+    "pause": 0.026,
+    "dur": 1.75,
+    "wpm": 205.9,
+    "asr": "Gold just hit a one-year low."
+   },
+   "K_omnivoice_rewind_v2/open_1": {
+    "f0_hz": 185.9,
+    "f0_sd_st": 3.91,
+    "f0_range_st": 13.94,
+    "loud_sd_db": 8.44,
+    "pause": 0.035,
+    "dur": 1.59,
+    "wpm": 113.4,
+    "asr": "days before Dontaras."
+   },
+   "K_omnivoice_rewind_v2/open_2": {
+    "f0_hz": 199.4,
+    "f0_sd_st": 3.51,
+    "f0_range_st": 9.56,
+    "loud_sd_db": 7.96,
+    "pause": 0.05,
+    "dur": 3.05,
+    "wpm": 196.6,
+    "asr": "But in 1991, India had to pawn its own gold."
+   },
+   "K_omnivoice_rewind_v2/open_3": {
+    "f0_hz": 175.3,
+    "f0_sd_st": 2.27,
+    "f0_range_st": 7.93,
+    "loud_sd_db": 8.88,
+    "pause": 0.088,
+    "dur": 1.29,
+    "wpm": 233.0,
+    "asr": "just to pay its bills."
+   },
+   "K_omnivoice_rewind_v2/pawn_0": {
+    "f0_hz": 195.3,
+    "f0_sd_st": 4.02,
+    "f0_range_st": 8.92,
+    "loud_sd_db": 7.45,
+    "pause": 0.105,
+    "dur": 3.02,
+    "wpm": 139.2,
+    "asr": "In return, about $400 million in loans."
+   },
+   "K_omnivoice_rewind_v2/pawn_1": {
+    "f0_hz": 264.8,
+    "f0_sd_st": 3.74,
+    "f0_range_st": 11.32,
+    "loud_sd_db": 9.21,
+    "pause": 0.127,
+    "dur": 0.92,
+    "wpm": 196.2,
+    "asr": "A pawn shop."
+   },
+   "K_omnivoice_rewind_v2/pawn_2": {
+    "f0_hz": 177.5,
+    "f0_sd_st": 1.8,
+    "f0_range_st": 6.35,
+    "loud_sd_db": 9.11,
+    "pause": 0.113,
+    "dur": 0.84,
+    "wpm": 215.4,
+    "asr": "for a country."
+   },
+   "K_omnivoice_rewind_v2/pledge_0": {
+    "f0_hz": 190.0,
+    "f0_sd_st": 4.23,
+    "f0_range_st": 13.64,
+    "loud_sd_db": 6.92,
+    "pause": 0.07,
+    "dur": 1.77,
+    "wpm": 237.8,
+    "asr": "so the RBI takes a bigger step."
+   },
+   "K_omnivoice_rewind_v2/pledge_1": {
+    "f0_hz": 199.6,
+    "f0_sd_st": 2.55,
+    "f0_range_st": 8.0,
+    "loud_sd_db": 9.26,
+    "pause": 0.083,
+    "dur": 2.39,
+    "wpm": 201.1,
+    "asr": "it pledges 47 tons of its own gold."
+   },
+   "K_omnivoice_rewind_v2/pledge_1b": {
+    "f0_hz": 195.9,
+    "f0_sd_st": 4.49,
+    "f0_range_st": 15.5,
+    "loud_sd_db": 8.83,
+    "pause": 0.115,
+    "dur": 2.5,
+    "wpm": 240.2,
+    "asr": "with the Bank of England and the Bank of Japan."
+   },
+   "K_omnivoice_rewind_v2/pledge_2": {
+    "f0_hz": 197.0,
+    "f0_sd_st": 2.03,
+    "f0_range_st": 7.18,
+    "loud_sd_db": 7.97,
+    "pause": 0.045,
+    "dur": 1.5,
+    "wpm": 199.9,
+    "asr": "The gold leaves the country."
+   },
+   "K_omnivoice_rewind_v2/pledge_3": {
+    "f0_hz": 190.0,
+    "f0_sd_st": 3.6,
+    "f0_range_st": 11.85,
+    "loud_sd_db": 7.21,
+    "pause": 0.035,
+    "dur": 0.99,
+    "wpm": 181.8,
+    "asr": "as a guarantee."
+   },
+   "K_omnivoice_rewind_v2/reform_0": {
+    "f0_hz": 186.4,
+    "f0_sd_st": 5.62,
+    "f0_range_st": 19.03,
+    "loud_sd_db": 7.08,
+    "pause": 0.041,
+    "dur": 1.89,
+    "wpm": 253.8,
+    "asr": "that July the rupee is cut in value."
+   },
+   "K_omnivoice_rewind_v2/reform_1": {
+    "f0_hz": 200.9,
+    "f0_sd_st": 3.89,
+    "f0_range_st": 11.34,
+    "loud_sd_db": 8.72,
+    "pause": 0.07,
+    "dur": 2.07,
+    "wpm": 203.0,
+    "asr": "and India starts opening up its economy."
+   },
+   "K_omnivoice_rewind_v2/smuggled_0": {
+    "f0_hz": 195.7,
+    "f0_sd_st": 3.12,
+    "f0_range_st": 9.54,
+    "loud_sd_db": 8.0,
+    "pause": 0.047,
+    "dur": 3.26,
+    "wpm": 184.0,
+    "asr": "First, 20 tons of gold seized from smugglers is sold."
+   },
+   "K_omnivoice_rewind_v2/smuggled_1": {
+    "f0_hz": 196.2,
+    "f0_sd_st": 2.82,
+    "f0_range_st": 7.87,
+    "loud_sd_db": 9.75,
+    "pause": 0.111,
+    "dur": 1.72,
+    "wpm": 244.6,
+    "asr": "with a promise to buy it back."
+   },
+   "K_omnivoice_rewind_v2/smuggled_2": {
+    "f0_hz": 185.0,
+    "f0_sd_st": 3.25,
+    "f0_range_st": 11.57,
+    "loud_sd_db": 7.36,
+    "pause": 0.038,
+    "dur": 1.75,
+    "wpm": 102.9,
+    "asr": "about $200 million."
+   },
+   "K_omnivoice_rewind_v2/smuggled_3": {
+    "f0_hz": 204.6,
+    "f0_sd_st": 4.22,
+    "f0_range_st": 11.72,
+    "loud_sd_db": 11.52,
+    "pause": 0.075,
+    "dur": 0.93,
+    "wpm": 128.9,
+    "asr": "Not enough."
+   },
+   "K_omnivoice_rewind_v2/today_0": {
+    "f0_hz": 189.1,
+    "f0_sd_st": 4.6,
+    "f0_range_st": 19.83,
+    "loud_sd_db": 7.78,
+    "pause": 0.092,
+    "dur": 3.54,
+    "wpm": 220.2,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "K_omnivoice_rewind_v2/today_1": {
+    "f0_hz": 191.1,
+    "f0_sd_st": 4.31,
+    "f0_range_st": 13.5,
+    "loud_sd_db": 8.15,
+    "pause": 0.064,
+    "dur": 1.09,
+    "wpm": 220.6,
+    "asr": "But the real lesson?"
+   },
+   "K_omnivoice_rewind_v2/today_2": {
+    "f0_hz": 198.9,
+    "f0_sd_st": 4.21,
+    "f0_range_st": 10.43,
+    "loud_sd_db": 8.74,
+    "pause": 0.073,
+    "dur": 3.15,
+    "wpm": 228.4,
+    "asr": "Keep cash for emergencies so you never have to pawn the gold."
+   },
+   "K_omnivoice_rewind_v3/empty_0": {
+    "f0_hz": 190.8,
+    "f0_sd_st": 3.36,
+    "f0_range_st": 10.23,
+    "loud_sd_db": 8.29,
+    "pause": 0.183,
+    "dur": 3.57,
+    "wpm": 117.8,
+    "asr": "1991. India is running out of dollars."
+   },
+   "K_omnivoice_rewind_v3/empty_1": {
+    "f0_hz": 198.9,
+    "f0_sd_st": 2.69,
+    "f0_range_st": 6.54,
+    "loud_sd_db": 9.84,
+    "pause": 0.103,
+    "dur": 2.86,
+    "wpm": 209.4,
+    "asr": "What's left pays for just a few weeks of imports."
+   },
+   "K_omnivoice_rewind_v3/empty_2": {
+    "f0_hz": 235.9,
+    "f0_sd_st": 7.99,
+    "f0_range_st": 24.27,
+    "loud_sd_db": 9.18,
+    "pause": 0.113,
+    "dur": 0.65,
+    "wpm": 186.0,
+    "asr": "Run out."
+   },
+   "K_omnivoice_rewind_v3/empty_3": {
+    "f0_hz": 192.4,
+    "f0_sd_st": 7.34,
+    "f0_range_st": 26.84,
+    "loud_sd_db": 9.39,
+    "pause": 0.232,
+    "dur": 1.59,
+    "wpm": 113.1,
+    "asr": "and India defaults."
+   },
+   "K_omnivoice_rewind_v3/home_0": {
+    "f0_hz": 197.8,
+    "f0_sd_st": 3.42,
+    "f0_range_st": 10.34,
+    "loud_sd_db": 7.93,
+    "pause": 0.025,
+    "dur": 1.8,
+    "wpm": 100.1,
+    "asr": "and in 2024."
+   },
+   "K_omnivoice_rewind_v3/home_1": {
+    "f0_hz": 181.3,
+    "f0_sd_st": 2.79,
+    "f0_range_st": 8.01,
+    "loud_sd_db": 8.05,
+    "pause": 0.13,
+    "dur": 5.67,
+    "wpm": 169.4,
+    "asr": "The RBI moved about 100 tons of its gold from the UK, back home to India."
+   },
+   "K_omnivoice_rewind_v3/loop_0": {
+    "f0_hz": 176.8,
+    "f0_sd_st": 3.74,
+    "f0_range_st": 10.71,
+    "loud_sd_db": 9.24,
+    "pause": 0.187,
+    "dur": 3.96,
+    "wpm": 166.5,
+    "asr": "And for India, it all began with the dollars running out."
+   },
+   "K_omnivoice_rewind_v3/open_0": {
+    "f0_hz": 201.5,
+    "f0_sd_st": 3.08,
+    "f0_range_st": 8.17,
+    "loud_sd_db": 6.28,
+    "pause": 0.041,
+    "dur": 1.89,
+    "wpm": 190.3,
+    "asr": "Gold just hit a one-year low."
+   },
+   "K_omnivoice_rewind_v3/open_1": {
+    "f0_hz": 196.2,
+    "f0_sd_st": 4.13,
+    "f0_range_st": 8.53,
+    "loud_sd_db": 8.25,
+    "pause": 0.027,
+    "dur": 1.68,
+    "wpm": 107.0,
+    "asr": "days before Dontaras."
+   },
+   "K_omnivoice_rewind_v3/open_2": {
+    "f0_hz": 195.8,
+    "f0_sd_st": 3.81,
+    "f0_range_st": 10.74,
+    "loud_sd_db": 7.5,
+    "pause": 0.126,
+    "dur": 3.73,
+    "wpm": 160.8,
+    "asr": "But in 1991, India had to pawn its own gold."
+   },
+   "K_omnivoice_rewind_v3/open_3": {
+    "f0_hz": 179.1,
+    "f0_sd_st": 3.0,
+    "f0_range_st": 9.16,
+    "loud_sd_db": 8.46,
+    "pause": 0.099,
+    "dur": 1.47,
+    "wpm": 203.5,
+    "asr": "just to pay its bills."
+   },
+   "K_omnivoice_rewind_v3/pawn_0": {
+    "f0_hz": 188.8,
+    "f0_sd_st": 2.83,
+    "f0_range_st": 8.89,
+    "loud_sd_db": 7.51,
+    "pause": 0.179,
+    "dur": 3.6,
+    "wpm": 116.8,
+    "asr": "In return, about $400 million in loans."
+   },
+   "K_omnivoice_rewind_v3/pawn_1": {
+    "f0_hz": 225.9,
+    "f0_sd_st": 4.57,
+    "f0_range_st": 13.08,
+    "loud_sd_db": 10.3,
+    "pause": 0.105,
+    "dur": 0.89,
+    "wpm": 202.6,
+    "asr": "A pawn shop."
+   },
+   "K_omnivoice_rewind_v3/pawn_2": {
+    "f0_hz": 219.9,
+    "f0_sd_st": 4.45,
+    "f0_range_st": 10.77,
+    "loud_sd_db": 8.92,
+    "pause": 0.085,
+    "dur": 0.84,
+    "wpm": 214.7,
+    "asr": "for a country."
+   },
+   "K_omnivoice_rewind_v3/pledge_0": {
+    "f0_hz": 180.2,
+    "f0_sd_st": 2.39,
+    "f0_range_st": 8.19,
+    "loud_sd_db": 8.26,
+    "pause": 0.137,
+    "dur": 2.03,
+    "wpm": 206.8,
+    "asr": "so the RBI takes a bigger step."
+   },
+   "K_omnivoice_rewind_v3/pledge_1": {
+    "f0_hz": 194.5,
+    "f0_sd_st": 2.37,
+    "f0_range_st": 8.5,
+    "loud_sd_db": 9.06,
+    "pause": 0.074,
+    "dur": 2.94,
+    "wpm": 163.0,
+    "asr": "It pledges 47 tons of its own gold."
+   },
+   "K_omnivoice_rewind_v3/pledge_1b": {
+    "f0_hz": 197.1,
+    "f0_sd_st": 3.09,
+    "f0_range_st": 9.04,
+    "loud_sd_db": 8.73,
+    "pause": 0.16,
+    "dur": 2.82,
+    "wpm": 212.9,
+    "asr": "with the Bank of England and the Bank of Japan."
+   },
+   "K_omnivoice_rewind_v3/pledge_2": {
+    "f0_hz": 200.1,
+    "f0_sd_st": 1.97,
+    "f0_range_st": 6.71,
+    "loud_sd_db": 8.32,
+    "pause": 0.108,
+    "dur": 1.76,
+    "wpm": 170.5,
+    "asr": "The gold leaves the country."
+   },
+   "K_omnivoice_rewind_v3/pledge_3": {
+    "f0_hz": 194.9,
+    "f0_sd_st": 2.97,
+    "f0_range_st": 6.83,
+    "loud_sd_db": 7.55,
+    "pause": 0.051,
+    "dur": 1.13,
+    "wpm": 159.9,
+    "asr": "as a guarantee."
+   },
+   "K_omnivoice_rewind_v3/reform_0": {
+    "f0_hz": 186.6,
+    "f0_sd_st": 2.37,
+    "f0_range_st": 7.5,
+    "loud_sd_db": 7.31,
+    "pause": 0.03,
+    "dur": 2.22,
+    "wpm": 216.2,
+    "asr": "That July, the rupee is cut in value."
+   },
+   "K_omnivoice_rewind_v3/reform_1": {
+    "f0_hz": 195.0,
+    "f0_sd_st": 2.89,
+    "f0_range_st": 8.63,
+    "loud_sd_db": 8.88,
+    "pause": 0.076,
+    "dur": 2.32,
+    "wpm": 180.9,
+    "asr": "and India starts opening up its economy."
+   },
+   "K_omnivoice_rewind_v3/smuggled_0": {
+    "f0_hz": 199.5,
+    "f0_sd_st": 3.4,
+    "f0_range_st": 11.54,
+    "loud_sd_db": 8.41,
+    "pause": 0.166,
+    "dur": 3.74,
+    "wpm": 160.2,
+    "asr": "First, 20 tons of gold seized from smugglers is sold."
+   },
+   "K_omnivoice_rewind_v3/smuggled_1": {
+    "f0_hz": 203.2,
+    "f0_sd_st": 2.9,
+    "f0_range_st": 8.77,
+    "loud_sd_db": 10.55,
+    "pause": 0.126,
+    "dur": 1.77,
+    "wpm": 236.8,
+    "asr": "with a promise to buy it back."
+   },
+   "K_omnivoice_rewind_v3/smuggled_2": {
+    "f0_hz": 190.7,
+    "f0_sd_st": 2.96,
+    "f0_range_st": 8.76,
+    "loud_sd_db": 7.48,
+    "pause": 0.058,
+    "dur": 1.93,
+    "wpm": 93.3,
+    "asr": "about $200 million."
+   },
+   "K_omnivoice_rewind_v3/smuggled_3": {
+    "f0_hz": 185.2,
+    "f0_sd_st": 1.48,
+    "f0_range_st": 3.9,
+    "loud_sd_db": 10.49,
+    "pause": 0.075,
+    "dur": 0.8,
+    "wpm": 150.7,
+    "asr": "Not enough."
+   },
+   "K_omnivoice_rewind_v3/today_0": {
+    "f0_hz": 200.1,
+    "f0_sd_st": 4.14,
+    "f0_range_st": 11.7,
+    "loud_sd_db": 8.01,
+    "pause": 0.176,
+    "dur": 4.43,
+    "wpm": 176.0,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it."
+   },
+   "K_omnivoice_rewind_v3/today_1": {
+    "f0_hz": 232.1,
+    "f0_sd_st": 3.54,
+    "f0_range_st": 10.3,
+    "loud_sd_db": 8.63,
+    "pause": 0.08,
+    "dur": 1.01,
+    "wpm": 238.1,
+    "asr": "But the real lesson?"
+   },
+   "K_omnivoice_rewind_v3/today_2": {
+    "f0_hz": 192.5,
+    "f0_sd_st": 4.6,
+    "f0_range_st": 19.93,
+    "loud_sd_db": 8.59,
+    "pause": 0.105,
+    "dur": 4.14,
+    "wpm": 173.8,
+    "asr": "Keep cash for emergencies, so you never have to pawn the gold."
+   }
+  },
+  "aesthetics": {
+   "H_kokoro_mm_v2/broad_0": {
+    "CE": 5.56,
+    "CU": 6.96,
+    "PC": 1.43,
+    "PQ": 6.62
+   },
+   "H_kokoro_mm_v2/broad_1": {
+    "CE": 6.42,
+    "CU": 7.38,
+    "PC": 1.43,
+    "PQ": 7.78
+   },
+   "H_kokoro_mm_v2/guess_0": {
+    "CE": 6.35,
+    "CU": 7.36,
+    "PC": 1.43,
+    "PQ": 7.83
+   },
+   "H_kokoro_mm_v2/guess_1": {
+    "CE": 6.41,
+    "CU": 7.55,
+    "PC": 1.4,
+    "PQ": 7.6
+   },
+   "H_kokoro_mm_v2/hook_0": {
+    "CE": 6.39,
+    "CU": 7.4,
+    "PC": 1.44,
+    "PQ": 7.67
+   },
+   "H_kokoro_mm_v2/hook_1": {
+    "CE": 5.34,
+    "CU": 6.71,
+    "PC": 1.41,
+    "PQ": 6.52
+   },
+   "H_kokoro_mm_v2/levels_0": {
+    "CE": 5.95,
+    "CU": 7.0,
+    "PC": 1.44,
+    "PQ": 7.33
+   },
+   "H_kokoro_mm_v2/levels_1": {
+    "CE": 5.87,
+    "CU": 6.81,
+    "PC": 1.4,
+    "PQ": 7.0
+   },
+   "H_kokoro_mm_v2/loop_0": {
+    "CE": 5.62,
+    "CU": 6.66,
+    "PC": 1.47,
+    "PQ": 6.94
+   },
+   "H_kokoro_mm_v2/reveal_0": {
+    "CE": 5.74,
+    "CU": 6.86,
+    "PC": 1.38,
+    "PQ": 6.85
+   },
+   "H_kokoro_mm_v2/reveal_1": {
+    "CE": 4.83,
+    "CU": 6.17,
+    "PC": 1.42,
+    "PQ": 6.56
+   },
+   "H_kokoro_mm_v2/reveal_2": {
+    "CE": 6.3,
+    "CU": 7.25,
+    "PC": 1.42,
+    "PQ": 7.66
+   },
+   "H_kokoro_mm_v2/reveal_3": {
+    "CE": 5.93,
+    "CU": 7.12,
+    "PC": 1.44,
+    "PQ": 7.18
+   },
+   "H_kokoro_mm_v2/why_0": {
+    "CE": 5.56,
+    "CU": 6.57,
+    "PC": 1.38,
+    "PQ": 6.93
+   },
+   "H_kokoro_mm_v2/why_1": {
+    "CE": 6.46,
+    "CU": 7.38,
+    "PC": 1.41,
+    "PQ": 7.74
+   },
+   "H_kokoro_mm_v2/you_0": {
+    "CE": 5.8,
+    "CU": 7.1,
+    "PC": 1.44,
+    "PQ": 7.25
+   },
+   "H_kokoro_mm_v2/you_1": {
+    "CE": 6.48,
+    "CU": 7.51,
+    "PC": 1.42,
+    "PQ": 7.83
+   },
+   "H_kokoro_mm_v2/you_2": {
+    "CE": 6.51,
+    "CU": 7.43,
+    "PC": 1.4,
+    "PQ": 7.77
+   },
+   "H_kokoro_mm_v3/broad_0": {
+    "CE": 5.52,
+    "CU": 6.82,
+    "PC": 1.43,
+    "PQ": 6.61
+   },
+   "H_kokoro_mm_v3/broad_1": {
+    "CE": 6.39,
+    "CU": 7.29,
+    "PC": 1.43,
+    "PQ": 7.67
+   },
+   "H_kokoro_mm_v3/guess_0": {
+    "CE": 6.37,
+    "CU": 7.36,
+    "PC": 1.43,
+    "PQ": 7.81
+   },
+   "H_kokoro_mm_v3/guess_1": {
+    "CE": 6.34,
+    "CU": 7.51,
+    "PC": 1.4,
+    "PQ": 7.53
+   },
+   "H_kokoro_mm_v3/hook_0": {
+    "CE": 6.43,
+    "CU": 7.4,
+    "PC": 1.44,
+    "PQ": 7.73
+   },
+   "H_kokoro_mm_v3/hook_1": {
+    "CE": 5.36,
+    "CU": 6.59,
+    "PC": 1.42,
+    "PQ": 6.47
+   },
+   "H_kokoro_mm_v3/levels_0": {
+    "CE": 6.11,
+    "CU": 7.16,
+    "PC": 1.43,
+    "PQ": 7.46
+   },
+   "H_kokoro_mm_v3/levels_1": {
+    "CE": 5.98,
+    "CU": 6.92,
+    "PC": 1.39,
+    "PQ": 7.05
+   },
+   "H_kokoro_mm_v3/loop_0": {
+    "CE": 5.62,
+    "CU": 6.66,
+    "PC": 1.47,
+    "PQ": 6.94
+   },
+   "H_kokoro_mm_v3/reveal_0": {
+    "CE": 5.75,
+    "CU": 6.92,
+    "PC": 1.39,
+    "PQ": 6.86
+   },
+   "H_kokoro_mm_v3/reveal_1": {
+    "CE": 4.85,
+    "CU": 6.25,
+    "PC": 1.42,
+    "PQ": 6.6
+   },
+   "H_kokoro_mm_v3/reveal_2": {
+    "CE": 6.33,
+    "CU": 7.25,
+    "PC": 1.42,
+    "PQ": 7.63
+   },
+   "H_kokoro_mm_v3/reveal_3": {
+    "CE": 5.93,
+    "CU": 7.12,
+    "PC": 1.44,
+    "PQ": 7.18
+   },
+   "H_kokoro_mm_v3/why_0": {
+    "CE": 5.56,
+    "CU": 6.57,
+    "PC": 1.38,
+    "PQ": 6.93
+   },
+   "H_kokoro_mm_v3/why_1": {
+    "CE": 6.5,
+    "CU": 7.39,
+    "PC": 1.41,
+    "PQ": 7.76
+   },
+   "H_kokoro_mm_v3/you_0": {
+    "CE": 5.8,
+    "CU": 7.09,
+    "PC": 1.44,
+    "PQ": 7.24
+   },
+   "H_kokoro_mm_v3/you_1": {
+    "CE": 6.47,
+    "CU": 7.5,
+    "PC": 1.42,
+    "PQ": 7.85
+   },
+   "H_kokoro_mm_v3/you_2": {
+    "CE": 6.5,
+    "CU": 7.43,
+    "PC": 1.4,
+    "PQ": 7.79
+   },
+   "I_omnivoice_mm_v2/broad_0": {
+    "CE": 5.36,
+    "CU": 6.81,
+    "PC": 1.42,
+    "PQ": 6.65
+   },
+   "I_omnivoice_mm_v2/broad_1": {
+    "CE": 6.16,
+    "CU": 7.29,
+    "PC": 1.45,
+    "PQ": 7.56
+   },
+   "I_omnivoice_mm_v2/guess_0": {
+    "CE": 6.25,
+    "CU": 7.37,
+    "PC": 1.4,
+    "PQ": 7.75
+   },
+   "I_omnivoice_mm_v2/guess_1": {
+    "CE": 5.91,
+    "CU": 7.23,
+    "PC": 1.39,
+    "PQ": 7.34
+   },
+   "I_omnivoice_mm_v2/hook_0": {
+    "CE": 6.11,
+    "CU": 7.33,
+    "PC": 1.47,
+    "PQ": 7.51
+   },
+   "I_omnivoice_mm_v2/hook_1": {
+    "CE": 5.07,
+    "CU": 6.45,
+    "PC": 1.4,
+    "PQ": 6.65
+   },
+   "I_omnivoice_mm_v2/levels_0": {
+    "CE": 5.69,
+    "CU": 7.09,
+    "PC": 1.43,
+    "PQ": 7.19
+   },
+   "I_omnivoice_mm_v2/levels_1": {
+    "CE": 5.83,
+    "CU": 6.92,
+    "PC": 1.42,
+    "PQ": 7.18
+   },
+   "I_omnivoice_mm_v2/loop_0": {
+    "CE": 5.59,
+    "CU": 6.94,
+    "PC": 1.46,
+    "PQ": 7.09
+   },
+   "I_omnivoice_mm_v2/reveal_0": {
+    "CE": 5.9,
+    "CU": 6.81,
+    "PC": 1.41,
+    "PQ": 6.92
+   },
+   "I_omnivoice_mm_v2/reveal_1": {
+    "CE": 5.28,
+    "CU": 6.52,
+    "PC": 1.42,
+    "PQ": 6.91
+   },
+   "I_omnivoice_mm_v2/reveal_2": {
+    "CE": 5.73,
+    "CU": 7.1,
+    "PC": 1.41,
+    "PQ": 7.34
+   },
+   "I_omnivoice_mm_v2/reveal_3": {
+    "CE": 5.75,
+    "CU": 7.07,
+    "PC": 1.43,
+    "PQ": 7.18
+   },
+   "I_omnivoice_mm_v2/why_0": {
+    "CE": 5.42,
+    "CU": 6.46,
+    "PC": 1.4,
+    "PQ": 6.96
+   },
+   "I_omnivoice_mm_v2/why_1": {
+    "CE": 5.98,
+    "CU": 7.1,
+    "PC": 1.44,
+    "PQ": 7.55
+   },
+   "I_omnivoice_mm_v2/you_0": {
+    "CE": 5.77,
+    "CU": 7.16,
+    "PC": 1.43,
+    "PQ": 7.4
+   },
+   "I_omnivoice_mm_v2/you_1": {
+    "CE": 6.21,
+    "CU": 7.56,
+    "PC": 1.42,
+    "PQ": 7.75
+   },
+   "I_omnivoice_mm_v2/you_2": {
+    "CE": 6.31,
+    "CU": 7.58,
+    "PC": 1.4,
+    "PQ": 7.82
+   },
+   "I_omnivoice_mm_v3/broad_0": {
+    "CE": 5.1,
+    "CU": 6.7,
+    "PC": 1.45,
+    "PQ": 6.32
+   },
+   "I_omnivoice_mm_v3/broad_1": {
+    "CE": 6.33,
+    "CU": 7.34,
+    "PC": 1.42,
+    "PQ": 7.7
+   },
+   "I_omnivoice_mm_v3/guess_0": {
+    "CE": 6.22,
+    "CU": 7.5,
+    "PC": 1.47,
+    "PQ": 8.03
+   },
+   "I_omnivoice_mm_v3/guess_1": {
+    "CE": 6.16,
+    "CU": 7.21,
+    "PC": 1.39,
+    "PQ": 7.36
+   },
+   "I_omnivoice_mm_v3/hook_0": {
+    "CE": 6.27,
+    "CU": 7.44,
+    "PC": 1.45,
+    "PQ": 7.72
+   },
+   "I_omnivoice_mm_v3/hook_1": {
+    "CE": 5.39,
+    "CU": 6.53,
+    "PC": 1.39,
+    "PQ": 6.91
+   },
+   "I_omnivoice_mm_v3/levels_0": {
+    "CE": 6.15,
+    "CU": 7.4,
+    "PC": 1.41,
+    "PQ": 7.46
+   },
+   "I_omnivoice_mm_v3/levels_1": {
+    "CE": 5.88,
+    "CU": 7.12,
+    "PC": 1.41,
+    "PQ": 7.18
+   },
+   "I_omnivoice_mm_v3/loop_0": {
+    "CE": 5.64,
+    "CU": 6.78,
+    "PC": 1.43,
+    "PQ": 7.03
+   },
+   "I_omnivoice_mm_v3/reveal_0": {
+    "CE": 5.97,
+    "CU": 7.3,
+    "PC": 1.37,
+    "PQ": 7.45
+   },
+   "I_omnivoice_mm_v3/reveal_1": {
+    "CE": 5.43,
+    "CU": 6.53,
+    "PC": 1.44,
+    "PQ": 6.94
+   },
+   "I_omnivoice_mm_v3/reveal_2": {
+    "CE": 6.04,
+    "CU": 7.25,
+    "PC": 1.4,
+    "PQ": 7.48
+   },
+   "I_omnivoice_mm_v3/reveal_3": {
+    "CE": 5.87,
+    "CU": 7.15,
+    "PC": 1.43,
+    "PQ": 7.32
+   },
+   "I_omnivoice_mm_v3/why_0": {
+    "CE": 5.6,
+    "CU": 6.65,
+    "PC": 1.39,
+    "PQ": 7.03
+   },
+   "I_omnivoice_mm_v3/why_1": {
+    "CE": 6.45,
+    "CU": 7.4,
+    "PC": 1.42,
+    "PQ": 7.85
+   },
+   "I_omnivoice_mm_v3/you_0": {
+    "CE": 5.87,
+    "CU": 7.23,
+    "PC": 1.41,
+    "PQ": 7.38
+   },
+   "I_omnivoice_mm_v3/you_1": {
+    "CE": 6.42,
+    "CU": 7.54,
+    "PC": 1.42,
+    "PQ": 7.91
+   },
+   "I_omnivoice_mm_v3/you_2": {
+    "CE": 6.25,
+    "CU": 7.47,
+    "PC": 1.41,
+    "PQ": 7.82
+   },
+   "J_kokoro_rewind_v2/empty_0": {
+    "CE": 6.34,
+    "CU": 7.31,
+    "PC": 1.41,
+    "PQ": 7.74
+   },
+   "J_kokoro_rewind_v2/empty_1": {
+    "CE": 6.16,
+    "CU": 7.33,
+    "PC": 1.43,
+    "PQ": 7.47
+   },
+   "J_kokoro_rewind_v2/empty_2": {
+    "CE": 5.34,
+    "CU": 6.38,
+    "PC": 1.4,
+    "PQ": 6.89
+   },
+   "J_kokoro_rewind_v2/empty_3": {
+    "CE": 5.45,
+    "CU": 6.59,
+    "PC": 1.46,
+    "PQ": 7.2
+   },
+   "J_kokoro_rewind_v2/home_0": {
+    "CE": 5.82,
+    "CU": 6.83,
+    "PC": 1.45,
+    "PQ": 7.18
+   },
+   "J_kokoro_rewind_v2/home_1": {
+    "CE": 6.54,
+    "CU": 7.42,
+    "PC": 1.42,
+    "PQ": 7.99
+   },
+   "J_kokoro_rewind_v2/loop_0": {
+    "CE": 6.39,
+    "CU": 7.53,
+    "PC": 1.41,
+    "PQ": 7.93
+   },
+   "J_kokoro_rewind_v2/open_0": {
+    "CE": 6.15,
+    "CU": 7.24,
+    "PC": 1.42,
+    "PQ": 7.48
+   },
+   "J_kokoro_rewind_v2/open_1": {
+    "CE": 6.01,
+    "CU": 7.1,
+    "PC": 1.4,
+    "PQ": 7.19
+   },
+   "J_kokoro_rewind_v2/open_2": {
+    "CE": 6.37,
+    "CU": 7.32,
+    "PC": 1.42,
+    "PQ": 7.8
+   },
+   "J_kokoro_rewind_v2/open_3": {
+    "CE": 5.55,
+    "CU": 6.53,
+    "PC": 1.43,
+    "PQ": 7.01
+   },
+   "J_kokoro_rewind_v2/pawn_0": {
+    "CE": 6.49,
+    "CU": 7.34,
+    "PC": 1.39,
+    "PQ": 7.79
+   },
+   "J_kokoro_rewind_v2/pawn_1": {
+    "CE": 5.5,
+    "CU": 6.36,
+    "PC": 1.41,
+    "PQ": 6.76
+   },
+   "J_kokoro_rewind_v2/pawn_2": {
+    "CE": 5.65,
+    "CU": 6.89,
+    "PC": 1.4,
+    "PQ": 6.87
+   },
+   "J_kokoro_rewind_v2/pledge_0": {
+    "CE": 6.0,
+    "CU": 7.16,
+    "PC": 1.41,
+    "PQ": 7.28
+   },
+   "J_kokoro_rewind_v2/pledge_1": {
+    "CE": 6.15,
+    "CU": 7.33,
+    "PC": 1.45,
+    "PQ": 7.56
+   },
+   "J_kokoro_rewind_v2/pledge_1b": {
+    "CE": 6.28,
+    "CU": 7.35,
+    "PC": 1.4,
+    "PQ": 7.48
+   },
+   "J_kokoro_rewind_v2/pledge_2": {
+    "CE": 6.04,
+    "CU": 7.22,
+    "PC": 1.44,
+    "PQ": 7.33
+   },
+   "J_kokoro_rewind_v2/pledge_3": {
+    "CE": 5.46,
+    "CU": 6.57,
+    "PC": 1.42,
+    "PQ": 6.85
+   },
+   "J_kokoro_rewind_v2/reform_0": {
+    "CE": 6.13,
+    "CU": 7.24,
+    "PC": 1.42,
+    "PQ": 7.59
+   },
+   "J_kokoro_rewind_v2/reform_1": {
+    "CE": 6.18,
+    "CU": 7.23,
+    "PC": 1.41,
+    "PQ": 7.64
+   },
+   "J_kokoro_rewind_v2/smuggled_0": {
+    "CE": 6.28,
+    "CU": 7.36,
+    "PC": 1.46,
+    "PQ": 7.77
+   },
+   "J_kokoro_rewind_v2/smuggled_1": {
+    "CE": 5.71,
+    "CU": 6.89,
+    "PC": 1.41,
+    "PQ": 7.23
+   },
+   "J_kokoro_rewind_v2/smuggled_2": {
+    "CE": 6.15,
+    "CU": 7.13,
+    "PC": 1.41,
+    "PQ": 7.44
+   },
+   "J_kokoro_rewind_v2/smuggled_3": {
+    "CE": 5.36,
+    "CU": 6.58,
+    "PC": 1.5,
+    "PQ": 6.61
+   },
+   "J_kokoro_rewind_v2/today_0": {
+    "CE": 6.48,
+    "CU": 7.36,
+    "PC": 1.42,
+    "PQ": 7.84
+   },
+   "J_kokoro_rewind_v2/today_1": {
+    "CE": 5.63,
+    "CU": 6.78,
+    "PC": 1.44,
+    "PQ": 7.0
+   },
+   "J_kokoro_rewind_v2/today_2": {
+    "CE": 6.49,
+    "CU": 7.45,
+    "PC": 1.45,
+    "PQ": 7.88
+   },
+   "J_kokoro_rewind_v3/empty_0": {
+    "CE": 6.4,
+    "CU": 7.39,
+    "PC": 1.4,
+    "PQ": 7.87
+   },
+   "J_kokoro_rewind_v3/empty_1": {
+    "CE": 6.15,
+    "CU": 7.28,
+    "PC": 1.44,
+    "PQ": 7.51
+   },
+   "J_kokoro_rewind_v3/empty_2": {
+    "CE": 5.68,
+    "CU": 6.51,
+    "PC": 1.37,
+    "PQ": 6.87
+   },
+   "J_kokoro_rewind_v3/empty_3": {
+    "CE": 5.68,
+    "CU": 6.68,
+    "PC": 1.45,
+    "PQ": 7.25
+   },
+   "J_kokoro_rewind_v3/home_0": {
+    "CE": 5.83,
+    "CU": 6.76,
+    "PC": 1.43,
+    "PQ": 7.11
+   },
+   "J_kokoro_rewind_v3/home_1": {
+    "CE": 6.43,
+    "CU": 7.38,
+    "PC": 1.41,
+    "PQ": 7.93
+   },
+   "J_kokoro_rewind_v3/loop_0": {
+    "CE": 6.44,
+    "CU": 7.51,
+    "PC": 1.39,
+    "PQ": 7.95
+   },
+   "J_kokoro_rewind_v3/open_0": {
+    "CE": 6.03,
+    "CU": 7.09,
+    "PC": 1.4,
+    "PQ": 7.28
+   },
+   "J_kokoro_rewind_v3/open_1": {
+    "CE": 6.08,
+    "CU": 7.16,
+    "PC": 1.4,
+    "PQ": 7.2
+   },
+   "J_kokoro_rewind_v3/open_2": {
+    "CE": 6.46,
+    "CU": 7.33,
+    "PC": 1.4,
+    "PQ": 7.86
+   },
+   "J_kokoro_rewind_v3/open_3": {
+    "CE": 5.66,
+    "CU": 6.69,
+    "PC": 1.43,
+    "PQ": 7.01
+   },
+   "J_kokoro_rewind_v3/pawn_0": {
+    "CE": 6.46,
+    "CU": 7.33,
+    "PC": 1.38,
+    "PQ": 7.81
+   },
+   "J_kokoro_rewind_v3/pawn_1": {
+    "CE": 5.45,
+    "CU": 6.23,
+    "PC": 1.4,
+    "PQ": 6.72
+   },
+   "J_kokoro_rewind_v3/pawn_2": {
+    "CE": 5.64,
+    "CU": 6.84,
+    "PC": 1.38,
+    "PQ": 6.86
+   },
+   "J_kokoro_rewind_v3/pledge_0": {
+    "CE": 5.96,
+    "CU": 7.08,
+    "PC": 1.39,
+    "PQ": 7.3
+   },
+   "J_kokoro_rewind_v3/pledge_1": {
+    "CE": 6.27,
+    "CU": 7.37,
+    "PC": 1.44,
+    "PQ": 7.56
+   },
+   "J_kokoro_rewind_v3/pledge_1b": {
+    "CE": 6.36,
+    "CU": 7.4,
+    "PC": 1.39,
+    "PQ": 7.51
+   },
+   "J_kokoro_rewind_v3/pledge_2": {
+    "CE": 6.0,
+    "CU": 7.15,
+    "PC": 1.44,
+    "PQ": 7.3
+   },
+   "J_kokoro_rewind_v3/pledge_3": {
+    "CE": 5.52,
+    "CU": 6.68,
+    "PC": 1.46,
+    "PQ": 6.77
+   },
+   "J_kokoro_rewind_v3/reform_0": {
+    "CE": 6.27,
+    "CU": 7.31,
+    "PC": 1.4,
+    "PQ": 7.67
+   },
+   "J_kokoro_rewind_v3/reform_1": {
+    "CE": 6.25,
+    "CU": 7.27,
+    "PC": 1.41,
+    "PQ": 7.67
+   },
+   "J_kokoro_rewind_v3/smuggled_0": {
+    "CE": 6.28,
+    "CU": 7.26,
+    "PC": 1.45,
+    "PQ": 7.76
+   },
+   "J_kokoro_rewind_v3/smuggled_1": {
+    "CE": 5.8,
+    "CU": 6.95,
+    "PC": 1.4,
+    "PQ": 7.29
+   },
+   "J_kokoro_rewind_v3/smuggled_2": {
+    "CE": 6.14,
+    "CU": 7.13,
+    "PC": 1.41,
+    "PQ": 7.38
+   },
+   "J_kokoro_rewind_v3/smuggled_3": {
+    "CE": 5.44,
+    "CU": 6.52,
+    "PC": 1.51,
+    "PQ": 6.73
+   },
+   "J_kokoro_rewind_v3/today_0": {
+    "CE": 6.51,
+    "CU": 7.36,
+    "PC": 1.42,
+    "PQ": 7.85
+   },
+   "J_kokoro_rewind_v3/today_1": {
+    "CE": 5.68,
+    "CU": 6.78,
+    "PC": 1.43,
+    "PQ": 7.02
+   },
+   "J_kokoro_rewind_v3/today_2": {
+    "CE": 6.51,
+    "CU": 7.36,
+    "PC": 1.44,
+    "PQ": 7.86
+   },
+   "K_omnivoice_rewind_v2/empty_0": {
+    "CE": 6.3,
+    "CU": 7.5,
+    "PC": 1.41,
+    "PQ": 7.86
+   },
+   "K_omnivoice_rewind_v2/empty_1": {
+    "CE": 5.92,
+    "CU": 7.29,
+    "PC": 1.45,
+    "PQ": 7.49
+   },
+   "K_omnivoice_rewind_v2/empty_2": {
+    "CE": 5.37,
+    "CU": 6.71,
+    "PC": 1.38,
+    "PQ": 7.07
+   },
+   "K_omnivoice_rewind_v2/empty_3": {
+    "CE": 5.65,
+    "CU": 6.98,
+    "PC": 1.44,
+    "PQ": 7.39
+   },
+   "K_omnivoice_rewind_v2/home_0": {
+    "CE": 6.01,
+    "CU": 7.27,
+    "PC": 1.38,
+    "PQ": 7.41
+   },
+   "K_omnivoice_rewind_v2/home_1": {
+    "CE": 6.48,
+    "CU": 7.49,
+    "PC": 1.44,
+    "PQ": 7.97
+   },
+   "K_omnivoice_rewind_v2/loop_0": {
+    "CE": 6.23,
+    "CU": 7.51,
+    "PC": 1.4,
+    "PQ": 7.85
+   },
+   "K_omnivoice_rewind_v2/open_0": {
+    "CE": 6.03,
+    "CU": 7.42,
+    "PC": 1.43,
+    "PQ": 7.58
+   },
+   "K_omnivoice_rewind_v2/open_1": {
+    "CE": 6.01,
+    "CU": 7.23,
+    "PC": 1.41,
+    "PQ": 7.26
+   },
+   "K_omnivoice_rewind_v2/open_2": {
+    "CE": 6.19,
+    "CU": 7.35,
+    "PC": 1.45,
+    "PQ": 7.77
+   },
+   "K_omnivoice_rewind_v2/open_3": {
+    "CE": 5.12,
+    "CU": 6.31,
+    "PC": 1.48,
+    "PQ": 6.74
+   },
+   "K_omnivoice_rewind_v2/pawn_0": {
+    "CE": 6.3,
+    "CU": 7.47,
+    "PC": 1.41,
+    "PQ": 7.78
+   },
+   "K_omnivoice_rewind_v2/pawn_1": {
+    "CE": 5.44,
+    "CU": 6.46,
+    "PC": 1.4,
+    "PQ": 6.61
+   },
+   "K_omnivoice_rewind_v2/pawn_2": {
+    "CE": 5.32,
+    "CU": 6.41,
+    "PC": 1.36,
+    "PQ": 6.78
+   },
+   "K_omnivoice_rewind_v2/pledge_0": {
+    "CE": 5.98,
+    "CU": 7.35,
+    "PC": 1.42,
+    "PQ": 7.47
+   },
+   "K_omnivoice_rewind_v2/pledge_1": {
+    "CE": 6.13,
+    "CU": 7.53,
+    "PC": 1.46,
+    "PQ": 7.72
+   },
+   "K_omnivoice_rewind_v2/pledge_1b": {
+    "CE": 6.33,
+    "CU": 7.43,
+    "PC": 1.39,
+    "PQ": 7.55
+   },
+   "K_omnivoice_rewind_v2/pledge_2": {
+    "CE": 5.96,
+    "CU": 7.29,
+    "PC": 1.44,
+    "PQ": 7.49
+   },
+   "K_omnivoice_rewind_v2/pledge_3": {
+    "CE": 5.44,
+    "CU": 6.67,
+    "PC": 1.42,
+    "PQ": 6.69
+   },
+   "K_omnivoice_rewind_v2/reform_0": {
+    "CE": 5.93,
+    "CU": 7.18,
+    "PC": 1.41,
+    "PQ": 7.39
+   },
+   "K_omnivoice_rewind_v2/reform_1": {
+    "CE": 6.11,
+    "CU": 7.3,
+    "PC": 1.44,
+    "PQ": 7.66
+   },
+   "K_omnivoice_rewind_v2/smuggled_0": {
+    "CE": 6.05,
+    "CU": 7.29,
+    "PC": 1.48,
+    "PQ": 7.69
+   },
+   "K_omnivoice_rewind_v2/smuggled_1": {
+    "CE": 5.85,
+    "CU": 7.07,
+    "PC": 1.43,
+    "PQ": 7.43
+   },
+   "K_omnivoice_rewind_v2/smuggled_2": {
+    "CE": 5.96,
+    "CU": 7.15,
+    "PC": 1.42,
+    "PQ": 7.43
+   },
+   "K_omnivoice_rewind_v2/smuggled_3": {
+    "CE": 5.68,
+    "CU": 6.7,
+    "PC": 1.39,
+    "PQ": 7.07
+   },
+   "K_omnivoice_rewind_v2/today_0": {
+    "CE": 6.16,
+    "CU": 7.44,
+    "PC": 1.44,
+    "PQ": 7.85
+   },
+   "K_omnivoice_rewind_v2/today_1": {
+    "CE": 5.87,
+    "CU": 7.19,
+    "PC": 1.4,
+    "PQ": 7.37
+   },
+   "K_omnivoice_rewind_v2/today_2": {
+    "CE": 6.37,
+    "CU": 7.57,
+    "PC": 1.45,
+    "PQ": 7.89
+   },
+   "K_omnivoice_rewind_v3/empty_0": {
+    "CE": 6.42,
+    "CU": 7.56,
+    "PC": 1.43,
+    "PQ": 8.14
+   },
+   "K_omnivoice_rewind_v3/empty_1": {
+    "CE": 6.06,
+    "CU": 7.18,
+    "PC": 1.43,
+    "PQ": 7.46
+   },
+   "K_omnivoice_rewind_v3/empty_2": {
+    "CE": 5.39,
+    "CU": 6.5,
+    "PC": 1.39,
+    "PQ": 7.02
+   },
+   "K_omnivoice_rewind_v3/empty_3": {
+    "CE": 6.02,
+    "CU": 7.19,
+    "PC": 1.39,
+    "PQ": 7.67
+   },
+   "K_omnivoice_rewind_v3/home_0": {
+    "CE": 5.74,
+    "CU": 6.9,
+    "PC": 1.4,
+    "PQ": 6.98
+   },
+   "K_omnivoice_rewind_v3/home_1": {
+    "CE": 6.51,
+    "CU": 7.39,
+    "PC": 1.42,
+    "PQ": 8.02
+   },
+   "K_omnivoice_rewind_v3/loop_0": {
+    "CE": 6.5,
+    "CU": 7.48,
+    "PC": 1.41,
+    "PQ": 8.11
+   },
+   "K_omnivoice_rewind_v3/open_0": {
+    "CE": 5.93,
+    "CU": 7.21,
+    "PC": 1.44,
+    "PQ": 7.32
+   },
+   "K_omnivoice_rewind_v3/open_1": {
+    "CE": 6.15,
+    "CU": 7.34,
+    "PC": 1.39,
+    "PQ": 7.44
+   },
+   "K_omnivoice_rewind_v3/open_2": {
+    "CE": 6.44,
+    "CU": 7.47,
+    "PC": 1.43,
+    "PQ": 7.93
+   },
+   "K_omnivoice_rewind_v3/open_3": {
+    "CE": 5.44,
+    "CU": 6.7,
+    "PC": 1.43,
+    "PQ": 6.99
+   },
+   "K_omnivoice_rewind_v3/pawn_0": {
+    "CE": 6.4,
+    "CU": 7.51,
+    "PC": 1.39,
+    "PQ": 8.13
+   },
+   "K_omnivoice_rewind_v3/pawn_1": {
+    "CE": 5.45,
+    "CU": 6.49,
+    "PC": 1.38,
+    "PQ": 6.68
+   },
+   "K_omnivoice_rewind_v3/pawn_2": {
+    "CE": 5.62,
+    "CU": 6.81,
+    "PC": 1.39,
+    "PQ": 7.02
+   },
+   "K_omnivoice_rewind_v3/pledge_0": {
+    "CE": 6.1,
+    "CU": 7.37,
+    "PC": 1.39,
+    "PQ": 7.47
+   },
+   "K_omnivoice_rewind_v3/pledge_1": {
+    "CE": 6.29,
+    "CU": 7.56,
+    "PC": 1.43,
+    "PQ": 7.82
+   },
+   "K_omnivoice_rewind_v3/pledge_1b": {
+    "CE": 6.57,
+    "CU": 7.65,
+    "PC": 1.39,
+    "PQ": 7.84
+   },
+   "K_omnivoice_rewind_v3/pledge_2": {
+    "CE": 5.92,
+    "CU": 7.14,
+    "PC": 1.42,
+    "PQ": 7.32
+   },
+   "K_omnivoice_rewind_v3/pledge_3": {
+    "CE": 5.25,
+    "CU": 6.58,
+    "PC": 1.42,
+    "PQ": 6.58
+   },
+   "K_omnivoice_rewind_v3/reform_0": {
+    "CE": 6.06,
+    "CU": 7.12,
+    "PC": 1.4,
+    "PQ": 7.46
+   },
+   "K_omnivoice_rewind_v3/reform_1": {
+    "CE": 6.15,
+    "CU": 7.25,
+    "PC": 1.44,
+    "PQ": 7.74
+   },
+   "K_omnivoice_rewind_v3/smuggled_0": {
+    "CE": 6.38,
+    "CU": 7.41,
+    "PC": 1.45,
+    "PQ": 7.94
+   },
+   "K_omnivoice_rewind_v3/smuggled_1": {
+    "CE": 5.76,
+    "CU": 7.04,
+    "PC": 1.4,
+    "PQ": 7.37
+   },
+   "K_omnivoice_rewind_v3/smuggled_2": {
+    "CE": 6.1,
+    "CU": 7.23,
+    "PC": 1.41,
+    "PQ": 7.5
+   },
+   "K_omnivoice_rewind_v3/smuggled_3": {
+    "CE": 5.47,
+    "CU": 6.59,
+    "PC": 1.39,
+    "PQ": 6.87
+   },
+   "K_omnivoice_rewind_v3/today_0": {
+    "CE": 6.56,
+    "CU": 7.47,
+    "PC": 1.44,
+    "PQ": 8.06
+   },
+   "K_omnivoice_rewind_v3/today_1": {
+    "CE": 5.73,
+    "CU": 7.14,
+    "PC": 1.42,
+    "PQ": 7.28
+   },
+   "K_omnivoice_rewind_v3/today_2": {
+    "CE": 6.34,
+    "CU": 7.52,
+    "PC": 1.45,
+    "PQ": 8.02
+   }
+  },
+  "utmos": {
+   "H_kokoro_mm_v2/broad_0": {
+    "mos": 3.44
+   },
+   "H_kokoro_mm_v2/broad_1": {
+    "mos": 3.294
+   },
+   "H_kokoro_mm_v2/guess_0": {
+    "mos": 3.24
+   },
+   "H_kokoro_mm_v2/guess_1": {
+    "mos": 3.959
+   },
+   "H_kokoro_mm_v2/hook_0": {
+    "mos": 3.583
+   },
+   "H_kokoro_mm_v2/hook_1": {
+    "mos": 2.794
+   },
+   "H_kokoro_mm_v2/levels_0": {
+    "mos": 3.346
+   },
+   "H_kokoro_mm_v2/levels_1": {
+    "mos": 3.577
+   },
+   "H_kokoro_mm_v2/loop_0": {
+    "mos": 2.963
+   },
+   "H_kokoro_mm_v2/reveal_0": {
+    "mos": 2.988
+   },
+   "H_kokoro_mm_v2/reveal_1": {
+    "mos": 2.651
+   },
+   "H_kokoro_mm_v2/reveal_2": {
+    "mos": 3.782
+   },
+   "H_kokoro_mm_v2/reveal_3": {
+    "mos": 3.107
+   },
+   "H_kokoro_mm_v2/why_0": {
+    "mos": 3.063
+   },
+   "H_kokoro_mm_v2/why_1": {
+    "mos": 3.6
+   },
+   "H_kokoro_mm_v2/you_0": {
+    "mos": 3.191
+   },
+   "H_kokoro_mm_v2/you_1": {
+    "mos": 3.406
+   },
+   "H_kokoro_mm_v2/you_2": {
+    "mos": 3.64
+   },
+   "H_kokoro_mm_v3/broad_0": {
+    "mos": 3.434
+   },
+   "H_kokoro_mm_v3/broad_1": {
+    "mos": 3.452
+   },
+   "H_kokoro_mm_v3/guess_0": {
+    "mos": 3.391
+   },
+   "H_kokoro_mm_v3/guess_1": {
+    "mos": 3.752
+   },
+   "H_kokoro_mm_v3/hook_0": {
+    "mos": 3.444
+   },
+   "H_kokoro_mm_v3/hook_1": {
+    "mos": 2.463
+   },
+   "H_kokoro_mm_v3/levels_0": {
+    "mos": 3.552
+   },
+   "H_kokoro_mm_v3/levels_1": {
+    "mos": 3.614
+   },
+   "H_kokoro_mm_v3/loop_0": {
+    "mos": 2.903
+   },
+   "H_kokoro_mm_v3/reveal_0": {
+    "mos": 2.593
+   },
+   "H_kokoro_mm_v3/reveal_1": {
+    "mos": 2.436
+   },
+   "H_kokoro_mm_v3/reveal_2": {
+    "mos": 3.727
+   },
+   "H_kokoro_mm_v3/reveal_3": {
+    "mos": 2.966
+   },
+   "H_kokoro_mm_v3/why_0": {
+    "mos": 3.125
+   },
+   "H_kokoro_mm_v3/why_1": {
+    "mos": 3.903
+   },
+   "H_kokoro_mm_v3/you_0": {
+    "mos": 2.866
+   },
+   "H_kokoro_mm_v3/you_1": {
+    "mos": 2.933
+   },
+   "H_kokoro_mm_v3/you_2": {
+    "mos": 3.267
+   },
+   "I_omnivoice_mm_v2/broad_0": {
+    "mos": 3.65
+   },
+   "I_omnivoice_mm_v2/broad_1": {
+    "mos": 3.327
+   },
+   "I_omnivoice_mm_v2/guess_0": {
+    "mos": 3.709
+   },
+   "I_omnivoice_mm_v2/guess_1": {
+    "mos": 3.909
+   },
+   "I_omnivoice_mm_v2/hook_0": {
+    "mos": 3.349
+   },
+   "I_omnivoice_mm_v2/hook_1": {
+    "mos": 3.483
+   },
+   "I_omnivoice_mm_v2/levels_0": {
+    "mos": 3.002
+   },
+   "I_omnivoice_mm_v2/levels_1": {
+    "mos": 3.591
+   },
+   "I_omnivoice_mm_v2/loop_0": {
+    "mos": 2.799
+   },
+   "I_omnivoice_mm_v2/reveal_0": {
+    "mos": 2.86
+   },
+   "I_omnivoice_mm_v2/reveal_1": {
+    "mos": 2.662
+   },
+   "I_omnivoice_mm_v2/reveal_2": {
+    "mos": 3.288
+   },
+   "I_omnivoice_mm_v2/reveal_3": {
+    "mos": 3.332
+   },
+   "I_omnivoice_mm_v2/why_0": {
+    "mos": 3.801
+   },
+   "I_omnivoice_mm_v2/why_1": {
+    "mos": 3.41
+   },
+   "I_omnivoice_mm_v2/you_0": {
+    "mos": 3.058
+   },
+   "I_omnivoice_mm_v2/you_1": {
+    "mos": 3.148
+   },
+   "I_omnivoice_mm_v2/you_2": {
+    "mos": 3.136
+   },
+   "I_omnivoice_mm_v3/broad_0": {
+    "mos": 3.577
+   },
+   "I_omnivoice_mm_v3/broad_1": {
+    "mos": 3.256
+   },
+   "I_omnivoice_mm_v3/guess_0": {
+    "mos": 3.628
+   },
+   "I_omnivoice_mm_v3/guess_1": {
+    "mos": 3.886
+   },
+   "I_omnivoice_mm_v3/hook_0": {
+    "mos": 3.484
+   },
+   "I_omnivoice_mm_v3/hook_1": {
+    "mos": 3.025
+   },
+   "I_omnivoice_mm_v3/levels_0": {
+    "mos": 3.154
+   },
+   "I_omnivoice_mm_v3/levels_1": {
+    "mos": 3.581
+   },
+   "I_omnivoice_mm_v3/loop_0": {
+    "mos": 3.581
+   },
+   "I_omnivoice_mm_v3/reveal_0": {
+    "mos": 3.364
+   },
+   "I_omnivoice_mm_v3/reveal_1": {
+    "mos": 3.427
+   },
+   "I_omnivoice_mm_v3/reveal_2": {
+    "mos": 3.696
+   },
+   "I_omnivoice_mm_v3/reveal_3": {
+    "mos": 3.326
+   },
+   "I_omnivoice_mm_v3/why_0": {
+    "mos": 3.718
+   },
+   "I_omnivoice_mm_v3/why_1": {
+    "mos": 3.976
+   },
+   "I_omnivoice_mm_v3/you_0": {
+    "mos": 3.191
+   },
+   "I_omnivoice_mm_v3/you_1": {
+    "mos": 3.385
+   },
+   "I_omnivoice_mm_v3/you_2": {
+    "mos": 3.588
+   },
+   "J_kokoro_rewind_v2/empty_0": {
+    "mos": 3.668
+   },
+   "J_kokoro_rewind_v2/empty_1": {
+    "mos": 3.641
+   },
+   "J_kokoro_rewind_v2/empty_2": {
+    "mos": 2.704
+   },
+   "J_kokoro_rewind_v2/empty_3": {
+    "mos": 3.167
+   },
+   "J_kokoro_rewind_v2/home_0": {
+    "mos": 3.677
+   },
+   "J_kokoro_rewind_v2/home_1": {
+    "mos": 3.897
+   },
+   "J_kokoro_rewind_v2/loop_0": {
+    "mos": 4.109
+   },
+   "J_kokoro_rewind_v2/open_0": {
+    "mos": 3.494
+   },
+   "J_kokoro_rewind_v2/open_1": {
+    "mos": 3.84
+   },
+   "J_kokoro_rewind_v2/open_2": {
+    "mos": 3.952
+   },
+   "J_kokoro_rewind_v2/open_3": {
+    "mos": 3.584
+   },
+   "J_kokoro_rewind_v2/pawn_0": {
+    "mos": 3.252
+   },
+   "J_kokoro_rewind_v2/pawn_1": {
+    "mos": 2.604
+   },
+   "J_kokoro_rewind_v2/pawn_2": {
+    "mos": 4.015
+   },
+   "J_kokoro_rewind_v2/pledge_0": {
+    "mos": 3.728
+   },
+   "J_kokoro_rewind_v2/pledge_1": {
+    "mos": 3.578
+   },
+   "J_kokoro_rewind_v2/pledge_1b": {
+    "mos": 3.73
+   },
+   "J_kokoro_rewind_v2/pledge_2": {
+    "mos": 3.854
+   },
+   "J_kokoro_rewind_v2/pledge_3": {
+    "mos": 3.058
+   },
+   "J_kokoro_rewind_v2/reform_0": {
+    "mos": 3.5
+   },
+   "J_kokoro_rewind_v2/reform_1": {
+    "mos": 3.48
+   },
+   "J_kokoro_rewind_v2/smuggled_0": {
+    "mos": 3.888
+   },
+   "J_kokoro_rewind_v2/smuggled_1": {
+    "mos": 3.014
+   },
+   "J_kokoro_rewind_v2/smuggled_2": {
+    "mos": 3.732
+   },
+   "J_kokoro_rewind_v2/smuggled_3": {
+    "mos": 2.337
+   },
+   "J_kokoro_rewind_v2/today_0": {
+    "mos": 3.326
+   },
+   "J_kokoro_rewind_v2/today_1": {
+    "mos": 3.261
+   },
+   "J_kokoro_rewind_v2/today_2": {
+    "mos": 3.352
+   },
+   "J_kokoro_rewind_v3/empty_0": {
+    "mos": 3.927
+   },
+   "J_kokoro_rewind_v3/empty_1": {
+    "mos": 3.776
+   },
+   "J_kokoro_rewind_v3/empty_2": {
+    "mos": 2.998
+   },
+   "J_kokoro_rewind_v3/empty_3": {
+    "mos": 3.942
+   },
+   "J_kokoro_rewind_v3/home_0": {
+    "mos": 3.839
+   },
+   "J_kokoro_rewind_v3/home_1": {
+    "mos": 3.118
+   },
+   "J_kokoro_rewind_v3/loop_0": {
+    "mos": 4.252
+   },
+   "J_kokoro_rewind_v3/open_0": {
+    "mos": 3.55
+   },
+   "J_kokoro_rewind_v3/open_1": {
+    "mos": 3.82
+   },
+   "J_kokoro_rewind_v3/open_2": {
+    "mos": 4.01
+   },
+   "J_kokoro_rewind_v3/open_3": {
+    "mos": 3.586
+   },
+   "J_kokoro_rewind_v3/pawn_0": {
+    "mos": 3.677
+   },
+   "J_kokoro_rewind_v3/pawn_1": {
+    "mos": 2.028
+   },
+   "J_kokoro_rewind_v3/pawn_2": {
+    "mos": 3.303
+   },
+   "J_kokoro_rewind_v3/pledge_0": {
+    "mos": 3.303
+   },
+   "J_kokoro_rewind_v3/pledge_1": {
+    "mos": 3.381
+   },
+   "J_kokoro_rewind_v3/pledge_1b": {
+    "mos": 3.826
+   },
+   "J_kokoro_rewind_v3/pledge_2": {
+    "mos": 3.702
+   },
+   "J_kokoro_rewind_v3/pledge_3": {
+    "mos": 3.239
+   },
+   "J_kokoro_rewind_v3/reform_0": {
+    "mos": 3.178
+   },
+   "J_kokoro_rewind_v3/reform_1": {
+    "mos": 3.459
+   },
+   "J_kokoro_rewind_v3/smuggled_0": {
+    "mos": 3.467
+   },
+   "J_kokoro_rewind_v3/smuggled_1": {
+    "mos": 3.484
+   },
+   "J_kokoro_rewind_v3/smuggled_2": {
+    "mos": 3.863
+   },
+   "J_kokoro_rewind_v3/smuggled_3": {
+    "mos": 2.893
+   },
+   "J_kokoro_rewind_v3/today_0": {
+    "mos": 3.531
+   },
+   "J_kokoro_rewind_v3/today_1": {
+    "mos": 3.235
+   },
+   "J_kokoro_rewind_v3/today_2": {
+    "mos": 3.715
+   },
+   "K_omnivoice_rewind_v2/empty_0": {
+    "mos": 3.625
+   },
+   "K_omnivoice_rewind_v2/empty_1": {
+    "mos": 3.093
+   },
+   "K_omnivoice_rewind_v2/empty_2": {
+    "mos": 2.465
+   },
+   "K_omnivoice_rewind_v2/empty_3": {
+    "mos": 3.668
+   },
+   "K_omnivoice_rewind_v2/home_0": {
+    "mos": 3.881
+   },
+   "K_omnivoice_rewind_v2/home_1": {
+    "mos": 3.718
+   },
+   "K_omnivoice_rewind_v2/loop_0": {
+    "mos": 4.002
+   },
+   "K_omnivoice_rewind_v2/open_0": {
+    "mos": 3.435
+   },
+   "K_omnivoice_rewind_v2/open_1": {
+    "mos": 3.967
+   },
+   "K_omnivoice_rewind_v2/open_2": {
+    "mos": 3.627
+   },
+   "K_omnivoice_rewind_v2/open_3": {
+    "mos": 3.644
+   },
+   "K_omnivoice_rewind_v2/pawn_0": {
+    "mos": 3.543
+   },
+   "K_omnivoice_rewind_v2/pawn_1": {
+    "mos": 2.529
+   },
+   "K_omnivoice_rewind_v2/pawn_2": {
+    "mos": 3.297
+   },
+   "K_omnivoice_rewind_v2/pledge_0": {
+    "mos": 3.559
+   },
+   "K_omnivoice_rewind_v2/pledge_1": {
+    "mos": 3.555
+   },
+   "K_omnivoice_rewind_v2/pledge_1b": {
+    "mos": 3.434
+   },
+   "K_omnivoice_rewind_v2/pledge_2": {
+    "mos": 3.898
+   },
+   "K_omnivoice_rewind_v2/pledge_3": {
+    "mos": 3.643
+   },
+   "K_omnivoice_rewind_v2/reform_0": {
+    "mos": 3.352
+   },
+   "K_omnivoice_rewind_v2/reform_1": {
+    "mos": 3.559
+   },
+   "K_omnivoice_rewind_v2/smuggled_0": {
+    "mos": 3.883
+   },
+   "K_omnivoice_rewind_v2/smuggled_1": {
+    "mos": 3.136
+   },
+   "K_omnivoice_rewind_v2/smuggled_2": {
+    "mos": 3.281
+   },
+   "K_omnivoice_rewind_v2/smuggled_3": {
+    "mos": 2.898
+   },
+   "K_omnivoice_rewind_v2/today_0": {
+    "mos": 3.673
+   },
+   "K_omnivoice_rewind_v2/today_1": {
+    "mos": 3.35
+   },
+   "K_omnivoice_rewind_v2/today_2": {
+    "mos": 3.438
+   },
+   "K_omnivoice_rewind_v3/empty_0": {
+    "mos": 3.374
+   },
+   "K_omnivoice_rewind_v3/empty_1": {
+    "mos": 3.402
+   },
+   "K_omnivoice_rewind_v3/empty_2": {
+    "mos": 1.737
+   },
+   "K_omnivoice_rewind_v3/empty_3": {
+    "mos": 3.533
+   },
+   "K_omnivoice_rewind_v3/home_0": {
+    "mos": 3.443
+   },
+   "K_omnivoice_rewind_v3/home_1": {
+    "mos": 3.091
+   },
+   "K_omnivoice_rewind_v3/loop_0": {
+    "mos": 4.067
+   },
+   "K_omnivoice_rewind_v3/open_0": {
+    "mos": 3.857
+   },
+   "K_omnivoice_rewind_v3/open_1": {
+    "mos": 4.114
+   },
+   "K_omnivoice_rewind_v3/open_2": {
+    "mos": 3.779
+   },
+   "K_omnivoice_rewind_v3/open_3": {
+    "mos": 3.679
+   },
+   "K_omnivoice_rewind_v3/pawn_0": {
+    "mos": 3.568
+   },
+   "K_omnivoice_rewind_v3/pawn_1": {
+    "mos": 2.914
+   },
+   "K_omnivoice_rewind_v3/pawn_2": {
+    "mos": 3.203
+   },
+   "K_omnivoice_rewind_v3/pledge_0": {
+    "mos": 3.659
+   },
+   "K_omnivoice_rewind_v3/pledge_1": {
+    "mos": 3.975
+   },
+   "K_omnivoice_rewind_v3/pledge_1b": {
+    "mos": 3.66
+   },
+   "K_omnivoice_rewind_v3/pledge_2": {
+    "mos": 3.56
+   },
+   "K_omnivoice_rewind_v3/pledge_3": {
+    "mos": 3.378
+   },
+   "K_omnivoice_rewind_v3/reform_0": {
+    "mos": 3.714
+   },
+   "K_omnivoice_rewind_v3/reform_1": {
+    "mos": 3.32
+   },
+   "K_omnivoice_rewind_v3/smuggled_0": {
+    "mos": 4.182
+   },
+   "K_omnivoice_rewind_v3/smuggled_1": {
+    "mos": 3.579
+   },
+   "K_omnivoice_rewind_v3/smuggled_2": {
+    "mos": 3.808
+   },
+   "K_omnivoice_rewind_v3/smuggled_3": {
+    "mos": 2.662
+   },
+   "K_omnivoice_rewind_v3/today_0": {
+    "mos": 3.87
+   },
+   "K_omnivoice_rewind_v3/today_1": {
+    "mos": 3.88
+   },
+   "K_omnivoice_rewind_v3/today_2": {
+    "mos": 3.562
+   }
+  }
+ }
+}
