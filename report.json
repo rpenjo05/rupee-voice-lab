@@ -1,0 +1,926 @@
+[
+ {
+  "variant": "P",
+  "id": "open_2",
+  "text": "But in nineteen ninety-one, India had to pawn its own gold.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__open_2_t2.wav",
+  "takes": [
+   {
+    "file": "P__open_2_t1.wav",
+    "take": 1,
+    "dur": 3.94,
+    "secs": 190.9,
+    "asr": "But in 1991, India had to pawn its own gold.",
+    "wer": 0.417
+   },
+   {
+    "file": "P__open_2_t2.wav",
+    "take": 2,
+    "dur": 4.03,
+    "secs": 191.6,
+    "asr": "But in 1991, India had to pawn its own gold.",
+    "wer": 0.417
+   },
+   {
+    "file": "P__open_2_t3.wav",
+    "take": 3,
+    "dur": 4.07,
+    "secs": 191.1,
+    "asr": "But in 1991, India had to pawn its own gold.",
+    "wer": 0.417
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "empty_1",
+  "text": "What's left pays for just a few weeks of imports.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__empty_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__empty_1_t1.wav",
+    "take": 1,
+    "dur": 3.39,
+    "secs": 180.5,
+    "asr": "What's left pays for just a few weeks of imports.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__empty_1_t2.wav",
+    "take": 2,
+    "dur": 3.03,
+    "secs": 181.2,
+    "asr": "What's left pays for just a few weeks of imports.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__empty_1_t3.wav",
+    "take": 3,
+    "dur": 3.17,
+    "secs": 182.8,
+    "asr": "What's left pays for just a few weeks of imports.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "smuggled_0",
+  "text": "First, twenty tonnes of gold seized from smugglers is sold,",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__smuggled_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__smuggled_0_t1.wav",
+    "take": 1,
+    "dur": 4.04,
+    "secs": 193.7,
+    "asr": "First, 20 tons of gold seized from smugglers is sold.",
+    "wer": 0.1
+   },
+   {
+    "file": "P__smuggled_0_t2.wav",
+    "take": 2,
+    "dur": 3.9,
+    "secs": 193.6,
+    "asr": "First, 20 tons of gold seized from smugglers is sold.",
+    "wer": 0.1
+   },
+   {
+    "file": "P__smuggled_0_t3.wav",
+    "take": 3,
+    "dur": 4.09,
+    "secs": 192.2,
+    "asr": "First, 20 tons of gold seized from smugglers is sold.",
+    "wer": 0.1
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "smuggled_3",
+  "text": "Not enough.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__smuggled_3_t3.wav",
+  "takes": [
+   {
+    "file": "P__smuggled_3_t1.wav",
+    "take": 1,
+    "dur": 0.99,
+    "secs": 160.9,
+    "asr": "Not enough.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__smuggled_3_t2.wav",
+    "take": 2,
+    "dur": 1.08,
+    "secs": 162.9,
+    "asr": "Not enough.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__smuggled_3_t3.wav",
+    "take": 3,
+    "dur": 1.04,
+    "secs": 162.1,
+    "asr": "Not enough.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pledge_1b",
+  "text": "With the Bank of England, and the Bank of Japan.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pledge_1b_t3.wav",
+  "takes": [
+   {
+    "file": "P__pledge_1b_t1.wav",
+    "take": 1,
+    "dur": 3.16,
+    "secs": 180.9,
+    "asr": "with the Bank of England and the Bank of Japan.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_1b_t2.wav",
+    "take": 2,
+    "dur": 3.04,
+    "secs": 180.3,
+    "asr": "with the Bank of England and the Bank of Japan.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_1b_t3.wav",
+    "take": 3,
+    "dur": 3.11,
+    "secs": 179.6,
+    "asr": "with the Bank of England and the Bank of Japan.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pawn_0",
+  "text": "In return? About four hundred million dollars in loans.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pawn_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__pawn_0_t1.wav",
+    "take": 1,
+    "dur": 3.89,
+    "secs": 189.2,
+    "asr": "In return, about $400 million in loans.",
+    "wer": 0.111
+   },
+   {
+    "file": "P__pawn_0_t2.wav",
+    "take": 2,
+    "dur": 3.78,
+    "secs": 189.3,
+    "asr": "In return, about $400 million in loans.",
+    "wer": 0.111
+   },
+   {
+    "file": "P__pawn_0_t3.wav",
+    "take": 3,
+    "dur": 3.92,
+    "secs": 188.4,
+    "asr": "In return, about $400 million in loans.",
+    "wer": 0.111
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reform_0",
+  "text": "That July, the rupee is cut in value,",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reform_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__reform_0_t1.wav",
+    "take": 1,
+    "dur": 2.58,
+    "secs": 172.6,
+    "asr": "that July the rupee is cut in value.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reform_0_t2.wav",
+    "take": 2,
+    "dur": 2.49,
+    "secs": 174.0,
+    "asr": "That July, the rupee is cut in value.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reform_0_t3.wav",
+    "take": 3,
+    "dur": 2.39,
+    "secs": 173.1,
+    "asr": "that July the rupee is cut in value.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "home_1",
+  "text": "The RBI moved about a hundred tonnes of its gold from the UK, back home to India.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__home_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__home_1_t1.wav",
+    "take": 1,
+    "dur": 5.97,
+    "secs": 217.6,
+    "asr": "The RBI moved about 100 tons of its gold from the UK, back home to India.",
+    "wer": 0.118
+   },
+   {
+    "file": "P__home_1_t2.wav",
+    "take": 2,
+    "dur": 6.03,
+    "secs": 218.9,
+    "asr": "The RBI moved about 100 tons of its gold from the UK back home to India.",
+    "wer": 0.118
+   },
+   {
+    "file": "P__home_1_t3.wav",
+    "take": 3,
+    "dur": 5.59,
+    "secs": 219.6,
+    "asr": "The RBI moved about 100 tons of its gold from the UK, back home to India.",
+    "wer": 0.118
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "today_2",
+  "text": "Keep cash for emergencies, so you never have to pawn the gold.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__today_2_t1.wav",
+  "takes": [
+   {
+    "file": "P__today_2_t1.wav",
+    "take": 1,
+    "dur": 4.44,
+    "secs": 201.0,
+    "asr": "Keep cash for emergencies, so you never have to pawn the gold.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__today_2_t2.wav",
+    "take": 2,
+    "dur": 4.51,
+    "secs": 201.1,
+    "asr": "Keep cash for emergencies, so you never have to pawn the gold.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__today_2_t3.wav",
+    "take": 3,
+    "dur": 4.43,
+    "secs": 200.8,
+    "asr": "Keep cash for emergencies so you never have to pawn the gold.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "open_0",
+  "text": "Gold just hit a one-year low,",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__open_0_t3.wav",
+  "takes": [
+   {
+    "file": "P__open_0_t1.wav",
+    "take": 1,
+    "dur": 2.17,
+    "secs": 163.2,
+    "asr": "Gold just hit a one-year low.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__open_0_t2.wav",
+    "take": 2,
+    "dur": 2.07,
+    "secs": 164.2,
+    "asr": "Gold just hit a one-year low.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__open_0_t3.wav",
+    "take": 3,
+    "dur": 2.16,
+    "secs": 164.0,
+    "asr": "Gold just hit a one-year low.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "open_3",
+  "text": "Just to pay its bills.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__open_3_t3.wav",
+  "takes": [
+   {
+    "file": "P__open_3_t1.wav",
+    "take": 1,
+    "dur": 1.67,
+    "secs": 162.3,
+    "asr": "just to pay its bills.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__open_3_t2.wav",
+    "take": 2,
+    "dur": 1.85,
+    "secs": 161.9,
+    "asr": "just to pay its bills.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__open_3_t3.wav",
+    "take": 3,
+    "dur": 1.77,
+    "secs": 162.0,
+    "asr": "just to pay its bills.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "empty_2",
+  "text": "Run out,",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__empty_2_t3.wav",
+  "takes": [
+   {
+    "file": "P__empty_2_t1.wav",
+    "take": 1,
+    "dur": 0.97,
+    "secs": 156.1,
+    "asr": "Run out.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__empty_2_t2.wav",
+    "take": 2,
+    "dur": 0.94,
+    "secs": 157.2,
+    "asr": "Run out.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__empty_2_t3.wav",
+    "take": 3,
+    "dur": 0.95,
+    "secs": 157.1,
+    "asr": "Run out.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "smuggled_1",
+  "text": "With a promise to buy it back.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__smuggled_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__smuggled_1_t1.wav",
+    "take": 1,
+    "dur": 2.1,
+    "secs": 164.8,
+    "asr": "with a promise to buy it back.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__smuggled_1_t2.wav",
+    "take": 2,
+    "dur": 1.99,
+    "secs": 164.8,
+    "asr": "with a promise to buy it back.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__smuggled_1_t3.wav",
+    "take": 3,
+    "dur": 2.08,
+    "secs": 165.2,
+    "asr": "with a promise to buy it back.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pledge_0",
+  "text": "So the RBI takes a bigger step.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pledge_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__pledge_0_t1.wav",
+    "take": 1,
+    "dur": 2.33,
+    "secs": 166.2,
+    "asr": "so the RBI takes a bigger step.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_0_t2.wav",
+    "take": 2,
+    "dur": 2.33,
+    "secs": 166.1,
+    "asr": "so the RBI takes a bigger step.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_0_t3.wav",
+    "take": 3,
+    "dur": 2.37,
+    "secs": 166.1,
+    "asr": "so the RBI takes a bigger step.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pledge_2",
+  "text": "The gold leaves the country.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pledge_2_t1.wav",
+  "takes": [
+   {
+    "file": "P__pledge_2_t1.wav",
+    "take": 1,
+    "dur": 2.05,
+    "secs": 163.4,
+    "asr": "The gold leaves the country.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_2_t2.wav",
+    "take": 2,
+    "dur": 1.82,
+    "secs": 162.9,
+    "asr": "The gold leaves the country.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_2_t3.wav",
+    "take": 3,
+    "dur": 2.18,
+    "secs": 163.8,
+    "asr": "The gold leaves the country.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pawn_1",
+  "text": "A pawn shop,",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pawn_1_t2.wav",
+  "takes": [
+   {
+    "file": "P__pawn_1_t1.wav",
+    "take": 1,
+    "dur": 1.22,
+    "secs": 159.3,
+    "asr": "A pawn shop.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pawn_1_t2.wav",
+    "take": 2,
+    "dur": 1.19,
+    "secs": 159.5,
+    "asr": "A pawn shop.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pawn_1_t3.wav",
+    "take": 3,
+    "dur": 1.15,
+    "secs": 158.8,
+    "asr": "A pawn shop.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reform_1",
+  "text": "And India starts opening up its economy.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reform_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__reform_1_t1.wav",
+    "take": 1,
+    "dur": 2.78,
+    "secs": 171.6,
+    "asr": "and India starts opening up its economy.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reform_1_t2.wav",
+    "take": 2,
+    "dur": 2.54,
+    "secs": 172.6,
+    "asr": "and India starts opening up its economy.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reform_1_t3.wav",
+    "take": 3,
+    "dur": 2.62,
+    "secs": 172.6,
+    "asr": "and India starts opening up its economy.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "today_0",
+  "text": "So gold isn't just jewellery. In a crisis, you can borrow against it.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__today_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__today_0_t1.wav",
+    "take": 1,
+    "dur": 4.56,
+    "secs": 197.7,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it.",
+    "wer": 0.077
+   },
+   {
+    "file": "P__today_0_t2.wav",
+    "take": 2,
+    "dur": 4.69,
+    "secs": 197.6,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it.",
+    "wer": 0.077
+   },
+   {
+    "file": "P__today_0_t3.wav",
+    "take": 3,
+    "dur": 4.76,
+    "secs": 197.9,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it.",
+    "wer": 0.077
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "loop_0",
+  "text": "And for India, it all began with the dollars running out.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__loop_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__loop_0_t1.wav",
+    "take": 1,
+    "dur": 4.18,
+    "secs": 193.4,
+    "asr": "And for India, it all began with the dollars running out.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__loop_0_t2.wav",
+    "take": 2,
+    "dur": 4.26,
+    "secs": 194.0,
+    "asr": "And for India, it all began with the dollars running out.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__loop_0_t3.wav",
+    "take": 3,
+    "dur": 4.52,
+    "secs": 194.1,
+    "asr": "And for India, it all began with the dollars running out.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "open_1",
+  "text": "Days before Dhanteras.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__open_1_t2.wav",
+  "takes": [
+   {
+    "file": "P__open_1_t1.wav",
+    "take": 1,
+    "dur": 1.64,
+    "secs": 165.1,
+    "asr": "days before Dontaras.",
+    "wer": 0.333
+   },
+   {
+    "file": "P__open_1_t2.wav",
+    "take": 2,
+    "dur": 1.98,
+    "secs": 165.1,
+    "asr": "days before Dontaras.",
+    "wer": 0.333
+   },
+   {
+    "file": "P__open_1_t3.wav",
+    "take": 3,
+    "dur": 2.03,
+    "secs": 165.6,
+    "asr": "days before Dontaris.",
+    "wer": 0.333
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "empty_0",
+  "text": "Nineteen ninety-one. India is running out of dollars.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__empty_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__empty_0_t1.wav",
+    "take": 1,
+    "dur": 3.84,
+    "secs": 187.4,
+    "asr": "1991. India is running out of dollars.",
+    "wer": 0.556
+   },
+   {
+    "file": "P__empty_0_t2.wav",
+    "take": 2,
+    "dur": 3.84,
+    "secs": 187.8,
+    "asr": "1991. India is running out of dollars.",
+    "wer": 0.556
+   },
+   {
+    "file": "P__empty_0_t3.wav",
+    "take": 3,
+    "dur": 3.61,
+    "secs": 187.3,
+    "asr": "1991. India is running out of dollars.",
+    "wer": 0.556
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "empty_3",
+  "text": "And India defaults.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__empty_3_t1.wav",
+  "takes": [
+   {
+    "file": "P__empty_3_t1.wav",
+    "take": 1,
+    "dur": 1.9,
+    "secs": 163.0,
+    "asr": "and India defaults.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__empty_3_t2.wav",
+    "take": 2,
+    "dur": 2.03,
+    "secs": 161.9,
+    "asr": "and India defaults.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__empty_3_t3.wav",
+    "take": 3,
+    "dur": 1.76,
+    "secs": 161.7,
+    "asr": "and India defaults.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "smuggled_2",
+  "text": "About two hundred million dollars.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__smuggled_2_t2.wav",
+  "takes": [
+   {
+    "file": "P__smuggled_2_t1.wav",
+    "take": 1,
+    "dur": 2.22,
+    "secs": 167.2,
+    "asr": "About $200 million.",
+    "wer": 0.2
+   },
+   {
+    "file": "P__smuggled_2_t2.wav",
+    "take": 2,
+    "dur": 2.23,
+    "secs": 168.2,
+    "asr": "about $200 million.",
+    "wer": 0.2
+   },
+   {
+    "file": "P__smuggled_2_t3.wav",
+    "take": 3,
+    "dur": 2.35,
+    "secs": 168.1,
+    "asr": "about $200 million.",
+    "wer": 0.2
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pledge_1",
+  "text": "It pledges forty-seven tonnes of its own gold.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pledge_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__pledge_1_t1.wav",
+    "take": 1,
+    "dur": 3.26,
+    "secs": 175.9,
+    "asr": "It pledges 47 tons of its own gold.",
+    "wer": 0.111
+   },
+   {
+    "file": "P__pledge_1_t2.wav",
+    "take": 2,
+    "dur": 3.01,
+    "secs": 177.0,
+    "asr": "It pledges 47 tons of its own gold.",
+    "wer": 0.111
+   },
+   {
+    "file": "P__pledge_1_t3.wav",
+    "take": 3,
+    "dur": 3.24,
+    "secs": 176.2,
+    "asr": "It pledges 47 tons of its own gold.",
+    "wer": 0.111
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pledge_3",
+  "text": "As a guarantee.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pledge_3_t1.wav",
+  "takes": [
+   {
+    "file": "P__pledge_3_t1.wav",
+    "take": 1,
+    "dur": 1.41,
+    "secs": 161.5,
+    "asr": "as a guarantee.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_3_t2.wav",
+    "take": 2,
+    "dur": 2.05,
+    "secs": 161.6,
+    "asr": "as a guarantee.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pledge_3_t3.wav",
+    "take": 3,
+    "dur": 1.13,
+    "secs": 161.1,
+    "asr": "as a guarantee.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "pawn_2",
+  "text": "For a country.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__pawn_2_t1.wav",
+  "takes": [
+   {
+    "file": "P__pawn_2_t1.wav",
+    "take": 1,
+    "dur": 1.12,
+    "secs": 161.8,
+    "asr": "for a country.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pawn_2_t2.wav",
+    "take": 2,
+    "dur": 1.02,
+    "secs": 161.7,
+    "asr": "for a country.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__pawn_2_t3.wav",
+    "take": 3,
+    "dur": 1.26,
+    "secs": 161.9,
+    "asr": "for a country.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "home_0",
+  "text": "And in twenty twenty-four?",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__home_0_t3.wav",
+  "takes": [
+   {
+    "file": "P__home_0_t1.wav",
+    "take": 1,
+    "dur": 2.23,
+    "secs": 163.5,
+    "asr": "and in 2024.",
+    "wer": 0.6
+   },
+   {
+    "file": "P__home_0_t2.wav",
+    "take": 2,
+    "dur": 1.95,
+    "secs": 163.6,
+    "asr": "And in 2024?",
+    "wer": 0.6
+   },
+   {
+    "file": "P__home_0_t3.wav",
+    "take": 3,
+    "dur": 2.1,
+    "secs": 163.6,
+    "asr": "And in 2024?",
+    "wer": 0.6
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "today_1",
+  "text": "But the real lesson?",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__today_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__today_1_t1.wav",
+    "take": 1,
+    "dur": 1.27,
+    "secs": 161.6,
+    "asr": "But the real lesson?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__today_1_t2.wav",
+    "take": 2,
+    "dur": 1.38,
+    "secs": 161.4,
+    "asr": "but the real lesson.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__today_1_t3.wav",
+    "take": 3,
+    "dur": 1.31,
+    "secs": 161.4,
+    "asr": "But the real lesson?",
+    "wer": 0.0
+   }
+  ]
+ }
+]
