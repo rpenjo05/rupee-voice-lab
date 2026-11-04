@@ -35,8 +35,8 @@ jobs:
           pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
           case "${{ matrix.tool }}" in
             prosody)    pip install -q praat-parselmouth transformers numpy ;;
-            utmos)      pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git ;;
-            aesthetics) pip install -q audiobox_aesthetics ;;
+            utmos)      pip install -q torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu && pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git && pip install -q torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu --force-reinstall --no-deps ;;
+            aesthetics) pip install -q audiobox_aesthetics requests ;;
             emotion)    pip install -q funasr modelscope huggingface_hub ;;
           esac
       - run: python voice_check.py score --tool ${{ matrix.tool }} --inp audio/eval --out out/${{ matrix.tool }}.json
