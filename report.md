@@ -1,0 +1,119 @@
+# rewind_gold1991_v2: OmniVoice plain clone (heart_plain), v2 suspense script, paced to Kokoro: OmniVoice takes
+
+Pick = lowest Whisper word error rate, then closest to the median length.
+
+
+## Variant P: Plain clone, VoiceStudio preset, per-line speed
+
+- **open_0** pick P__open_0_t1.wav · text: `Gold just hit a one-year low,`
+  - t1: 1.92 s (gen 161.6 s), WER 0.0: Gold just hit a one-year low.
+  - t2: 1.82 s (gen 163.9 s), WER 0.0: Gold just hit a one-year low.
+  - t3: 1.92 s (gen 164.1 s), WER 0.0: Gold just hit a one-year low.
+- **open_1** pick P__open_1_t1.wav · text: `Days before Dhanteras.`
+  - t1: 1.82 s (gen 89.4 s), WER 0.333: days before Dontaras.
+  - t2: 1.84 s (gen 89.7 s), WER 0.333: days before Dontaras.
+  - t3: 1.76 s (gen 88.9 s), WER 0.333: days before Dontaras.
+- **open_2** pick P__open_2_t2.wav · text: `But in nineteen ninety-one, India had to pawn its own gold.`
+  - t1: 3.4 s (gen 96.7 s), WER 0.417: But in 1991, India had to pawn its own gold.
+  - t2: 3.36 s (gen 98.3 s), WER 0.417: But in 1991, India had to pawn its own gold.
+  - t3: 3.34 s (gen 97.5 s), WER 0.417: But in 1991, India had to pawn its own gold.
+- **open_3** pick P__open_3_t1.wav · text: `Just to pay its bills.`
+  - t1: 1.57 s (gen 160.1 s), WER 0.0: just to pay its bills.
+  - t2: 1.62 s (gen 160.5 s), WER 0.0: just to pay its bills.
+  - t3: 1.54 s (gen 159.9 s), WER 0.0: just to pay its bills.
+- **empty_0** pick P__empty_0_t2.wav · text: `Nineteen ninety-one. India is running out of dollars.`
+  - t1: 3.04 s (gen 98.1 s), WER 0.556: 1991, India is running out of dollars.
+  - t2: 3.12 s (gen 97.8 s), WER 0.556: 1991. India is running out of dollars.
+  - t3: 3.12 s (gen 98.2 s), WER 0.556: 1991. India is running out of dollars.
+- **empty_1** pick P__empty_1_t1.wav · text: `What's left pays for just a few weeks of imports.`
+  - t1: 2.72 s (gen 94.0 s), WER 0.0: What's left pays for just a few weeks of imports.
+  - t2: 2.7 s (gen 93.1 s), WER 0.0: What's left pays for just a few weeks of imports.
+  - t3: 2.8 s (gen 93.3 s), WER 0.0: What's left pays for just a few weeks of imports.
+- **empty_2** pick P__empty_2_t2.wav · text: `Run out,`
+  - t1: 0.93 s (gen 155.5 s), WER 0.0: Run out.
+  - t2: 0.97 s (gen 153.9 s), WER 0.0: Run out.
+  - t3: 0.99 s (gen 154.1 s), WER 0.0: Run out.
+- **empty_3** pick P__empty_3_t2.wav · text: `And India defaults.`
+  - t1: 1.69 s (gen 87.0 s), WER 0.0: and India defaults.
+  - t2: 1.76 s (gen 87.0 s), WER 0.0: and India defaults.
+  - t3: 1.76 s (gen 86.8 s), WER 0.0: and India defaults.
+- **smuggled_0** pick P__smuggled_0_t2.wav · text: `First, twenty tonnes of gold seized from smugglers is sold,`
+  - t1: 3.33 s (gen 98.3 s), WER 0.1: First, 20 tons of gold seized from smugglers is sold.
+  - t2: 3.44 s (gen 98.6 s), WER 0.1: First, 20 tons of gold seized from smugglers is sold.
+  - t3: 3.44 s (gen 98.7 s), WER 0.1: First, 20 tons of gold seized from smugglers is sold.
+- **smuggled_1** pick P__smuggled_1_t1.wav · text: `With a promise to buy it back.`
+  - t1: 1.95 s (gen 162.2 s), WER 0.0: with a promise to buy it back.
+  - t2: 1.93 s (gen 162.6 s), WER 0.0: with a promise to buy it back.
+  - t3: 1.95 s (gen 162.2 s), WER 0.0: with a promise to buy it back.
+- **smuggled_2** pick P__smuggled_2_t1.wav · text: `About two hundred million dollars.`
+  - t1: 2.05 s (gen 88.7 s), WER 0.2: about $200 million.
+  - t2: 2.01 s (gen 89.2 s), WER 0.2: about $200 million.
+  - t3: 2.11 s (gen 89.8 s), WER 0.2: about $200 million.
+- **smuggled_3** pick P__smuggled_3_t3.wav · text: `Not enough.`
+  - t1: 1.11 s (gen 83.1 s), WER 0.0: Not enough.
+  - t2: 1.28 s (gen 83.0 s), WER 0.0: Not enough.
+  - t3: 1.23 s (gen 83.3 s), WER 0.0: Not enough.
+- **pledge_0** pick P__pledge_0_t1.wav · text: `So the RBI takes a bigger step.`
+  - t1: 2.0 s (gen 162.8 s), WER 0.0: So the RBI takes a bigger step.
+  - t2: 2.0 s (gen 163.2 s), WER 0.0: so the RBI takes a bigger step.
+  - t3: 2.0 s (gen 162.5 s), WER 0.0: so the RBI takes a bigger step.
+- **pledge_1** pick P__pledge_1_t2.wav · text: `It pledges forty-seven tonnes of its own gold.`
+  - t1: 2.65 s (gen 95.5 s), WER 0.111: It pledges 47 tons of its own gold.
+  - t2: 2.68 s (gen 94.7 s), WER 0.111: It pledges 47 tons of its own gold.
+  - t3: 2.72 s (gen 95.6 s), WER 0.111: It pledges 47 tons of its own gold.
+- **pledge_1b** pick P__pledge_1b_t2.wav · text: `With the Bank of England, and the Bank of Japan.`
+  - t1: 2.57 s (gen 92.7 s), WER 0.0: with the Bank of England and the Bank of Japan.
+  - t2: 2.72 s (gen 92.3 s), WER 0.0: with the Bank of England and the Bank of Japan.
+  - t3: 2.72 s (gen 92.6 s), WER 0.0: with the Bank of England and the Bank of Japan.
+- **pledge_2** pick P__pledge_2_t2.wav · text: `The gold leaves the country.`
+  - t1: 1.85 s (gen 162.2 s), WER 0.0: The gold leaves the country.
+  - t2: 1.78 s (gen 161.9 s), WER 0.0: The gold leaves the country.
+  - t3: 1.73 s (gen 161.6 s), WER 0.0: The gold leaves the country.
+- **pledge_3** pick P__pledge_3_t2.wav · text: `As a guarantee.`
+  - t1: 1.36 s (gen 86.2 s), WER 0.0: as a guarantee.
+  - t2: 1.29 s (gen 86.8 s), WER 0.0: as a guarantee.
+  - t3: 1.15 s (gen 87.0 s), WER 0.0: as a guarantee.
+- **pawn_0** pick P__pawn_0_t1.wav · text: `In return? About four hundred million dollars in loans.`
+  - t1: 3.24 s (gen 96.1 s), WER 0.111: In return, about $400 million in loans.
+  - t2: 3.23 s (gen 94.9 s), WER 0.111: In return, about $400 million in loans.
+  - t3: 3.24 s (gen 95.7 s), WER 0.111: In return, about $400 million in loans.
+- **pawn_1** pick P__pawn_1_t2.wav · text: `A pawn shop,`
+  - t1: 1.15 s (gen 155.7 s), WER 0.0: A pawn shop.
+  - t2: 1.2 s (gen 155.0 s), WER 0.0: A pawn shop.
+  - t3: 1.23 s (gen 156.3 s), WER 0.0: A pawn shop.
+- **pawn_2** pick P__pawn_2_t1.wav · text: `For a country.`
+  - t1: 1.11 s (gen 85.3 s), WER 0.0: for a country.
+  - t2: 1.13 s (gen 86.6 s), WER 0.0: for a country.
+  - t3: 1.07 s (gen 86.0 s), WER 0.0: for a country.
+- **reform_0** pick P__reform_0_t1.wav · text: `That July, the rupee is cut in value,`
+  - t1: 2.12 s (gen 89.7 s), WER 0.0: that July the rupee is cut in value.
+  - t2: 2.12 s (gen 90.9 s), WER 0.0: that July the rupee is cut in value.
+  - t3: 2.12 s (gen 91.0 s), WER 0.0: That July the rupee is cut in value.
+- **reform_1** pick P__reform_1_t2.wav · text: `And India starts opening up its economy.`
+  - t1: 2.31 s (gen 168.0 s), WER 0.0: and India starts opening up its economy.
+  - t2: 2.35 s (gen 167.4 s), WER 0.0: and India starts opening up its economy.
+  - t3: 2.39 s (gen 168.8 s), WER 0.0: and India starts opening up its economy.
+- **home_0** pick P__home_0_t1.wav · text: `And in twenty twenty-four?`
+  - t1: 1.86 s (gen 89.0 s), WER 0.6: And in 2024?
+  - t2: 1.79 s (gen 88.8 s), WER 0.6: and in 2024?
+  - t3: 1.89 s (gen 87.8 s), WER 0.6: And in 2024?
+- **home_1** pick P__home_1_t1.wav · text: `The RBI moved about a hundred tonnes of its gold from the UK, back home to India.`
+  - t1: 4.48 s (gen 109.4 s), WER 0.118: The RBI moved about 100 tons of its gold from the UK back home to India.
+  - t2: 4.47 s (gen 108.8 s), WER 0.118: The RBI moved about 100 tons of its gold from the UK back home to India.
+  - t3: 4.48 s (gen 111.2 s), WER 0.118: The RBI moved about 100 tons of its gold from the UK back home to India.
+- **today_0** pick P__today_0_t3.wav · text: `So gold isn't just jewellery. In a crisis, you can borrow against it.`
+  - t1: 3.8 s (gen 192.2 s), WER 0.077: So gold isn't just jewelry. In a crisis, you can borrow against it.
+  - t2: 3.68 s (gen 191.6 s), WER 0.077: So gold isn't just jewelry. In a crisis, you can borrow against it.
+  - t3: 3.78 s (gen 192.2 s), WER 0.077: So gold isn't just jewelry. In a crisis, you can borrow against it.
+- **today_1** pick P__today_1_t1.wav · text: `But the real lesson?`
+  - t1: 1.38 s (gen 86.6 s), WER 0.0: But the real lesson?
+  - t2: 1.63 s (gen 86.6 s), WER 0.0: But the real lesson?
+  - t3: 1.35 s (gen 87.0 s), WER 0.0: But the real lesson?
+- **today_2** pick P__today_2_t3.wav · text: `Keep cash for emergencies, so you never have to pawn the gold.`
+  - t1: 3.45 s (gen 105.1 s), WER 0.0: Keep cash for emergencies, so you never have to pawn the gold.
+  - t2: 3.51 s (gen 101.6 s), WER 0.0: Keep cash for emergencies so you never have to pawn the gold.
+  - t3: 3.46 s (gen 101.2 s), WER 0.0: Keep cash for emergencies so you never have to pawn the gold.
+- **loop_0** pick P__loop_0_t2.wav · text: `And for India, it all began with the dollars running out.`
+  - t1: 3.25 s (gen 188.2 s), WER 0.0: And for India, it all began with the dollars running out.
+  - t2: 3.29 s (gen 184.4 s), WER 0.0: And for India, it all began with the dollars running out.
+  - t3: 3.37 s (gen 182.0 s), WER 0.0: And for India, it all began with the dollars running out.
