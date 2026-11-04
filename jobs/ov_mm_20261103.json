@@ -1,0 +1,69 @@
+{
+ "name": "Market Minute 3 Nov 2026: OmniVoice plain clone (heart_plain + transcript), VoiceStudio quality preset",
+ "takes": 3,
+ "gen": {
+  "num_step": 32,
+  "guidance_scale": 2.0,
+  "speed": 1.0,
+  "denoise": true,
+  "postprocess_output": true
+ },
+ "variants": {
+  "P": {
+   "label": "Plain clone, VoiceStudio preset (num_step 32, guidance 2.0, speed 1.0, denoise, postprocess)",
+   "ref": "heart_plain"
+  }
+ },
+ "lines": [
+  {
+   "id": "hook_0",
+   "plain": "The Sensex just jumped one thousand two hundred and twenty five points, and it did it again.",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points, and it did it again."
+  },
+  {
+   "id": "hook_1",
+   "plain": "Quick guess: what does today's top Nifty gainer actually do? The answer is at the end.",
+   "text": "Quick guess: what does today's top Nifty gainer actually do? The answer is at the end."
+  },
+  {
+   "id": "levels_0",
+   "plain": "The Nifty closed at twenty three thousand eight hundred and eleven, and the Sensex closed at seventy six thousand nine hundred and eighteen.",
+   "text": "The Nifty closed at twenty three thousand eight hundred and eleven, and the Sensex closed at seventy six thousand nine hundred and eighteen."
+  },
+  {
+   "id": "levels_1",
+   "plain": "That makes it the fourth day up in a row.",
+   "text": "That makes it the fourth day up in a row."
+  },
+  {
+   "id": "broad_0",
+   "plain": "Smaller companies lagged behind. Smallcaps were up just zero point three one percent.",
+   "text": "Smaller companies lagged behind. Smallcaps were up just zero point three one percent."
+  },
+  {
+   "id": "why_0",
+   "plain": "So why the rally? Oil kept cooling, and foreign investors kept buying.",
+   "text": "So why the rally? Oil kept cooling, and foreign investors kept buying."
+  },
+  {
+   "id": "you_0",
+   "plain": "In rupees, ten thousand with the Nifty is up about one hundred and fifty eight.",
+   "text": "In rupees, ten thousand with the Nifty is up about one hundred and fifty eight."
+  },
+  {
+   "id": "you_1",
+   "plain": "Over two days, that adds up to about three hundred and twenty nine.",
+   "text": "Over two days, that adds up to about three hundred and twenty nine."
+  },
+  {
+   "id": "reveal_0",
+   "plain": "The answer is B. It's B S E, the company that runs the stock exchange. Nestle and Tata Consumer came next.",
+   "text": "The answer is B. It's B S E, the company that runs the stock exchange. [N EH1 S L EY0] and Tata Consumer came next."
+  },
+  {
+   "id": "reveal_1",
+   "plain": "And once again, the Sensex just jumped.",
+   "text": "And once again, the Sensex just jumped."
+  }
+ ]
+}
