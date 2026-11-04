@@ -1,0 +1,35 @@
+[
+ {
+  "id": "open_1",
+  "take": 0,
+  "wer": 0.235,
+  "asr": " But in 1991, India had to pawn its own gold just to pay its bills.",
+  "dur": 4.98,
+  "secs": 72.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "open_1",
+  "take": 2,
+  "wer": 0.235,
+  "asr": " But in 1991, India had to pawn its own gold just to pay its bills.",
+  "dur": 5.14,
+  "secs": 56.6,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "open_1",
+  "take": 1,
+  "wer": 0.235,
+  "asr": " But in 1991, India had to pawn its own gold just to pay its bills.",
+  "dur": 4.98,
+  "secs": 59.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

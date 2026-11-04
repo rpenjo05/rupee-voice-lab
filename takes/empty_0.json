@@ -1,0 +1,35 @@
+[
+ {
+  "id": "empty_0",
+  "take": 1,
+  "wer": 0.364,
+  "asr": " Rewind to 1991. India is running out of dollars.",
+  "dur": 4.42,
+  "secs": 45.6,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "empty_0",
+  "take": 0,
+  "wer": 0.364,
+  "asr": " Rewind to 1991. India is running out of dollars.",
+  "dur": 3.78,
+  "secs": 52.1,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "empty_0",
+  "take": 2,
+  "wer": 0.364,
+  "asr": " Rewind to 1991. India is running out of dollars.",
+  "dur": 3.9,
+  "secs": 42.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

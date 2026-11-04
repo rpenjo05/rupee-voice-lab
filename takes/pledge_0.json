@@ -1,0 +1,35 @@
+[
+ {
+  "id": "pledge_0",
+  "take": 2,
+  "wer": 0.05,
+  "asr": " So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan.",
+  "dur": 5.94,
+  "secs": 43.6,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "pledge_0",
+  "take": 1,
+  "wer": 0.05,
+  "asr": " So, the RBI pledges 47 tons of its own gold, with the Bank of England and the Bank of Japan.",
+  "dur": 6.58,
+  "secs": 47.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "pledge_0",
+  "take": 0,
+  "wer": 0.05,
+  "asr": " So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan.",
+  "dur": 6.42,
+  "secs": 57.2,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

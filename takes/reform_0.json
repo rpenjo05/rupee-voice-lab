@@ -1,0 +1,35 @@
+[
+ {
+  "id": "reform_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " That July, the rupee is cut in value and India starts opening up its economy.",
+  "dur": 5.18,
+  "secs": 57.1,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "reform_0",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " That July, the rupee is cut in value and India starts opening up its economy.",
+  "dur": 5.38,
+  "secs": 57.9,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "reform_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " That July, the rupee is cut in value and India starts opening up its economy.",
+  "dur": 4.74,
+  "secs": 54.3,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

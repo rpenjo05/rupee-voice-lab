@@ -1,0 +1,35 @@
+[
+ {
+  "id": "pawn_1",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " It is a pawn shop for an entire country.",
+  "dur": 3.26,
+  "secs": 38.6,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "pawn_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " It is a pawn shop for an entire country.",
+  "dur": 3.5,
+  "secs": 40.2,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "pawn_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " It is a pawn shop for an entire country.",
+  "dur": 2.82,
+  "secs": 36.1,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

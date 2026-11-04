@@ -1,0 +1,35 @@
+[
+ {
+  "id": "empty_2",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " If the dollars run out, India defaults.",
+  "dur": 2.42,
+  "secs": 52.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "empty_2",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " If the dollars run out, India defaults.",
+  "dur": 2.7,
+  "secs": 39.6,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "empty_2",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " If the dollars run out, India defaults.",
+  "dur": 3.1,
+  "secs": 41.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

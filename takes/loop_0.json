@@ -1,0 +1,35 @@
+[
+ {
+  "id": "loop_0",
+  "take": 1,
+  "wer": 0.091,
+  "asr": " And for India, it all began with the dollars running out.",
+  "dur": 3.82,
+  "secs": 34.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "loop_0",
+  "take": 0,
+  "wer": 0.091,
+  "asr": " And for India, it all began with the dollars running out.",
+  "dur": 3.1,
+  "secs": 30.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "loop_0",
+  "take": 2,
+  "wer": 0.091,
+  "asr": " And for India, it all began with the dollars running out.",
+  "dur": 3.38,
+  "secs": 32.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

@@ -1,0 +1,35 @@
+[
+ {
+  "id": "empty_1",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " What's left pays for just a few weeks of imports.",
+  "dur": 3.62,
+  "secs": 46.1,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "empty_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " What's left pays for just a few weeks of imports.",
+  "dur": 3.1,
+  "secs": 54.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "empty_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " What's left pays for just a few weeks of imports.",
+  "dur": 2.74,
+  "secs": 40.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

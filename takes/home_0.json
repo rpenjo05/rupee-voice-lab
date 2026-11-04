@@ -1,0 +1,35 @@
+[
+ {
+  "id": "home_0",
+  "take": 2,
+  "wer": 0.2,
+  "asr": " In 2024, the RBI moved about 100 tons of its gold from the UK back to India.",
+  "dur": 5.74,
+  "secs": 59.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "home_0",
+  "take": 0,
+  "wer": 0.2,
+  "asr": " In 2024, the RBI moved about 100 tons of its gold from the UK back to India.",
+  "dur": 6.18,
+  "secs": 63.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "home_0",
+  "take": 1,
+  "wer": 0.2,
+  "asr": " In 2024, the RBI moved about 100 tons of its gold from the UK back to India.",
+  "dur": 5.58,
+  "secs": 59.7,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

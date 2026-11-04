@@ -1,0 +1,35 @@
+[
+ {
+  "id": "today_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " But the real lesson? Keep cash for emergencies so you never have to pawn the gold.",
+  "dur": 5.18,
+  "secs": 55.9,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "today_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " But the real lesson? Keep cash for emergencies so you never have to pawn the gold.",
+  "dur": 5.38,
+  "secs": 57.2,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "today_1",
+  "take": 2,
+  "wer": 0.0,
+  "asr": " But the real lesson? Keep cash for emergencies, so you never have to pawn the gold.",
+  "dur": 5.22,
+  "secs": 57.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]
