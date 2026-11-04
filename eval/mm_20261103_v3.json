@@ -1,0 +1,223 @@
+{
+ "name": "mm_20261103_v3",
+ "about": "Market Minute 3 Nov 2026, script v2 for suspense: shorter lines, held beats before each number, a ticking think-pause after the quick guess, a riser + music drop before the answer. Same facts and sources as pipeline/episodes/mm_20261103.py. Research pass (notes/voice_tests/v2/research.md): index levels moved to screen only, small numbers rounded in speech.",
+ "mood": "bright",
+ "lines": [
+  {
+   "id": "hook_0",
+   "text": "The Sensex just jumped 1,225 points.",
+   "speed": 1.128,
+   "pause": 0.15,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "end",
+     "amp": 0.45
+    }
+   ],
+   "ov_speed": 1.14
+  },
+  {
+   "id": "hook_1",
+   "text": "Again!",
+   "speed": 1.087,
+   "pause": 0.45,
+   "ov_speed": 1.099
+  },
+  {
+   "id": "guess_0",
+   "text": "Quick guess. Today's top Nifty gainer... what does it actually do?",
+   "speed": 1.055,
+   "pause": 0.2,
+   "ov_speed": 1.066
+  },
+  {
+   "id": "guess_1",
+   "text": "Lock it in. The answer is at the very end.",
+   "speed": 1.074,
+   "pause": 1.4,
+   "sfx": [
+    {
+     "s": "tick",
+     "at": "end",
+     "dur": 0.8
+    }
+   ],
+   "ov_speed": 1.086
+  },
+  {
+   "id": "levels_0",
+   "text": "Nifty and Sensex? Both up.",
+   "speed": 0.988,
+   "pause": 0.2,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "screen": "Nifty 23,811 · Sensex 76,918 (numbers on screen, not spoken)",
+   "ov_speed": 0.999
+  },
+  {
+   "id": "levels_1",
+   "text": "Four days in a row.",
+   "speed": 0.952,
+   "pause": 0.45,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "end",
+     "amp": 0.3
+    }
+   ],
+   "ov_speed": 0.963
+  },
+  {
+   "id": "broad_0",
+   "text": "But here's the catch.",
+   "speed": 0.934,
+   "pause": 0.4,
+   "sfx": [
+    {
+     "s": "drop",
+     "at": "end"
+    }
+   ],
+   "ov_speed": 0.945
+  },
+  {
+   "id": "broad_1",
+   "text": "Smaller companies? Up just 0.3%.",
+   "speed": 0.97,
+   "pause": 0.45,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "screen": "Smallcap 100 +0.31%",
+   "ov_speed": 0.981
+  },
+  {
+   "id": "why_0",
+   "text": "So why the rally?",
+   "speed": 1.035,
+   "pause": 0.3,
+   "ov_speed": 1.046
+  },
+  {
+   "id": "why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "speed": 1.074,
+   "pause": 0.45,
+   "ov_speed": 1.086
+  },
+  {
+   "id": "you_0",
+   "text": "What does that mean for you?",
+   "speed": 0.97,
+   "pause": 0.25,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "ov_speed": 0.981
+  },
+  {
+   "id": "you_1",
+   "text": "Ten thousand rupees in the Nifty... up about 158.",
+   "speed": 0.97,
+   "pause": 0.3,
+   "sfx": [
+    {
+     "s": "coin",
+     "at": "end"
+    }
+   ],
+   "ov_speed": 0.981
+  },
+  {
+   "id": "you_2",
+   "text": "Over two days? About 329.",
+   "speed": 0.988,
+   "pause": 0.6,
+   "sfx": [
+    {
+     "s": "coin",
+     "at": "end"
+    }
+   ],
+   "ov_speed": 0.999
+  },
+  {
+   "id": "reveal_0",
+   "text": "Now. Your answer.",
+   "speed": 0.977,
+   "pause": 1.3,
+   "ov_speed": 0.987
+  },
+  {
+   "id": "reveal_1",
+   "text": "It's B!",
+   "speed": 1.016,
+   "pause": 0.25,
+   "sfx": [
+    {
+     "s": "riser",
+     "at": "pre"
+    },
+    {
+     "s": "drop",
+     "at": "pre"
+    },
+    {
+     "s": "hit",
+     "at": "start",
+     "amp": 0.5
+    },
+    {
+     "s": "ding",
+     "at": "start"
+    }
+   ],
+   "ov_speed": 1.027
+  },
+  {
+   "id": "reveal_2",
+   "text": "BSE. The company that runs the stock exchange.",
+   "speed": 0.97,
+   "pause": 0.15,
+   "ov_speed": 0.981
+  },
+  {
+   "id": "reveal_3",
+   "text": "Then Nestle and Tata Consumer.",
+   "speed": 1.074,
+   "pause": 0.5,
+   "ov_speed": 1.086
+  },
+  {
+   "id": "loop_0",
+   "text": "And the Sensex just jumped...",
+   "speed": 1.016,
+   "pause": 0.0,
+   "ov_speed": 1.027
+  }
+ ],
+ "pace": {
+  "target": 175,
+  "slow": 0.92,
+  "fast": 1.05,
+  "fast_ids": [
+   "hook_0",
+   "hook_1"
+  ],
+  "slow_re": "^(levels|broad|you)_|^reveal_2$",
+  "pause_scale": 1.0,
+  "slow_pause": 0.0
+ }
+}

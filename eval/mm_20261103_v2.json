@@ -1,0 +1,193 @@
+{
+ "name": "mm_20261103_v2",
+ "about": "Market Minute 3 Nov 2026, script v2 for suspense: shorter lines, held beats before each number, a ticking think-pause after the quick guess, a riser + music drop before the answer. Same facts and sources as pipeline/episodes/mm_20261103.py. Research pass (notes/voice_tests/v2/research.md): index levels moved to screen only, small numbers rounded in speech.",
+ "mood": "bright",
+ "lines": [
+  {
+   "id": "hook_0",
+   "text": "The Sensex just jumped 1,225 points.",
+   "speed": 1.1,
+   "pause": 0.15,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "end",
+     "amp": 0.45
+    }
+   ]
+  },
+  {
+   "id": "hook_1",
+   "text": "Again!",
+   "speed": 1.06,
+   "pause": 0.45
+  },
+  {
+   "id": "guess_0",
+   "text": "Quick guess. Today's top Nifty gainer... what does it actually do?",
+   "speed": 1.08,
+   "pause": 0.2
+  },
+  {
+   "id": "guess_1",
+   "text": "Lock it in. The answer is at the very end.",
+   "speed": 1.1,
+   "pause": 0.8,
+   "sfx": [
+    {
+     "s": "tick",
+     "at": "end",
+     "dur": 0.8
+    }
+   ]
+  },
+  {
+   "id": "levels_0",
+   "text": "Nifty and Sensex? Both up.",
+   "speed": 1.1,
+   "pause": 0.2,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "screen": "Nifty 23,811 · Sensex 76,918 (numbers on screen, not spoken)"
+  },
+  {
+   "id": "levels_1",
+   "text": "Four days in a row.",
+   "speed": 1.06,
+   "pause": 0.45,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "end",
+     "amp": 0.3
+    }
+   ]
+  },
+  {
+   "id": "broad_0",
+   "text": "But here's the catch.",
+   "speed": 1.04,
+   "pause": 0.4,
+   "sfx": [
+    {
+     "s": "drop",
+     "at": "end"
+    }
+   ]
+  },
+  {
+   "id": "broad_1",
+   "text": "Smaller companies? Up just 0.3%.",
+   "speed": 1.08,
+   "pause": 0.45,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "screen": "Smallcap 100 +0.31%"
+  },
+  {
+   "id": "why_0",
+   "text": "So why the rally?",
+   "speed": 1.06,
+   "pause": 0.3
+  },
+  {
+   "id": "why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "speed": 1.1,
+   "pause": 0.45
+  },
+  {
+   "id": "you_0",
+   "text": "What does that mean for you?",
+   "speed": 1.08,
+   "pause": 0.25,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "id": "you_1",
+   "text": "Ten thousand rupees in the Nifty... up about 158.",
+   "speed": 1.08,
+   "pause": 0.3,
+   "sfx": [
+    {
+     "s": "coin",
+     "at": "end"
+    }
+   ]
+  },
+  {
+   "id": "you_2",
+   "text": "Over two days? About 329.",
+   "speed": 1.1,
+   "pause": 0.6,
+   "sfx": [
+    {
+     "s": "coin",
+     "at": "end"
+    }
+   ]
+  },
+  {
+   "id": "reveal_0",
+   "text": "Now. Your answer.",
+   "speed": 1.0,
+   "pause": 0.9
+  },
+  {
+   "id": "reveal_1",
+   "text": "It's B!",
+   "speed": 1.04,
+   "pause": 0.25,
+   "sfx": [
+    {
+     "s": "riser",
+     "at": "pre"
+    },
+    {
+     "s": "drop",
+     "at": "pre"
+    },
+    {
+     "s": "hit",
+     "at": "start",
+     "amp": 0.5
+    },
+    {
+     "s": "ding",
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "id": "reveal_2",
+   "text": "BSE. The company that runs the stock exchange.",
+   "speed": 1.08,
+   "pause": 0.15
+  },
+  {
+   "id": "reveal_3",
+   "text": "Then Nestle and Tata Consumer.",
+   "speed": 1.1,
+   "pause": 0.5
+  },
+  {
+   "id": "loop_0",
+   "text": "And the Sensex just jumped...",
+   "speed": 1.04,
+   "pause": 0.0
+  }
+ ]
+}

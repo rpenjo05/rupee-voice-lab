@@ -1,0 +1,133 @@
+{
+ "script": "mm_20261103_v2",
+ "total": 41.03,
+ "voice_s": 32.93,
+ "lines": [
+  {
+   "id": "hook_0",
+   "t0": 0.7,
+   "t1": 3.957,
+   "pause_before": 0.7,
+   "reveal": false
+  },
+  {
+   "id": "hook_1",
+   "t0": 4.107,
+   "t1": 5.197,
+   "pause_before": 0.15,
+   "reveal": false
+  },
+  {
+   "id": "guess_0",
+   "t0": 5.647,
+   "t1": 8.401,
+   "pause_before": 0.45,
+   "reveal": false
+  },
+  {
+   "id": "guess_1",
+   "t0": 8.601,
+   "t1": 10.392,
+   "pause_before": 0.2,
+   "reveal": false
+  },
+  {
+   "id": "levels_0",
+   "t0": 11.192,
+   "t1": 12.696,
+   "pause_before": 0.8,
+   "reveal": false
+  },
+  {
+   "id": "levels_1",
+   "t0": 12.896,
+   "t1": 14.07,
+   "pause_before": 0.2,
+   "reveal": false
+  },
+  {
+   "id": "broad_0",
+   "t0": 14.52,
+   "t1": 15.682,
+   "pause_before": 0.45,
+   "reveal": false
+  },
+  {
+   "id": "broad_1",
+   "t0": 16.082,
+   "t1": 18.523,
+   "pause_before": 0.4,
+   "reveal": false
+  },
+  {
+   "id": "why_0",
+   "t0": 18.973,
+   "t1": 20.17,
+   "pause_before": 0.45,
+   "reveal": false
+  },
+  {
+   "id": "why_1",
+   "t0": 20.47,
+   "t1": 22.84,
+   "pause_before": 0.3,
+   "reveal": false
+  },
+  {
+   "id": "you_0",
+   "t0": 23.29,
+   "t1": 24.534,
+   "pause_before": 0.45,
+   "reveal": false
+  },
+  {
+   "id": "you_1",
+   "t0": 24.784,
+   "t1": 27.98,
+   "pause_before": 0.25,
+   "reveal": false
+  },
+  {
+   "id": "you_2",
+   "t0": 28.28,
+   "t1": 30.553,
+   "pause_before": 0.3,
+   "reveal": false
+  },
+  {
+   "id": "reveal_0",
+   "t0": 31.153,
+   "t1": 32.405,
+   "pause_before": 0.6,
+   "reveal": false
+  },
+  {
+   "id": "reveal_1",
+   "t0": 33.305,
+   "t1": 34.429,
+   "pause_before": 0.9,
+   "reveal": true
+  },
+  {
+   "id": "reveal_2",
+   "t0": 34.679,
+   "t1": 36.849,
+   "pause_before": 0.25,
+   "reveal": false
+  },
+  {
+   "id": "reveal_3",
+   "t0": 36.999,
+   "t1": 38.476,
+   "pause_before": 0.15,
+   "reveal": false
+  },
+  {
+   "id": "loop_0",
+   "t0": 38.976,
+   "t1": 40.43,
+   "pause_before": 0.5,
+   "reveal": false
+  }
+ ]
+}

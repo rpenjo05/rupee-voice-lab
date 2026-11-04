@@ -1,0 +1,295 @@
+{
+ "name": "rewind_gold1991_v3",
+ "about": "Rupee Rewind 3 Nov 2026 (India's 1991 gold pledge), script v2 for suspense: split cliffhanger lines, long held beats before 'defaults' and 'for a country', a tape-rewind into 1991, a low heartbeat pulse through the crisis, a riser + music drop before the key line. Same facts and sources as pipeline/episodes/story_20261103.py (notes/rupee_rewind/2026-11-03_selection.md). Research pass: long pledge line split, one idea per line.",
+ "mood": "dark",
+ "pulse": [
+  "empty_0",
+  "pawn_1"
+ ],
+ "lines": [
+  {
+   "id": "open_0",
+   "text": "Gold just hit a one-year low...",
+   "speed": 0.852,
+   "pause": 0.33,
+   "ov_speed": 0.871
+  },
+  {
+   "id": "open_1",
+   "text": "days before Dhanteras.",
+   "speed": 0.836,
+   "pause": 0.52,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "open_2",
+   "text": "But in nineteen ninety-one... India had to pawn its own gold.",
+   "speed": 0.819,
+   "pause": 0.39,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "end",
+     "amp": 0.4
+    }
+   ],
+   "ov_speed": 0.837
+  },
+  {
+   "id": "open_3",
+   "text": "Just to pay its bills.",
+   "speed": 0.836,
+   "pause": 0.91,
+   "sfx": [
+    {
+     "s": "tape",
+     "at": "end"
+    }
+   ],
+   "ov_speed": 0.854
+  },
+  {
+   "id": "empty_0",
+   "text": "Nineteen ninety-one. India is running out of dollars.",
+   "speed": 0.836,
+   "pause": 0.39,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "empty_1",
+   "text": "What's left pays for just a few weeks of imports.",
+   "speed": 0.836,
+   "pause": 0.45,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "empty_2",
+   "text": "Run out...",
+   "speed": 0.75,
+   "pause": 0.9,
+   "sfx": [
+    {
+     "s": "drop",
+     "at": "end"
+    }
+   ],
+   "ov_speed": 0.75
+  },
+  {
+   "id": "empty_3",
+   "text": "and India defaults.",
+   "speed": 0.819,
+   "pause": 0.78,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "start",
+     "amp": 0.5
+    }
+   ],
+   "ov_speed": 0.837
+  },
+  {
+   "id": "smuggled_0",
+   "text": "First, twenty tonnes of gold seized from smugglers is sold...",
+   "speed": 0.836,
+   "pause": 0.33,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "ov_speed": 0.854
+  },
+  {
+   "id": "smuggled_1",
+   "text": "with a promise to buy it back.",
+   "speed": 0.836,
+   "pause": 0.39,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "smuggled_2",
+   "text": "About two hundred million dollars.",
+   "speed": 0.836,
+   "pause": 0.45,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "smuggled_3",
+   "text": "Not enough.",
+   "speed": 0.75,
+   "pause": 0.9,
+   "sfx": [
+    {
+     "s": "hit",
+     "at": "start",
+     "amp": 0.3
+    }
+   ],
+   "ov_speed": 0.75
+  },
+  {
+   "id": "pledge_0",
+   "text": "So the RBI takes a bigger step.",
+   "speed": 0.819,
+   "pause": 0.52,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "ov_speed": 0.837
+  },
+  {
+   "id": "pledge_1",
+   "text": "It pledges forty-seven tonnes of its own gold.",
+   "speed": 0.836,
+   "pause": 0.39,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "pledge_1b",
+   "text": "With the Bank of England... and the Bank of Japan.",
+   "speed": 0.836,
+   "pause": 0.45,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "pledge_2",
+   "text": "The gold leaves the country.",
+   "speed": 0.819,
+   "pause": 0.33,
+   "ov_speed": 0.837
+  },
+  {
+   "id": "pledge_3",
+   "text": "As a guarantee.",
+   "speed": 0.75,
+   "pause": 0.9,
+   "ov_speed": 0.75
+  },
+  {
+   "id": "pawn_0",
+   "text": "In return? About four hundred million dollars in loans.",
+   "speed": 0.836,
+   "pause": 0.52,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "pawn_1",
+   "text": "A pawn shop...",
+   "speed": 0.75,
+   "pause": 1.04,
+   "ov_speed": 0.75
+  },
+  {
+   "id": "pawn_2",
+   "text": "for a country.",
+   "speed": 0.75,
+   "pause": 1.04,
+   "sfx": [
+    {
+     "s": "riser",
+     "at": "pre"
+    },
+    {
+     "s": "drop",
+     "at": "pre"
+    },
+    {
+     "s": "hit",
+     "at": "start",
+     "amp": 0.55
+    }
+   ],
+   "ov_speed": 0.75
+  },
+  {
+   "id": "reform_0",
+   "text": "That July, the rupee is cut in value...",
+   "speed": 0.836,
+   "pause": 0.39,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "ov_speed": 0.854
+  },
+  {
+   "id": "reform_1",
+   "text": "and India starts opening up its economy.",
+   "speed": 0.836,
+   "pause": 0.65,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "home_0",
+   "text": "And in twenty twenty-four?",
+   "speed": 0.836,
+   "pause": 0.52,
+   "sfx": [
+    {
+     "s": "whoosh",
+     "at": "start"
+    }
+   ],
+   "ov_speed": 0.854
+  },
+  {
+   "id": "home_1",
+   "text": "The RBI moved about a hundred tonnes of its gold from the UK... back home to India.",
+   "speed": 0.75,
+   "pause": 0.9,
+   "sfx": [
+    {
+     "s": "ding",
+     "at": "end",
+     "amp": 0.25
+    }
+   ],
+   "ov_speed": 0.751
+  },
+  {
+   "id": "today_0",
+   "text": "So gold isn't just jewellery. In a crisis, you can borrow against it.",
+   "speed": 0.836,
+   "pause": 0.52,
+   "ov_speed": 0.854
+  },
+  {
+   "id": "today_1",
+   "text": "But the real lesson?",
+   "speed": 0.819,
+   "pause": 0.59,
+   "ov_speed": 0.837
+  },
+  {
+   "id": "today_2",
+   "text": "Keep cash for emergencies... so you never have to pawn the gold.",
+   "speed": 0.75,
+   "pause": 0.9,
+   "ov_speed": 0.75
+  },
+  {
+   "id": "loop_0",
+   "text": "And for India... it all began with the dollars running out.",
+   "speed": 0.75,
+   "pause": 0.0,
+   "ov_speed": 0.75
+  }
+ ],
+ "pace": {
+  "target": 155,
+  "slow": 0.88,
+  "fast": 1.0,
+  "fast_ids": [],
+  "slow_re": "^(empty_2|smuggled_3|pledge_3|pawn_1|pawn_2|home_1|today_2|loop_0)$",
+  "pause_scale": 1.3,
+  "slow_pause": 0.9
+ }
+}
