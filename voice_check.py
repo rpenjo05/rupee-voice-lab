@@ -13,11 +13,14 @@ Tools (all free, CPU, no keys):
   aesthetics Meta Audiobox Aesthetics: CE content enjoyment, CU content usefulness, PC production complexity,
              PQ production quality (1-10).
   emotion    emotion2vec+ base: top emotion and the share of non-neutral emotion.
+  mix        Full mixes eval/<set>/_mix.wav (voice + music + SFX, from pipeline/audio/mix_v2.py): Audiobox Aesthetics on the
+             whole track, plus timing from eval/<set>/_cues.json (length, voice share, mean pause, pause before reveals).
+             Sets without line wavs (e.g. a v1 baseline mix only) appear in this table only.
 """
 import argparse, glob, json, os, subprocess, tempfile, statistics as st
 
 def files(inp):
-    return sorted(glob.glob(f"{inp}/*/*.wav"))
+    return sorted(f for f in glob.glob(f"{inp}/*/*.wav") if not os.path.basename(f).startswith("_"))
 
 def key(f):
     return f"{os.path.basename(os.path.dirname(f))}/{os.path.basename(f)[:-4]}"
@@ -78,7 +81,24 @@ def t_emotion(fs):
         print(k, out[k], flush=True)
     return out
 
+def t_mix(inp):
+    """Full mix (voice + music + sound effects): Audiobox Aesthetics on eval/<set>/_mix.wav, timing from _cues.json."""
+    tmp = tempfile.mkdtemp(); out = {}
+    mixes = {os.path.basename(os.path.dirname(f)): f for f in sorted(glob.glob(f"{inp}/*/_mix.wav"))}
+    aes = t_aesthetics({k: prep(f, tmp) for k, f in mixes.items()}) if mixes else {}
+    for k in mixes:
+        r = dict(aes.get(k, {})); cf = os.path.join(os.path.dirname(mixes[k]), "_cues.json")
+        if os.path.exists(cf):
+            c = json.load(open(cf)); L = c["lines"]; gaps = [l["pause_before"] for l in L[1:]]
+            rev = [l["pause_before"] for l in L[1:] if l.get("reveal")]
+            r.update(total_s=c["total"], voice_share=round(c["voice_s"] / c["total"], 2),
+                     pause_mean=round(st.mean(gaps), 2) if gaps else None, pause_reveal=round(st.mean(rev), 2) if rev else None)
+        out[k] = r; print(k, r, flush=True)
+    return out
+
 def cmd_score(a):
+    if a.tool == "mix":
+        res = t_mix(a.inp); os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True); json.dump(res, open(a.out, "w"), indent=1); return
     tmp = tempfile.mkdtemp(); fs = {key(f): prep(f, tmp) for f in files(a.inp)}
     res = {"prosody": t_prosody, "utmos": t_utmos, "aesthetics": t_aesthetics, "emotion": t_emotion}[a.tool](fs)
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True); json.dump(res, open(a.out, "w"), indent=1)
@@ -92,7 +112,7 @@ def cmd_report(a):
     data = {}
     for f in glob.glob(f"{a.inp}/**/*.json", recursive=True):
         data[os.path.basename(f)[:-5]] = json.load(open(f))
-    sets = sorted({k.split("/")[0] for t in data.values() for k in t})
+    sets = sorted({k.split("/")[0] for n, t in data.items() if n != "mix" for k in t})
     md = ["# Voice check\n", "Per-voice means over all narration lines (loudness-matched first). Higher = better for "
           "MOS, CE, PQ; pitch variation/range and loudness variation measure liveliness (flat voices score low). "
           "Missing column = that tool failed (see the run log).\n"]
@@ -105,6 +125,12 @@ def cmd_report(a):
             x = (round(sum(vals), 1) if c == "dur" else round(st.mean(vals), 2)) if vals else None
             row.append("" if x is None else str(x)); summ.setdefault(s, {})[f"{t}.{c}"] = x
         md.append(f"| {s} | " + " | ".join(row) + " |")
+    if data.get("mix"):
+        md += ["\n## Full mix (voice + music + sound effects)\n",
+               "| set | Enjoyment CE | Prod. quality PQ | Complexity PC | Length s | Voice share | Mean pause s | Pause before reveals s |",
+               "|---|---|---|---|---|---|---|---|"]
+        for k, v in sorted(data["mix"].items()):
+            md.append(f"| {k} | " + " | ".join(str(v.get(c, "")) for c in ("CE", "PQ", "PC", "total_s", "voice_share", "pause_mean", "pause_reveal")) + " |")
     md.append("\n## Per line\n")
     for s in sets:
         md.append(f"\n### {s}\n\n| line | MOS | CE | PQ | emotion | pitch var st | range st | wpm |\n|---|---|---|---|---|---|---|---|")

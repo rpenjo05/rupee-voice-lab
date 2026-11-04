@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tool: [prosody, utmos, aesthetics, emotion]
+        tool: [prosody, utmos, aesthetics, emotion, mix]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -36,7 +36,7 @@ jobs:
           case "${{ matrix.tool }}" in
             prosody)    pip install -q praat-parselmouth transformers numpy ;;
             utmos)      pip install -q torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu && pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git && pip install -q torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu --force-reinstall --no-deps ;;
-            aesthetics) pip install -q audiobox_aesthetics requests soundfile ;;
+            aesthetics|mix) pip install -q audiobox_aesthetics requests soundfile ;;
             emotion)    pip install -q funasr modelscope huggingface_hub ;;
           esac
       - run: python voice_check.py score --tool ${{ matrix.tool }} --inp audio/eval --out out/${{ matrix.tool }}.json
