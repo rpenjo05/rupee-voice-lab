@@ -1,0 +1,79 @@
+# mm_20261103_v2: OmniVoice plain clone (heart_plain), v2 suspense script, paced to Kokoro: OmniVoice takes
+
+Pick = lowest Whisper word error rate, then closest to the median length.
+
+
+## Variant P: Plain clone, VoiceStudio preset, per-line speed
+
+- **hook_0** pick P__hook_0_t1.wav · text: `The Sensex just jumped one thousand two hundred and twenty five points.`
+  - t1: 3.4 s (gen 182.3 s), WER 0.0: The Sensex just jumped 1,225 points.
+  - t2: 3.4 s (gen 182.2 s), WER 0.0: The Sensex just jumped 1,225 points.
+  - t3: 3.4 s (gen 184.3 s), WER 0.0: The Sensex just jumped 1,225 points.
+- **hook_1** pick P__hook_1_t2.wav · text: `And it did it again!`
+  - t1: 1.44 s (gen 155.7 s), WER 0.0: And it did it again.
+  - t2: 1.37 s (gen 155.9 s), WER 0.0: And it did it again.
+  - t3: 1.32 s (gen 155.8 s), WER 0.0: And it did it again.
+- **guess_0** pick P__guess_0_t1.wav · text: `Quick guess. Today's top Nifty gainer, what does it actually do?`
+  - t1: 3.03 s (gen 176.5 s), WER 0.0: Quick guess, today's top nifty gainer, what does it actually do?
+  - t2: 3.04 s (gen 175.4 s), WER 0.455: Quick guess. Today's top nifty gainer.
+  - t3: 3.03 s (gen 175.5 s), WER 0.0: Quick guess, today's top nifty gainer, what does it actually do?
+- **guess_1** pick P__guess_1_t1.wav · text: `Lock it in. The answer is at the very end.`
+  - t1: 1.96 s (gen 164.9 s), WER 0.0: Lock it in. The answer is at the very end.
+  - t2: 1.96 s (gen 165.4 s), WER 0.0: Lock it in. The answer is at the very end.
+  - t3: 1.96 s (gen 164.8 s), WER 0.3: The answer is at the very end.
+- **levels_0** pick P__levels_0_t1.wav · text: `The Nifty and the Sensex? Both up.`
+  - t1: 1.68 s (gen 160.8 s), WER 0.0: The Nifty and the Sensex both up.
+  - t2: 1.68 s (gen 160.4 s), WER 0.0: The Nifty and the Sensex both up.
+  - t3: 1.68 s (gen 159.9 s), WER 0.143: The Nifty and the Sensex both are.
+- **levels_1** pick P__levels_1_t2.wav · text: `Four days in a row.`
+  - t1: 1.47 s (gen 153.9 s), WER 0.0: four days in a row.
+  - t2: 1.41 s (gen 154.4 s), WER 0.0: four days in a row.
+  - t3: 1.37 s (gen 154.1 s), WER 0.0: four days in a row.
+- **broad_0** pick P__broad_0_t3.wav · text: `But here's the catch.`
+  - t1: 1.39 s (gen 158.2 s), WER 0.0: But here's the catch.
+  - t2: 1.48 s (gen 157.7 s), WER 0.0: But here's the catch.
+  - t3: 1.46 s (gen 158.2 s), WER 0.0: But here's the catch.
+- **broad_1** pick P__broad_1_t1.wav · text: `Smaller companies? Up just zero point three percent.`
+  - t1: 2.6 s (gen 172.1 s), WER 0.0: Smaller companies up just 0.3%.
+  - t2: 2.6 s (gen 171.7 s), WER 0.125: Smaller companies up to 0.3%.
+  - t3: 2.6 s (gen 171.6 s), WER 0.0: Smaller companies up just 0.3%.
+- **why_0** pick P__why_0_t1.wav · text: `So why the rally?`
+  - t1: 1.43 s (gen 152.8 s), WER 0.0: So why the rally?
+  - t2: 1.44 s (gen 154.3 s), WER 0.0: So why the rally?
+  - t3: 1.35 s (gen 154.1 s), WER 0.0: So why the rally?
+- **why_1** pick P__why_1_t1.wav · text: `Oil kept cooling. And foreign investors kept buying.`
+  - t1: 2.56 s (gen 173.3 s), WER 0.0: Oil kept cooling and foreign investors kept buying.
+  - t2: 2.56 s (gen 172.8 s), WER 0.0: Oil kept cooling and foreign investors kept buying.
+  - t3: 2.56 s (gen 173.7 s), WER 0.0: Oil kept cooling and foreign investors kept buying.
+- **you_0** pick P__you_0_t1.wav · text: `What does that mean for you?`
+  - t1: 1.51 s (gen 158.8 s), WER 0.0: What does that mean for you?
+  - t2: 1.5 s (gen 159.4 s), WER 0.0: What does that mean for you?
+  - t3: 1.54 s (gen 158.3 s), WER 0.0: What does that mean for you?
+- **you_1** pick P__you_1_t2.wav · text: `Ten thousand rupees in the Nifty is up about one hundred and fifty eight.`
+  - t1: 3.48 s (gen 180.8 s), WER 0.143: Rs 10,000 in the Nifty is up about 158.
+  - t2: 3.48 s (gen 180.9 s), WER 0.0: 10,000 rupees in the Nifty is up about 158.
+  - t3: 3.48 s (gen 181.3 s), WER 0.0: 10,000 rupees in the Nifty is up about 158.
+- **you_2** pick P__you_2_t1.wav · text: `Over two days? About three hundred and twenty nine.`
+  - t1: 2.48 s (gen 172.4 s), WER 0.0: Over two days, about 329.
+  - t2: 2.47 s (gen 171.8 s), WER 0.0: Over two days, about 329.
+  - t3: 2.48 s (gen 172.1 s), WER 0.0: Over two days, about 329.
+- **reveal_0** pick P__reveal_0_t3.wav · text: `Now. Your answer.`
+  - t1: 1.52 s (gen 155.8 s), WER 0.0: Now, your answer.
+  - t2: 1.5 s (gen 156.2 s), WER 0.0: Now, your answer.
+  - t3: 1.51 s (gen 156.6 s), WER 0.0: Now, your answer.
+- **reveal_1** pick P__reveal_1_t2.wav · text: `The answer is B!`
+  - t1: 1.4 s (gen 152.5 s), WER 0.0: The answer is B.
+  - t2: 1.41 s (gen 152.3 s), WER 0.0: The answer is B.
+  - t3: 1.44 s (gen 154.1 s), WER 0.0: The answer is B.
+- **reveal_2** pick P__reveal_2_t2.wav · text: `B S E. The company that runs the stock exchange.`
+  - t1: 2.32 s (gen 171.3 s), WER 0.4: Be a company that runs the stock exchange.
+  - t2: 2.32 s (gen 171.5 s), WER 0.3: BSE, the company that runs the stock exchange.
+  - t3: 2.32 s (gen 171.8 s), WER 0.3: BSE, the company that runs the stock exchange.
+- **reveal_3** pick P__reveal_3_t1.wav · text: `Then Nestle and Tata Consumer.`
+  - t1: 1.68 s (gen 159.0 s), WER 0.2: The Nestle and Tata consumer.
+  - t2: 1.68 s (gen 159.2 s), WER 0.2: than Nestle and Tata Consumer.
+  - t3: 1.68 s (gen 159.3 s), WER 0.2: the Nestle and Tata consumer.
+- **loop_0** pick P__loop_0_t3.wav · text: `And the Sensex just jumped,`
+  - t1: 1.65 s (gen 156.3 s), WER 0.0: and the Sensex just jumped.
+  - t2: 1.68 s (gen 156.0 s), WER 0.0: and the Sensex just jumped.
+  - t3: 1.67 s (gen 156.4 s), WER 0.0: and the Sensex just jumped.
