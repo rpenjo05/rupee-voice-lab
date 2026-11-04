@@ -1,0 +1,530 @@
+[
+ {
+  "variant": "D",
+  "id": "smuggled_1",
+  "text": "That brings in about two hundred million dollars. It is not enough.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__smuggled_1_t2.wav",
+  "takes": [
+   {
+    "file": "D__smuggled_1_t1.wav",
+    "take": 1,
+    "dur": 4.1,
+    "secs": 193.1,
+    "asr": "That brings in about $200 million. It is not enough.",
+    "wer": 0.083
+   },
+   {
+    "file": "D__smuggled_1_t2.wav",
+    "take": 2,
+    "dur": 4.25,
+    "secs": 193.3,
+    "asr": "That brings in about $200 million. It is not enough.",
+    "wer": 0.083
+   },
+   {
+    "file": "D__smuggled_1_t3.wav",
+    "take": 3,
+    "dur": 4.27,
+    "secs": 193.5,
+    "asr": "That brings in about $200 million. It is not enough.",
+    "wer": 0.083
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "today_1",
+  "text": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__today_1_t1.wav",
+  "takes": [
+   {
+    "file": "D__today_1_t1.wav",
+    "take": 1,
+    "dur": 5.28,
+    "secs": 206.2,
+    "asr": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__today_1_t2.wav",
+    "take": 2,
+    "dur": 5.16,
+    "secs": 205.3,
+    "asr": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__today_1_t3.wav",
+    "take": 3,
+    "dur": 5.32,
+    "secs": 205.8,
+    "asr": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "empty_0",
+  "text": "Rewind to nineteen ninety-one. India is running out of dollars.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__empty_0_t3.wav",
+  "takes": [
+   {
+    "file": "D__empty_0_t1.wav",
+    "take": 1,
+    "dur": 4.2,
+    "secs": 191.8,
+    "asr": "Rewind to 1991. India is running out of dollars.",
+    "wer": 0.455
+   },
+   {
+    "file": "D__empty_0_t2.wav",
+    "take": 2,
+    "dur": 4.15,
+    "secs": 191.2,
+    "asr": "Rewind to 1991. India is running out of dollars.",
+    "wer": 0.455
+   },
+   {
+    "file": "D__empty_0_t3.wav",
+    "take": 3,
+    "dur": 4.17,
+    "secs": 190.9,
+    "asr": "Rewind to 1991. India is running out of dollars.",
+    "wer": 0.455
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "pawn_1",
+  "text": "[sigh] It is a pawn shop, for an entire country.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__pawn_1_t1.wav",
+  "takes": [
+   {
+    "file": "D__pawn_1_t1.wav",
+    "take": 1,
+    "dur": 3.04,
+    "secs": 176.2,
+    "asr": "It is a pawn shop for an entire country.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__pawn_1_t2.wav",
+    "take": 2,
+    "dur": 3.04,
+    "secs": 176.5,
+    "asr": "It is a pawn shop for an entire country.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__pawn_1_t3.wav",
+    "take": 3,
+    "dur": 3.04,
+    "secs": 176.3,
+    "asr": "It is a pawn shop for an entire country.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "smuggled_0",
+  "text": "First, twenty tonnes of gold seized from smugglers is sold, with a promise to buy it back.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__smuggled_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__smuggled_0_t1.wav",
+    "take": 1,
+    "dur": 5.76,
+    "secs": 148.6,
+    "asr": "First, 20 tons of gold seized from smugglers is sold, with a promise to buy it back.",
+    "wer": 0.059
+   },
+   {
+    "file": "D__smuggled_0_t2.wav",
+    "take": 2,
+    "dur": 5.76,
+    "secs": 150.9,
+    "asr": "First, 20 tons of gold seized from smugglers is sold, with a promise to buy it back.",
+    "wer": 0.059
+   },
+   {
+    "file": "D__smuggled_0_t3.wav",
+    "take": 3,
+    "dur": 5.76,
+    "secs": 152.0,
+    "asr": "First, 20 tons of gold seized from smugglers is sold, with a promise to buy it back.",
+    "wer": 0.059
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "today_0",
+  "text": "So gold isn't just jewellery. In a crisis, you can borrow against it.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__today_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__today_0_t1.wav",
+    "take": 1,
+    "dur": 4.38,
+    "secs": 136.9,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it.",
+    "wer": 0.077
+   },
+   {
+    "file": "D__today_0_t2.wav",
+    "take": 2,
+    "dur": 4.31,
+    "secs": 135.0,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it.",
+    "wer": 0.077
+   },
+   {
+    "file": "D__today_0_t3.wav",
+    "take": 3,
+    "dur": 4.39,
+    "secs": 136.5,
+    "asr": "So gold isn't just jewelry. In a crisis, you can borrow against it.",
+    "wer": 0.077
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "open_1",
+  "text": "But in nineteen ninety-one, India had to pawn its own gold, just to pay its bills.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__open_1_t3.wav",
+  "takes": [
+   {
+    "file": "D__open_1_t1.wav",
+    "take": 1,
+    "dur": 5.2,
+    "secs": 153.6,
+    "asr": "But in 1991, India had to pawn its own gold just to pay its bills.",
+    "wer": 0.294
+   },
+   {
+    "file": "D__open_1_t2.wav",
+    "take": 2,
+    "dur": 4.98,
+    "secs": 151.4,
+    "asr": "But in 1991, India had to pawn its own gold just to pay its bills.",
+    "wer": 0.294
+   },
+   {
+    "file": "D__open_1_t3.wav",
+    "take": 3,
+    "dur": 5.11,
+    "secs": 148.9,
+    "asr": "But in 1991, India had to pawn its own gold just to pay its bills.",
+    "wer": 0.294
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "pawn_0",
+  "text": "In return, India gets about four hundred million dollars in loans.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__pawn_0_t3.wav",
+  "takes": [
+   {
+    "file": "D__pawn_0_t1.wav",
+    "take": 1,
+    "dur": 4.25,
+    "secs": 141.3,
+    "asr": "In return, India gets about $400 million in loans.",
+    "wer": 0.091
+   },
+   {
+    "file": "D__pawn_0_t2.wav",
+    "take": 2,
+    "dur": 4.39,
+    "secs": 139.4,
+    "asr": "In return, India gets about $400 million in loans.",
+    "wer": 0.091
+   },
+   {
+    "file": "D__pawn_0_t3.wav",
+    "take": 3,
+    "dur": 4.3,
+    "secs": 141.2,
+    "asr": "In return, India gets about $400 million in loans.",
+    "wer": 0.091
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "open_0",
+  "text": "Gold just hit a one-year low, only days before Dhanteras.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__open_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__open_0_t1.wav",
+    "take": 1,
+    "dur": 3.62,
+    "secs": 191.6,
+    "asr": "Gold just hit a one-year low only days before Dantares.",
+    "wer": 0.091
+   },
+   {
+    "file": "D__open_0_t2.wav",
+    "take": 2,
+    "dur": 3.76,
+    "secs": 191.3,
+    "asr": "Gold just hit a one-year low, only days before Dontaris.",
+    "wer": 0.091
+   },
+   {
+    "file": "D__open_0_t3.wav",
+    "take": 3,
+    "dur": 3.62,
+    "secs": 191.3,
+    "asr": "Gold just hit a one-year low, only days before Dan Terras.",
+    "wer": 0.182
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "pledge_1",
+  "text": "The gold leaves the country, as a guarantee.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__pledge_1_t1.wav",
+  "takes": [
+   {
+    "file": "D__pledge_1_t1.wav",
+    "take": 1,
+    "dur": 2.67,
+    "secs": 176.4,
+    "asr": "The gold leaves the country as a guarantee.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__pledge_1_t2.wav",
+    "take": 2,
+    "dur": 2.88,
+    "secs": 174.7,
+    "asr": "The gold leaves the country as a guarantee.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__pledge_1_t3.wav",
+    "take": 3,
+    "dur": 2.63,
+    "secs": 175.4,
+    "asr": "The gold leaves the country as a guarantee.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "empty_2",
+  "text": "If the dollars run out, India defaults.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__empty_2_t2.wav",
+  "takes": [
+   {
+    "file": "D__empty_2_t1.wav",
+    "take": 1,
+    "dur": 2.57,
+    "secs": 69.1,
+    "asr": "If the dollars run out, India defaults.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__empty_2_t2.wav",
+    "take": 2,
+    "dur": 2.59,
+    "secs": 70.2,
+    "asr": "If the dollars run out, India defaults.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__empty_2_t3.wav",
+    "take": 3,
+    "dur": 2.64,
+    "secs": 68.5,
+    "asr": "If the dollars run out, India defaults.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "home_0",
+  "text": "In twenty twenty-four, the RBI moved about a hundred tonnes of its gold from the UK, back to India.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__home_0_t3.wav",
+  "takes": [
+   {
+    "file": "D__home_0_t1.wav",
+    "take": 1,
+    "dur": 6.15,
+    "secs": 89.3,
+    "asr": "In 2024, the RBI moved about 100 tons of its gold from the UK back to India.",
+    "wer": 0.25
+   },
+   {
+    "file": "D__home_0_t2.wav",
+    "take": 2,
+    "dur": 6.24,
+    "secs": 89.2,
+    "asr": "In 2024, the RBI moved about 100 tons of its gold from the UK, back to India.",
+    "wer": 0.25
+   },
+   {
+    "file": "D__home_0_t3.wav",
+    "take": 3,
+    "dur": 6.19,
+    "secs": 88.8,
+    "asr": "In 2024, the RBI moved about 100 tons of its gold from the UK back to India.",
+    "wer": 0.25
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "empty_1",
+  "text": "What's left pays for just a few weeks of imports.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__empty_1_t2.wav",
+  "takes": [
+   {
+    "file": "D__empty_1_t1.wav",
+    "take": 1,
+    "dur": 2.97,
+    "secs": 178.2,
+    "asr": "What's left pays for just a few weeks of imports.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__empty_1_t2.wav",
+    "take": 2,
+    "dur": 3.02,
+    "secs": 178.5,
+    "asr": "What's left pays for just a few weeks of imports.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__empty_1_t3.wav",
+    "take": 3,
+    "dur": 3.13,
+    "secs": 179.3,
+    "asr": "What's left pays for just a few weeks of imports.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "reform_0",
+  "text": "That July, the rupee is cut in value, and India starts opening up its economy.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__reform_0_t3.wav",
+  "takes": [
+   {
+    "file": "D__reform_0_t1.wav",
+    "take": 1,
+    "dur": 4.74,
+    "secs": 204.2,
+    "asr": "That July, the rupee is cut in value, and India starts opening up its economy.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__reform_0_t2.wav",
+    "take": 2,
+    "dur": 4.96,
+    "secs": 204.4,
+    "asr": "That July, the rupee is cut in value, and India starts opening up its economy.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__reform_0_t3.wav",
+    "take": 3,
+    "dur": 4.93,
+    "secs": 205.9,
+    "asr": "That July the rupee is cut in value and India starts opening up its economy.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "pledge_0",
+  "text": "So the RBI pledges forty-seven tonnes of its own gold, with the Bank of England and the Bank of Japan.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__pledge_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__pledge_0_t1.wav",
+    "take": 1,
+    "dur": 6.48,
+    "secs": 220.6,
+    "asr": "So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan.",
+    "wer": 0.048
+   },
+   {
+    "file": "D__pledge_0_t2.wav",
+    "take": 2,
+    "dur": 6.48,
+    "secs": 223.8,
+    "asr": "So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan.",
+    "wer": 0.048
+   },
+   {
+    "file": "D__pledge_0_t3.wav",
+    "take": 3,
+    "dur": 6.48,
+    "secs": 223.6,
+    "asr": "So the RBI pledges 47 tons of its own gold with the Bank of England and the Bank of Japan.",
+    "wer": 0.048
+   }
+  ]
+ },
+ {
+  "variant": "D",
+  "id": "loop_0",
+  "text": "And for India, it all began with the dollars running out.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "D__loop_0_t1.wav",
+  "takes": [
+   {
+    "file": "D__loop_0_t1.wav",
+    "take": 1,
+    "dur": 3.68,
+    "secs": 186.2,
+    "asr": "And for India, it all began with the dollars running out.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__loop_0_t2.wav",
+    "take": 2,
+    "dur": 3.72,
+    "secs": 186.0,
+    "asr": "And for India, it all began with the dollars running out.",
+    "wer": 0.0
+   },
+   {
+    "file": "D__loop_0_t3.wav",
+    "take": 3,
+    "dur": 3.48,
+    "secs": 185.6,
+    "asr": "And for India, it all began with the dollars running out.",
+    "wer": 0.0
+   }
+  ]
+ }
+]
