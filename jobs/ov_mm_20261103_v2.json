@@ -1,0 +1,164 @@
+{
+ "name": "mm_20261103_v2: OmniVoice plain clone (heart_plain), v2 suspense script, paced to Kokoro",
+ "takes": 3,
+ "gen": {
+  "num_step": 32,
+  "guidance_scale": 2.0,
+  "speed": 1.0,
+  "denoise": true,
+  "postprocess_output": true
+ },
+ "variants": {
+  "P": {
+   "label": "Plain clone, VoiceStudio preset, per-line speed",
+   "ref": "heart_plain",
+   "gen": {}
+  }
+ },
+ "lines": [
+  {
+   "id": "hook_0",
+   "plain": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "speed": {
+    "P": 1.298
+   }
+  },
+  {
+   "id": "hook_1",
+   "plain": "And it did it again!",
+   "text": "And it did it again!",
+   "speed": {
+    "P": 1.251
+   }
+  },
+  {
+   "id": "guess_0",
+   "plain": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "speed": {
+    "P": 1.274
+   }
+  },
+  {
+   "id": "guess_1",
+   "plain": "Lock it in. The answer is at the very end.",
+   "text": "Lock it in. The answer is at the very end.",
+   "speed": {
+    "P": 1.298
+   }
+  },
+  {
+   "id": "levels_0",
+   "plain": "The Nifty and the Sensex? Both up.",
+   "text": "The Nifty and the Sensex? Both up.",
+   "speed": {
+    "P": 1.298
+   }
+  },
+  {
+   "id": "levels_1",
+   "plain": "Four days in a row.",
+   "text": "Four days in a row.",
+   "speed": {
+    "P": 1.251
+   }
+  },
+  {
+   "id": "broad_0",
+   "plain": "But here's the catch.",
+   "text": "But here's the catch.",
+   "speed": {
+    "P": 1.227
+   }
+  },
+  {
+   "id": "broad_1",
+   "plain": "Smaller companies? Up just zero point three percent.",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "speed": {
+    "P": 1.274
+   }
+  },
+  {
+   "id": "why_0",
+   "plain": "So why the rally?",
+   "text": "So why the rally?",
+   "speed": {
+    "P": 1.251
+   }
+  },
+  {
+   "id": "why_1",
+   "plain": "Oil kept cooling. And foreign investors kept buying.",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "speed": {
+    "P": 1.298
+   }
+  },
+  {
+   "id": "you_0",
+   "plain": "What does that mean for you?",
+   "text": "What does that mean for you?",
+   "speed": {
+    "P": 1.274
+   }
+  },
+  {
+   "id": "you_1",
+   "plain": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "speed": {
+    "P": 1.274
+   }
+  },
+  {
+   "id": "you_2",
+   "plain": "Over two days? About three hundred and twenty nine.",
+   "text": "Over two days? About three hundred and twenty nine.",
+   "speed": {
+    "P": 1.298
+   }
+  },
+  {
+   "id": "reveal_0",
+   "plain": "Now. Your answer.",
+   "text": "Now. Your answer.",
+   "speed": {
+    "P": 1.18
+   }
+  },
+  {
+   "id": "reveal_1",
+   "plain": "The answer is B!",
+   "text": "The answer is B!",
+   "speed": {
+    "P": 1.227
+   }
+  },
+  {
+   "id": "reveal_2",
+   "plain": "B S E. The company that runs the stock exchange.",
+   "text": "B S E. The company that runs the stock exchange.",
+   "speed": {
+    "P": 1.274
+   }
+  },
+  {
+   "id": "reveal_3",
+   "plain": "Then Nestle and Tata Consumer.",
+   "text": "Then Nestle and Tata Consumer.",
+   "speed": {
+    "P": 1.298
+   }
+  },
+  {
+   "id": "loop_0",
+   "plain": "And the Sensex just jumped,",
+   "text": "And the Sensex just jumped,",
+   "speed": {
+    "P": 1.227
+   }
+  }
+ ]
+}

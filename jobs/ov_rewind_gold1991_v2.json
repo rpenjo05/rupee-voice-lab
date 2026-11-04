@@ -1,0 +1,247 @@
+{
+ "name": "rewind_gold1991_v2: OmniVoice plain clone (heart_plain), v2 suspense script, paced to Kokoro",
+ "takes": 3,
+ "gen": {
+  "num_step": 32,
+  "guidance_scale": 2.0,
+  "speed": 1.0,
+  "denoise": true,
+  "postprocess_output": true
+ },
+ "variants": {
+  "P": {
+   "label": "Plain clone, VoiceStudio preset, per-line speed",
+   "ref": "heart_plain",
+   "gen": {
+    "class_temperature": 0.3,
+    "position_temperature": 7.0
+   }
+  }
+ },
+ "lines": [
+  {
+   "id": "open_0",
+   "plain": "Gold just hit a one-year low,",
+   "text": "Gold just hit a one-year low,",
+   "speed": {
+    "P": 1.081
+   }
+  },
+  {
+   "id": "open_1",
+   "plain": "Days before Dhanteras.",
+   "text": "Days before Dhanteras.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "open_2",
+   "plain": "But in nineteen ninety-one, India had to pawn its own gold.",
+   "text": "But in nineteen ninety-one, India had to pawn its own gold.",
+   "speed": {
+    "P": 1.039
+   }
+  },
+  {
+   "id": "open_3",
+   "plain": "Just to pay its bills.",
+   "text": "Just to pay its bills.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "empty_0",
+   "plain": "Nineteen ninety-one. India is running out of dollars.",
+   "text": "Nineteen ninety-one. India is running out of dollars.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "empty_1",
+   "plain": "What's left pays for just a few weeks of imports.",
+   "text": "What's left pays for just a few weeks of imports.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "empty_2",
+   "plain": "Run out,",
+   "text": "Run out,",
+   "speed": {
+    "P": 1.018
+   }
+  },
+  {
+   "id": "empty_3",
+   "plain": "And India defaults.",
+   "text": "And India defaults.",
+   "speed": {
+    "P": 1.039
+   }
+  },
+  {
+   "id": "smuggled_0",
+   "plain": "First, twenty tonnes of gold seized from smugglers is sold,",
+   "text": "First, twenty tonnes of gold seized from smugglers is sold,",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "smuggled_1",
+   "plain": "With a promise to buy it back.",
+   "text": "With a promise to buy it back.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "smuggled_2",
+   "plain": "About two hundred million dollars.",
+   "text": "About two hundred million dollars.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "smuggled_3",
+   "plain": "Not enough.",
+   "text": "Not enough.",
+   "speed": {
+    "P": 1.018
+   }
+  },
+  {
+   "id": "pledge_0",
+   "plain": "So the RBI takes a bigger step.",
+   "text": "So the RBI takes a bigger step.",
+   "speed": {
+    "P": 1.039
+   }
+  },
+  {
+   "id": "pledge_1",
+   "plain": "It pledges forty-seven tonnes of its own gold.",
+   "text": "It pledges forty-seven tonnes of its own gold.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "pledge_1b",
+   "plain": "With the Bank of England, and the Bank of Japan.",
+   "text": "With the Bank of England, and the Bank of Japan.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "pledge_2",
+   "plain": "The gold leaves the country.",
+   "text": "The gold leaves the country.",
+   "speed": {
+    "P": 1.039
+   }
+  },
+  {
+   "id": "pledge_3",
+   "plain": "As a guarantee.",
+   "text": "As a guarantee.",
+   "speed": {
+    "P": 1.018
+   }
+  },
+  {
+   "id": "pawn_0",
+   "plain": "In return? About four hundred million dollars in loans.",
+   "text": "In return? About four hundred million dollars in loans.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "pawn_1",
+   "plain": "A pawn shop,",
+   "text": "A pawn shop,",
+   "speed": {
+    "P": 1.018
+   }
+  },
+  {
+   "id": "pawn_2",
+   "plain": "For a country.",
+   "text": "For a country.",
+   "speed": {
+    "P": 0.996
+   }
+  },
+  {
+   "id": "reform_0",
+   "plain": "That July, the rupee is cut in value,",
+   "text": "That July, the rupee is cut in value,",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "reform_1",
+   "plain": "And India starts opening up its economy.",
+   "text": "And India starts opening up its economy.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "home_0",
+   "plain": "And in twenty twenty-four?",
+   "text": "And in twenty twenty-four?",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "home_1",
+   "plain": "The RBI moved about a hundred tonnes of its gold from the UK, back home to India.",
+   "text": "The RBI moved about a hundred tonnes of its gold from the UK, back home to India.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "today_0",
+   "plain": "So gold isn't just jewellery. In a crisis, you can borrow against it.",
+   "text": "So gold isn't just jewellery. In a crisis, you can borrow against it.",
+   "speed": {
+    "P": 1.06
+   }
+  },
+  {
+   "id": "today_1",
+   "plain": "But the real lesson?",
+   "text": "But the real lesson?",
+   "speed": {
+    "P": 1.039
+   }
+  },
+  {
+   "id": "today_2",
+   "plain": "Keep cash for emergencies, so you never have to pawn the gold.",
+   "text": "Keep cash for emergencies, so you never have to pawn the gold.",
+   "speed": {
+    "P": 1.039
+   }
+  },
+  {
+   "id": "loop_0",
+   "plain": "And for India, it all began with the dollars running out.",
+   "text": "And for India, it all began with the dollars running out.",
+   "speed": {
+    "P": 1.018
+   }
+  }
+ ]
+}
