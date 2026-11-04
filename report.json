@@ -1,0 +1,596 @@
+[
+ {
+  "variant": "P",
+  "id": "hook_1",
+  "text": "And it did it again!",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__hook_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__hook_1_t1.wav",
+    "take": 1,
+    "dur": 1.55,
+    "secs": 111.2,
+    "asr": "And it did it again.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_1_t2.wav",
+    "take": 2,
+    "dur": 1.6,
+    "secs": 109.0,
+    "asr": "And it did it again.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_1_t3.wav",
+    "take": 3,
+    "dur": 1.4,
+    "secs": 109.2,
+    "asr": "And it did it again.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "levels_0",
+  "text": "The Nifty and the Sensex? Both up.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__levels_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__levels_0_t1.wav",
+    "take": 1,
+    "dur": 2.16,
+    "secs": 118.9,
+    "asr": "The Nifty and the Sensex, both up.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_0_t2.wav",
+    "take": 2,
+    "dur": 2.09,
+    "secs": 119.7,
+    "asr": "The Nifty and the Sensex both up.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_0_t3.wav",
+    "take": 3,
+    "dur": 2.16,
+    "secs": 118.3,
+    "asr": "The Nifty and the Sensex? Both up.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "broad_1",
+  "text": "Smaller companies? Up just zero point three percent.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__broad_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__broad_1_t1.wav",
+    "take": 1,
+    "dur": 3.32,
+    "secs": 127.2,
+    "asr": "Smaller companies up just 0.3%.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__broad_1_t2.wav",
+    "take": 2,
+    "dur": 3.32,
+    "secs": 126.2,
+    "asr": "Smaller companies up just 0.3%.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__broad_1_t3.wav",
+    "take": 3,
+    "dur": 3.28,
+    "secs": 126.5,
+    "asr": "Smaller companies up just 0.3%.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "you_0",
+  "text": "What does that mean for you?",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__you_0_t3.wav",
+  "takes": [
+   {
+    "file": "P__you_0_t1.wav",
+    "take": 1,
+    "dur": 1.65,
+    "secs": 113.7,
+    "asr": "What does that mean for you?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_0_t2.wav",
+    "take": 2,
+    "dur": 1.54,
+    "secs": 113.4,
+    "asr": "What does that mean for you?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_0_t3.wav",
+    "take": 3,
+    "dur": 1.58,
+    "secs": 113.2,
+    "asr": "What does that mean for you?",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reveal_0",
+  "text": "Now. Your answer.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reveal_0_t3.wav",
+  "takes": [
+   {
+    "file": "P__reveal_0_t1.wav",
+    "take": 1,
+    "dur": 1.58,
+    "secs": 108.3,
+    "asr": "Now, your answer.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_0_t2.wav",
+    "take": 2,
+    "dur": 1.72,
+    "secs": 105.9,
+    "asr": "Now, your answer.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_0_t3.wav",
+    "take": 3,
+    "dur": 1.71,
+    "secs": 108.2,
+    "asr": "Now, your answer.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reveal_3",
+  "text": "Then Nestle and Tata Consumer.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reveal_3_t1.wav",
+  "takes": [
+   {
+    "file": "P__reveal_3_t1.wav",
+    "take": 1,
+    "dur": 1.96,
+    "secs": 113.4,
+    "asr": "than Nestle and Tata Consumer.",
+    "wer": 0.2
+   },
+   {
+    "file": "P__reveal_3_t2.wav",
+    "take": 2,
+    "dur": 1.95,
+    "secs": 111.9,
+    "asr": "the Nestle and Tata consumer.",
+    "wer": 0.2
+   },
+   {
+    "file": "P__reveal_3_t3.wav",
+    "take": 3,
+    "dur": 1.96,
+    "secs": 111.3,
+    "asr": "the Nestle and Tata consumer.",
+    "wer": 0.2
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "hook_0",
+  "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__hook_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__hook_0_t1.wav",
+    "take": 1,
+    "dur": 3.84,
+    "secs": 185.7,
+    "asr": "The Sensex just jumped 1,225 points.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_0_t2.wav",
+    "take": 2,
+    "dur": 3.81,
+    "secs": 186.3,
+    "asr": "The Sensex just jumped 1,225 points.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__hook_0_t3.wav",
+    "take": 3,
+    "dur": 3.84,
+    "secs": 186.5,
+    "asr": "The Sensex just jumped 1,225 points.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "guess_1",
+  "text": "Lock it in. The answer is at the very end.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__guess_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__guess_1_t1.wav",
+    "take": 1,
+    "dur": 2.28,
+    "secs": 165.6,
+    "asr": "Lock it in. The answer is at the very end.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__guess_1_t2.wav",
+    "take": 2,
+    "dur": 2.28,
+    "secs": 165.5,
+    "asr": "Lock it in. The answer is at the very end.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__guess_1_t3.wav",
+    "take": 3,
+    "dur": 2.28,
+    "secs": 165.4,
+    "asr": "Lock it in. The answer is at the very end.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "broad_0",
+  "text": "But here's the catch.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__broad_0_t2.wav",
+  "takes": [
+   {
+    "file": "P__broad_0_t1.wav",
+    "take": 1,
+    "dur": 1.34,
+    "secs": 159.5,
+    "asr": "But here's the catch.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__broad_0_t2.wav",
+    "take": 2,
+    "dur": 1.38,
+    "secs": 159.1,
+    "asr": "But here's the catch.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__broad_0_t3.wav",
+    "take": 3,
+    "dur": 1.43,
+    "secs": 159.4,
+    "asr": "But here's the catch.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "why_1",
+  "text": "Oil kept cooling. And foreign investors kept buying.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__why_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__why_1_t1.wav",
+    "take": 1,
+    "dur": 2.99,
+    "secs": 173.2,
+    "asr": "Oil kept cooling, and foreign investors kept buying.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__why_1_t2.wav",
+    "take": 2,
+    "dur": 2.99,
+    "secs": 173.3,
+    "asr": "Oil kept cooling and foreign investors kept buying.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__why_1_t3.wav",
+    "take": 3,
+    "dur": 2.98,
+    "secs": 173.4,
+    "asr": "Oil kept cooling and foreign investors kept buying.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "you_2",
+  "text": "Over two days? About three hundred and twenty nine.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__you_2_t3.wav",
+  "takes": [
+   {
+    "file": "P__you_2_t1.wav",
+    "take": 1,
+    "dur": 3.12,
+    "secs": 176.0,
+    "asr": "Over two days, about 329.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_2_t2.wav",
+    "take": 2,
+    "dur": 2.98,
+    "secs": 177.8,
+    "asr": "Over two days, about 329.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_2_t3.wav",
+    "take": 3,
+    "dur": 3.04,
+    "secs": 176.8,
+    "asr": "Over two days, about 329.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reveal_2",
+  "text": "B S E. The company that runs the stock exchange.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reveal_2_t2.wav",
+  "takes": [
+   {
+    "file": "P__reveal_2_t1.wav",
+    "take": 1,
+    "dur": 2.86,
+    "secs": 173.6,
+    "asr": "BSE, the company that runs the stock exchange.",
+    "wer": 0.3
+   },
+   {
+    "file": "P__reveal_2_t2.wav",
+    "take": 2,
+    "dur": 2.92,
+    "secs": 173.0,
+    "asr": "BSE, the company that runs the stock exchange.",
+    "wer": 0.3
+   },
+   {
+    "file": "P__reveal_2_t3.wav",
+    "take": 3,
+    "dur": 2.92,
+    "secs": 173.2,
+    "asr": "BSE, the company that runs the stock exchange.",
+    "wer": 0.3
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "guess_0",
+  "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__guess_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__guess_0_t1.wav",
+    "take": 1,
+    "dur": 3.64,
+    "secs": 185.0,
+    "asr": "Quick guess. Today's top nifty gainer, what does it actually do?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__guess_0_t2.wav",
+    "take": 2,
+    "dur": 3.64,
+    "secs": 185.8,
+    "asr": "Quick guess, today's top nifty gainer, what does it actually do?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__guess_0_t3.wav",
+    "take": 3,
+    "dur": 3.64,
+    "secs": 186.2,
+    "asr": "Quick guess. Today's top nifty gainer, what does it actually do?",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "levels_1",
+  "text": "Four days in a row.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__levels_1_t1.wav",
+  "takes": [
+   {
+    "file": "P__levels_1_t1.wav",
+    "take": 1,
+    "dur": 1.61,
+    "secs": 160.5,
+    "asr": "four days in a row.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_1_t2.wav",
+    "take": 2,
+    "dur": 1.81,
+    "secs": 161.4,
+    "asr": "four days in a row.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__levels_1_t3.wav",
+    "take": 3,
+    "dur": 1.55,
+    "secs": 159.0,
+    "asr": "four days in a row.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "why_0",
+  "text": "So why the rally?",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__why_0_t1.wav",
+  "takes": [
+   {
+    "file": "P__why_0_t1.wav",
+    "take": 1,
+    "dur": 1.45,
+    "secs": 158.0,
+    "asr": "So why the rally?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__why_0_t2.wav",
+    "take": 2,
+    "dur": 1.29,
+    "secs": 157.4,
+    "asr": "So why the rally?",
+    "wer": 0.0
+   },
+   {
+    "file": "P__why_0_t3.wav",
+    "take": 3,
+    "dur": 1.49,
+    "secs": 158.0,
+    "asr": "So why the rally?",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "you_1",
+  "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__you_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__you_1_t1.wav",
+    "take": 1,
+    "dur": 4.13,
+    "secs": 194.9,
+    "asr": "10,000 rupees in the Nifty is up about 158.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_1_t2.wav",
+    "take": 2,
+    "dur": 4.48,
+    "secs": 194.9,
+    "asr": "10,000 rupees in the Nifty is up about 158.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__you_1_t3.wav",
+    "take": 3,
+    "dur": 4.39,
+    "secs": 195.4,
+    "asr": "10,000 rupees in the Nifty is up about 158.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "reveal_1",
+  "text": "The answer is B!",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__reveal_1_t3.wav",
+  "takes": [
+   {
+    "file": "P__reveal_1_t1.wav",
+    "take": 1,
+    "dur": 1.45,
+    "secs": 157.3,
+    "asr": "The answer is B.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_1_t2.wav",
+    "take": 2,
+    "dur": 1.59,
+    "secs": 157.7,
+    "asr": "The answer is B.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__reveal_1_t3.wav",
+    "take": 3,
+    "dur": 1.48,
+    "secs": 157.5,
+    "asr": "The answer is B.",
+    "wer": 0.0
+   }
+  ]
+ },
+ {
+  "variant": "P",
+  "id": "loop_0",
+  "text": "And the Sensex just jumped,",
+  "ref": "refs/heart_plain.wav",
+  "pick": "P__loop_0_t3.wav",
+  "takes": [
+   {
+    "file": "P__loop_0_t1.wav",
+    "take": 1,
+    "dur": 2.0,
+    "secs": 162.9,
+    "asr": "and the Sensex just jumped.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__loop_0_t2.wav",
+    "take": 2,
+    "dur": 1.93,
+    "secs": 162.3,
+    "asr": "and the Sensex just jumped.",
+    "wer": 0.0
+   },
+   {
+    "file": "P__loop_0_t3.wav",
+    "take": 3,
+    "dur": 1.95,
+    "secs": 162.7,
+    "asr": "and the Sensex just jumped.",
+    "wer": 0.0
+   }
+  ]
+ }
+]
