@@ -1,0 +1,63 @@
+name: Voice check
+
+# Scores voiceover takes (naturalness, enjoyment, emotion, pitch liveliness, pace) on free CPU runners.
+# Audio: eval/<voice>/<line>.wav on the branch given by `audio`. Results: branch results/voicecheck-<run id>.
+on:
+  workflow_dispatch:
+    inputs:
+      audio: { description: "Branch holding eval/<voice>/*.wav", default: "eval/voices-20261104" }
+
+permissions:
+  contents: write
+
+env:
+  HF_HUB_DISABLE_PROGRESS_BARS: "1"
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        tool: [prosody, utmos, aesthetics, emotion]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { ref: "${{ inputs.audio }}", path: audio }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: sudo apt-get -qq install -y ffmpeg >/dev/null
+      - name: Install ${{ matrix.tool }}
+        run: |
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          case "${{ matrix.tool }}" in
+            prosody)    pip install -q praat-parselmouth transformers numpy ;;
+            utmos)      pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git ;;
+            aesthetics) pip install -q audiobox_aesthetics ;;
+            emotion)    pip install -q funasr modelscope huggingface_hub ;;
+          esac
+      - run: python voice_check.py score --tool ${{ matrix.tool }} --inp audio/eval --out out/${{ matrix.tool }}.json
+      - uses: actions/upload-artifact@v4
+        with: { name: "score-${{ matrix.tool }}", path: out }
+
+  report:
+    needs: score
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: out/all }
+      - run: python3 voice_check.py report --inp out/all --out results && cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit to results/voicecheck-<run id>
+        run: |
+          B="results/voicecheck-${{ github.run_id }}"
+          mv results /tmp/results
+          git config user.name "github-actions[bot]"; git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan "$B"; git rm -rq --cached . ; git clean -fdxq -e .git
+          cp -r /tmp/results/. .
+          git add -A; git commit -qm "Voice check results for run ${{ github.run_id }}"
+          git push -f origin "$B"
