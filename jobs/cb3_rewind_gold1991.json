@@ -1,0 +1,76 @@
+{
+ "name": "Rupee Rewind gold 1991: Chatterbox dramatic (heart_plain ref, exaggeration 0.7, cfg 0.3), script rewritten",
+ "takes": 3,
+ "defaults": {
+  "ref": "heart_plain",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "open_0",
+   "text": "Gold just hit a one-year low, only days before Dhanteras."
+  },
+  {
+   "id": "open_1",
+   "text": "But in nineteen ninety-one, India had to pawn its own gold, just to pay its bills."
+  },
+  {
+   "id": "empty_0",
+   "text": "Rewind to nineteen ninety-one. India is running out of dollars."
+  },
+  {
+   "id": "empty_1",
+   "text": "What's left pays for just a few weeks of imports."
+  },
+  {
+   "id": "empty_2",
+   "text": "If the dollars run out, India defaults."
+  },
+  {
+   "id": "smuggled_0",
+   "text": "First, twenty tonnes of gold seized from smugglers is sold, with a promise to buy it back."
+  },
+  {
+   "id": "smuggled_1",
+   "text": "That brings in about two hundred million dollars. It is not enough."
+  },
+  {
+   "id": "pledge_0",
+   "text": "So the RBI pledges forty-seven tonnes of its own gold, with the Bank of England and the Bank of Japan."
+  },
+  {
+   "id": "pledge_1",
+   "text": "The gold leaves the country, as a guarantee."
+  },
+  {
+   "id": "pawn_0",
+   "text": "In return, India gets about four hundred million dollars in loans."
+  },
+  {
+   "id": "pawn_1",
+   "text": "It is a pawn shop, for an entire country."
+  },
+  {
+   "id": "reform_0",
+   "text": "That July, the rupee is cut in value, and India starts opening up its economy."
+  },
+  {
+   "id": "home_0",
+   "text": "In twenty twenty-four, the RBI moved about a hundred tonnes of its gold from the UK, back to India."
+  },
+  {
+   "id": "today_0",
+   "text": "So gold isn't just jewellery. In a crisis, you can borrow against it."
+  },
+  {
+   "id": "today_1",
+   "text": "But the real lesson? Keep cash for emergencies, so you never have to pawn the gold."
+  },
+  {
+   "id": "loop_0",
+   "text": "And for India, it all began with the dollars running out."
+  }
+ ]
+}
