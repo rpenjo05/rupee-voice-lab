@@ -1,0 +1,24 @@
+[
+ {
+  "id": "E__guess_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " Quick guess, today's top nifty gainer, what does it actually do?",
+  "dur": 4.16,
+  "secs": 42.4,
+  "ref": "ctx_mm/guess_0",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "E__guess_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " Quick guess. Today's top nifty gainer, what does it actually do?",
+  "dur": 4.44,
+  "secs": 45.3,
+  "ref": "ctx_mm/guess_0",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

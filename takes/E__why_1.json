@@ -1,0 +1,24 @@
+[
+ {
+  "id": "E__why_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " Oil kept cooling. And foreign investors kept buying.",
+  "dur": 3.8,
+  "secs": 46.2,
+  "ref": "ctx_mm/why_1",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "E__why_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " Oil kept cooling. And foreign investors kept buying.",
+  "dur": 4.16,
+  "secs": 48.6,
+  "ref": "ctx_mm/why_1",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

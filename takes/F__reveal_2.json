@@ -1,0 +1,24 @@
+[
+ {
+  "id": "F__reveal_2",
+  "take": 1,
+  "wer": 0.3,
+  "asr": " BSE. The company that runs the stock exchange.",
+  "dur": 4.3,
+  "secs": 50.0,
+  "ref": "ctx_mm/reveal_2",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "F__reveal_2",
+  "take": 0,
+  "wer": 0.3,
+  "asr": " BSE, the company that runs the stock exchange.",
+  "dur": 4.26,
+  "secs": 49.5,
+  "ref": "ctx_mm/reveal_2",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.3
+ }
+]

@@ -1,0 +1,24 @@
+[
+ {
+  "id": "D__loop_0",
+  "take": 1,
+  "wer": 0.6,
+  "asr": " and the sun sex just jumped.",
+  "dur": 2.24,
+  "secs": 25.7,
+  "ref": "heart_long",
+  "exaggeration": 0.4,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "D__loop_0",
+  "take": 0,
+  "wer": 0.2,
+  "asr": " And the sensex just jumped.",
+  "dur": 2.2,
+  "secs": 24.6,
+  "ref": "heart_long",
+  "exaggeration": 0.4,
+  "cfg_weight": 0.5
+ }
+]

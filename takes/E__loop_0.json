@@ -1,0 +1,24 @@
+[
+ {
+  "id": "E__loop_0",
+  "take": 0,
+  "wer": 0.2,
+  "asr": " and the sensex just jumped.",
+  "dur": 1.86,
+  "secs": 14.8,
+  "ref": "ctx_mm/loop_0",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "E__loop_0",
+  "take": 1,
+  "wer": 0.6,
+  "asr": " and the Sen sex just jumped.",
+  "dur": 1.98,
+  "secs": 14.8,
+  "ref": "ctx_mm/loop_0",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

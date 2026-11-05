@@ -1,0 +1,24 @@
+[
+ {
+  "id": "A__loop_0",
+  "take": 0,
+  "wer": 0.6,
+  "asr": " and the Sen Sax just jumped.",
+  "dur": 2.3,
+  "secs": 34.8,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "A__loop_0",
+  "take": 1,
+  "wer": 0.2,
+  "asr": " And the Sensex just jumped.",
+  "dur": 2.22,
+  "secs": 25.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

@@ -1,0 +1,24 @@
+[
+ {
+  "id": "F__levels_0",
+  "take": 1,
+  "wer": 0.167,
+  "asr": " The Nifty and the Sunsex? Both up.",
+  "dur": 3.4,
+  "secs": 40.3,
+  "ref": "ctx_mm/levels_0",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "F__levels_0",
+  "take": 0,
+  "wer": 0.167,
+  "asr": " The nifty and the sunsex? Both up.",
+  "dur": 2.96,
+  "secs": 38.4,
+  "ref": "ctx_mm/levels_0",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.3
+ }
+]

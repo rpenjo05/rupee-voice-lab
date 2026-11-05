@@ -1,0 +1,24 @@
+[
+ {
+  "id": "A__you_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " 10,000 rupees in the Nifty is up about 158.",
+  "dur": 3.94,
+  "secs": 33.5,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "A__you_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " 10,000 rupees in the Nifty is up about 158.",
+  "dur": 4.3,
+  "secs": 26.0,
+  "ref": "heart_plain",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]
