@@ -1,0 +1,24 @@
+[
+ {
+  "id": "L__loop_0",
+  "take": 0,
+  "wer": 0.2,
+  "asr": " and the Sensex just jumped.",
+  "dur": 2.2,
+  "secs": 33.5,
+  "ref": "ov_mm",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "L__loop_0",
+  "take": 1,
+  "wer": 0.2,
+  "asr": " and the Sensex just jumped.",
+  "dur": 3.0,
+  "secs": 24.6,
+  "ref": "ov_mm",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]

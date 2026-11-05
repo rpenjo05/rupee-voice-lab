@@ -1,0 +1,24 @@
+[
+ {
+  "id": "M__hook_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " The Sensex just jumped 1,225 points.",
+  "dur": 3.72,
+  "secs": 48.4,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "M__hook_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " The Sensex just jumped 1,225 points.",
+  "dur": 3.52,
+  "secs": 44.2,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]
