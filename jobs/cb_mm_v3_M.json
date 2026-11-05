@@ -1,0 +1,84 @@
+{
+ "name": "Chatterbox M (ov_mm ref, exaggeration 0.6, cfg 0.5) on the full MM v3 script, for a preview",
+ "takes": 2,
+ "defaults": {
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points."
+  },
+  {
+   "id": "hook_1",
+   "text": "And it did it again!"
+  },
+  {
+   "id": "guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?"
+  },
+  {
+   "id": "guess_1",
+   "text": "Lock it in. The answer is at the very end."
+  },
+  {
+   "id": "levels_0",
+   "text": "The Nifty and the Sensex? Both up."
+  },
+  {
+   "id": "levels_1",
+   "text": "Four days in a row."
+  },
+  {
+   "id": "broad_0",
+   "text": "But here's the catch."
+  },
+  {
+   "id": "broad_1",
+   "text": "Smaller companies? Up just zero point three percent."
+  },
+  {
+   "id": "why_0",
+   "text": "So why the rally?"
+  },
+  {
+   "id": "why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying."
+  },
+  {
+   "id": "you_0",
+   "text": "What does that mean for you?"
+  },
+  {
+   "id": "you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight."
+  },
+  {
+   "id": "you_2",
+   "text": "Over two days? About three hundred and twenty nine."
+  },
+  {
+   "id": "reveal_0",
+   "text": "Now. Your answer."
+  },
+  {
+   "id": "reveal_1",
+   "text": "The answer is B!"
+  },
+  {
+   "id": "reveal_2",
+   "text": "B S E. The company that runs the stock exchange."
+  },
+  {
+   "id": "reveal_3",
+   "text": "Then Nestle and Tata Consumer."
+  },
+  {
+   "id": "loop_0",
+   "text": "And the Sensex just jumped,"
+  }
+ ]
+}
