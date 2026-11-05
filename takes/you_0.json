@@ -1,0 +1,24 @@
+[
+ {
+  "id": "you_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " What does that mean for you?",
+  "dur": 1.52,
+  "secs": 33.4,
+  "ref": "heart_long",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "you_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " What does that mean for you?",
+  "dur": 1.84,
+  "secs": 33.2,
+  "ref": "heart_long",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5
+ }
+]
