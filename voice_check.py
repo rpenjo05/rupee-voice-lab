@@ -88,7 +88,8 @@ def t_speaker(fs):
     from speechbrain.inference.speaker import EncoderClassifier
     enc = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb", savedir="/tmp/ecapa")
     def emb(p):
-        y, sr = torchaudio.load(p); y = y.mean(0, keepdim=True)
+        import soundfile as sf
+        a, sr = sf.read(p, dtype="float32", always_2d=True); y = torch.from_numpy(a.mean(1)).unsqueeze(0)
         if sr != 16000: y = torchaudio.functional.resample(y, sr, 16000)
         e = enc.encode_batch(y).squeeze(); return e / e.norm()
     ref = torch.stack([emb(r) for r in sorted(g.glob("refs/heart_*.wav"))]).mean(0); ref = ref / ref.norm()
