@@ -1,0 +1,24 @@
+[
+ {
+  "id": "reveal_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " The answer is B.",
+  "dur": 1.72,
+  "secs": 31.8,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "reveal_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " The answer is B.",
+  "dur": 1.48,
+  "secs": 31.9,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

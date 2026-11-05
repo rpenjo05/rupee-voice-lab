@@ -1,0 +1,24 @@
+[
+ {
+  "id": "broad_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " But here's the catch.",
+  "dur": 1.2,
+  "secs": 42.0,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "broad_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " But here's the catch.",
+  "dur": 1.32,
+  "secs": 30.4,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

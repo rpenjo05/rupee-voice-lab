@@ -1,0 +1,24 @@
+[
+ {
+  "id": "guess_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " Lock it in. The answer is at the very end.",
+  "dur": 3.12,
+  "secs": 43.1,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "guess_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " Lock it in. The answer is at the very end.",
+  "dur": 2.96,
+  "secs": 52.1,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

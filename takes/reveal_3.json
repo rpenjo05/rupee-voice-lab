@@ -1,0 +1,24 @@
+[
+ {
+  "id": "reveal_3",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " then Nestle and Tata Consumer.",
+  "dur": 1.88,
+  "secs": 21.0,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "reveal_3",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " Then, Nestle and Tata Consumer.",
+  "dur": 2.6,
+  "secs": 23.9,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

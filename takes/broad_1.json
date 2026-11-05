@@ -1,0 +1,24 @@
+[
+ {
+  "id": "broad_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " Smaller companies? Up just 0.3%.",
+  "dur": 4.16,
+  "secs": 55.7,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "broad_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " Smaller companies, up just 0.3%.",
+  "dur": 3.4,
+  "secs": 40.4,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

@@ -1,0 +1,24 @@
+[
+ {
+  "id": "hook_1",
+  "take": 0,
+  "wer": 0.2,
+  "asr": " And it did it again.",
+  "dur": 1.28,
+  "secs": 28.5,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "hook_1",
+  "take": 1,
+  "wer": 0.2,
+  "asr": " And it did it again.",
+  "dur": 1.16,
+  "secs": 19.4,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

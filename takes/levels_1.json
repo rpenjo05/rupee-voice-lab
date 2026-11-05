@@ -1,0 +1,24 @@
+[
+ {
+  "id": "levels_1",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " four days in a row.",
+  "dur": 1.56,
+  "secs": 45.5,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "levels_1",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " four days in a row.",
+  "dur": 1.6,
+  "secs": 32.6,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]

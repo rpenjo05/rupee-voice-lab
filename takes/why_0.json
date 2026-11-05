@@ -1,0 +1,24 @@
+[
+ {
+  "id": "why_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " So, why the rally?",
+  "dur": 1.56,
+  "secs": 19.3,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "why_0",
+  "take": 1,
+  "wer": 0.25,
+  "asr": " Why the rally?",
+  "dur": 1.04,
+  "secs": 17.9,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]
