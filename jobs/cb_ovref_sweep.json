@@ -1,0 +1,204 @@
+{
+ "name": "Chatterbox cloned from OmniVoice v3 lines (refs/ov_mm.wav; owner, 5 Nov)",
+ "takes": 2,
+ "defaults": {
+  "ref": "ov_mm",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "L__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "L__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "M__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "ov_mm",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "N__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "ov_mm",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  }
+ ]
+}
