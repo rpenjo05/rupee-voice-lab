@@ -1,0 +1,32 @@
+{
+ "name": "Tata pronunciation test (Chatterbox M settings)",
+ "takes": 2,
+ "defaults": {
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "T1__reveal_3",
+   "text": "Then Nestle and Tata Consumer.",
+   "check": "Then Nestle and Tata Consumer."
+  },
+  {
+   "id": "T2__reveal_3",
+   "text": "Then Nestle and Taata Consumer.",
+   "check": "Then Nestle and Tata Consumer."
+  },
+  {
+   "id": "T3__reveal_3",
+   "text": "Then Nestle and Tah-tah Consumer.",
+   "check": "Then Nestle and Tata Consumer."
+  },
+  {
+   "id": "T4__reveal_3",
+   "text": "Then Nestl\u00e9 and Taataa Consumer.",
+   "check": "Then Nestle and Tata Consumer."
+  }
+ ]
+}
