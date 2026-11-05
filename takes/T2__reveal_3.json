@@ -1,0 +1,24 @@
+[
+ {
+  "id": "T2__reveal_3",
+  "take": 1,
+  "wer": 0.25,
+  "asr": " Then, Nestle and Tauta Consumer.",
+  "dur": 2.72,
+  "secs": 28.5,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "T2__reveal_3",
+  "take": 0,
+  "wer": 0.25,
+  "asr": " then Nestle and Tauta Consumer.",
+  "dur": 2.08,
+  "secs": 35.1,
+  "ref": "ov_mm",
+  "exaggeration": 0.6,
+  "cfg_weight": 0.5
+ }
+]
