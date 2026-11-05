@@ -81,6 +81,22 @@ def t_emotion(fs):
         print(k, out[k], flush=True)
     return out
 
+def t_speaker(fs):
+    """Heart likeness: cosine similarity of ECAPA speaker embeddings (speechbrain, VoxCeleb) between each line and
+    the mean of the Kokoro Heart references in refs/heart_*.wav (same voice the clones copy). ~0.7+ = same speaker."""
+    import torch, torchaudio, glob as g
+    from speechbrain.inference.speaker import EncoderClassifier
+    enc = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb", savedir="/tmp/ecapa")
+    def emb(p):
+        y, sr = torchaudio.load(p); y = y.mean(0, keepdim=True)
+        if sr != 16000: y = torchaudio.functional.resample(y, sr, 16000)
+        e = enc.encode_batch(y).squeeze(); return e / e.norm()
+    ref = torch.stack([emb(r) for r in sorted(g.glob("refs/heart_*.wav"))]).mean(0); ref = ref / ref.norm()
+    out = {}
+    for k, p in fs.items():
+        out[k] = dict(sim=round(float(emb(p) @ ref), 3)); print(k, out[k], flush=True)
+    return out
+
 def t_mix(inp):
     """Full mix (voice + music + sound effects): Audiobox Aesthetics on eval/<set>/_mix.wav, timing from _cues.json."""
     tmp = tempfile.mkdtemp(); out = {}
@@ -100,10 +116,10 @@ def cmd_score(a):
     if a.tool == "mix":
         res = t_mix(a.inp); os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True); json.dump(res, open(a.out, "w"), indent=1); return
     tmp = tempfile.mkdtemp(); fs = {key(f): prep(f, tmp) for f in files(a.inp)}
-    res = {"prosody": t_prosody, "utmos": t_utmos, "aesthetics": t_aesthetics, "emotion": t_emotion}[a.tool](fs)
+    res = {"prosody": t_prosody, "utmos": t_utmos, "aesthetics": t_aesthetics, "emotion": t_emotion, "speaker": t_speaker}[a.tool](fs)
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True); json.dump(res, open(a.out, "w"), indent=1)
 
-COLS = [("utmos", "mos", "Naturalness MOS (1-5)"), ("aesthetics", "CE", "Enjoyment CE (1-10)"),
+COLS = [("speaker", "sim", "Heart likeness (0-1)"), ("utmos", "mos", "Naturalness MOS (1-5)"), ("aesthetics", "CE", "Enjoyment CE (1-10)"),
         ("aesthetics", "PQ", "Prod. quality PQ (1-10)"), ("emotion", "non_neutral", "Non-neutral emotion (0-1)"),
         ("prosody", "f0_sd_st", "Pitch variation (st)"), ("prosody", "f0_range_st", "Pitch range p5-p95 (st)"),
         ("prosody", "loud_sd_db", "Loudness variation (dB)"), ("prosody", "wpm", "Words / min"), ("prosody", "dur", "Voice total s")]
@@ -133,11 +149,11 @@ def cmd_report(a):
             md.append(f"| {k} | " + " | ".join(str(v.get(c, "")) for c in ("CE", "PQ", "PC", "total_s", "voice_share", "pause_mean", "pause_reveal")) + " |")
     md.append("\n## Per line\n")
     for s in sets:
-        md.append(f"\n### {s}\n\n| line | MOS | CE | PQ | emotion | pitch var st | range st | wpm |\n|---|---|---|---|---|---|---|---|")
+        md.append(f"\n### {s}\n\n| line | Heart | MOS | CE | PQ | emotion | pitch var st | range st | wpm |\n|---|---|---|---|---|---|---|---|---|")
         lines = sorted({k for t in data.values() for k in t if k.startswith(s + "/")})
         for k in lines:
             g = lambda t, c: data.get(t, {}).get(k, {}).get(c, "")
-            md.append(f"| {k.split('/')[1]} | {g('utmos','mos')} | {g('aesthetics','CE')} | {g('aesthetics','PQ')} | "
+            md.append(f"| {k.split('/')[1]} | {g('speaker','sim')} | {g('utmos','mos')} | {g('aesthetics','CE')} | {g('aesthetics','PQ')} | "
                       f"{g('emotion','emotion')} {g('emotion','conf')} | {g('prosody','f0_sd_st')} | {g('prosody','f0_range_st')} | {g('prosody','wpm')} |")
     os.makedirs(a.out, exist_ok=True)
     open(f"{a.out}/report.md", "w").write("\n".join(md) + "\n")

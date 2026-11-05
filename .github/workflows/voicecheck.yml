@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tool: [prosody, utmos, aesthetics, emotion, mix]
+        tool: [speaker, prosody, utmos, aesthetics, mix]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -34,6 +34,7 @@ jobs:
         run: |
           pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
           case "${{ matrix.tool }}" in
+            speaker)    pip install -q speechbrain soundfile ;;
             prosody)    pip install -q praat-parselmouth transformers numpy ;;
             utmos)      pip install -q torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu && pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git && pip install -q torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu --force-reinstall --no-deps ;;
             aesthetics|mix) pip install -q audiobox_aesthetics requests soundfile ;;
