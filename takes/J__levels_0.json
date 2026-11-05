@@ -1,0 +1,24 @@
+[
+ {
+  "id": "J__levels_0",
+  "take": 1,
+  "wer": 0.0,
+  "asr": " The Nifty and the Sensex both up.",
+  "dur": 2.68,
+  "secs": 25.5,
+  "ref": "heart_fast",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ },
+ {
+  "id": "J__levels_0",
+  "take": 0,
+  "wer": 0.0,
+  "asr": " The Nifty and the Sensex, both up.",
+  "dur": 2.24,
+  "secs": 24.5,
+  "ref": "heart_fast",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.3
+ }
+]

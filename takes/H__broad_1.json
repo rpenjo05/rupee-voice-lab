@@ -1,0 +1,24 @@
+[
+ {
+  "id": "H__broad_1",
+  "take": 0,
+  "wer": 0.125,
+  "asr": " Smaller companies, up to 0.3%.",
+  "dur": 3.16,
+  "secs": 33.6,
+  "ref": "heart_fast",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "H__broad_1",
+  "take": 1,
+  "wer": 0.125,
+  "asr": " Smaller companies? Up to 0.3%.",
+  "dur": 3.16,
+  "secs": 33.9,
+  "ref": "heart_fast",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.5
+ }
+]

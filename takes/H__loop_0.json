@@ -1,0 +1,24 @@
+[
+ {
+  "id": "H__loop_0",
+  "take": 1,
+  "wer": 0.2,
+  "asr": " And the Sensex just jumped.",
+  "dur": 2.4,
+  "secs": 34.3,
+  "ref": "heart_fast",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.5
+ },
+ {
+  "id": "H__loop_0",
+  "take": 0,
+  "wer": 0.6,
+  "asr": " And the sun sex just jumped.",
+  "dur": 2.2,
+  "secs": 34.6,
+  "ref": "heart_fast",
+  "exaggeration": 0.7,
+  "cfg_weight": 0.5
+ }
+]
