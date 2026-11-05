@@ -1,0 +1,1519 @@
+{
+ "summary": {
+  "cb_A": {
+   "speaker.sim": 0.83,
+   "utmos.mos": 3.29,
+   "aesthetics.CE": 6.22,
+   "aesthetics.PQ": 7.71,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 3.67,
+   "prosody.f0_range_st": 11.22,
+   "prosody.loud_sd_db": 9.22,
+   "prosody.wpm": 127.66,
+   "prosody.dur": 28.1
+  },
+  "cb_B": {
+   "speaker.sim": 0.82,
+   "utmos.mos": 3.38,
+   "aesthetics.CE": 6.16,
+   "aesthetics.PQ": 7.7,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 4.31,
+   "prosody.f0_range_st": 13.55,
+   "prosody.loud_sd_db": 9.55,
+   "prosody.wpm": 124.4,
+   "prosody.dur": 28.4
+  },
+  "cb_C": {
+   "speaker.sim": 0.77,
+   "utmos.mos": 3.46,
+   "aesthetics.CE": 6.21,
+   "aesthetics.PQ": 7.81,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 3.68,
+   "prosody.f0_range_st": 11.23,
+   "prosody.loud_sd_db": 9.51,
+   "prosody.wpm": 126.36,
+   "prosody.dur": 28.8
+  },
+  "cb_D": {
+   "speaker.sim": 0.76,
+   "utmos.mos": 3.33,
+   "aesthetics.CE": 6.14,
+   "aesthetics.PQ": 7.78,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 3.85,
+   "prosody.f0_range_st": 12.61,
+   "prosody.loud_sd_db": 9.53,
+   "prosody.wpm": 123.48,
+   "prosody.dur": 28.7
+  },
+  "cb_E": {
+   "speaker.sim": 0.71,
+   "utmos.mos": 3.33,
+   "aesthetics.CE": 6.09,
+   "aesthetics.PQ": 7.75,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 3.64,
+   "prosody.f0_range_st": 10.21,
+   "prosody.loud_sd_db": 9.82,
+   "prosody.wpm": 123.45,
+   "prosody.dur": 29.2
+  },
+  "cb_F": {
+   "speaker.sim": 0.67,
+   "utmos.mos": 3.24,
+   "aesthetics.CE": 6.15,
+   "aesthetics.PQ": 7.88,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 3.91,
+   "prosody.f0_range_st": 11.73,
+   "prosody.loud_sd_db": 9.92,
+   "prosody.wpm": 114.21,
+   "prosody.dur": 31.5
+  },
+  "kokoro_v3": {
+   "speaker.sim": 0.82,
+   "utmos.mos": 3.49,
+   "aesthetics.CE": 6.28,
+   "aesthetics.PQ": 7.61,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 4.2,
+   "prosody.f0_range_st": 13.21,
+   "prosody.loud_sd_db": 9.23,
+   "prosody.wpm": 147.07,
+   "prosody.dur": 24.1
+  },
+  "omnivoice_v3": {
+   "speaker.sim": 0.78,
+   "utmos.mos": 3.39,
+   "aesthetics.CE": 6.19,
+   "aesthetics.PQ": 7.65,
+   "emotion.non_neutral": null,
+   "prosody.f0_sd_st": 3.82,
+   "prosody.f0_range_st": 13.01,
+   "prosody.loud_sd_db": 8.78,
+   "prosody.wpm": 159.19,
+   "prosody.dur": 23.2
+  }
+ },
+ "lines": {
+  "mix": {},
+  "prosody": {
+   "cb_A/broad_1": {
+    "f0_hz": 224.3,
+    "f0_sd_st": 3.98,
+    "f0_range_st": 10.84,
+    "loud_sd_db": 9.87,
+    "pause": 0.271,
+    "dur": 3.62,
+    "wpm": 82.9,
+    "asr": "Smaller companies, up just 0.3%."
+   },
+   "cb_A/guess_0": {
+    "f0_hz": 202.7,
+    "f0_sd_st": 3.03,
+    "f0_range_st": 11.38,
+    "loud_sd_db": 9.01,
+    "pause": 0.294,
+    "dur": 4.58,
+    "wpm": 144.1,
+    "asr": "Quick guess, today's top nifty gainer, what does it actually do?"
+   },
+   "cb_A/hook_0": {
+    "f0_hz": 189.5,
+    "f0_sd_st": 2.99,
+    "f0_range_st": 9.41,
+    "loud_sd_db": 8.53,
+    "pause": 0.169,
+    "dur": 3.98,
+    "wpm": 90.5,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "cb_A/levels_0": {
+    "f0_hz": 199.0,
+    "f0_sd_st": 4.91,
+    "f0_range_st": 12.7,
+    "loud_sd_db": 9.49,
+    "pause": 0.28,
+    "dur": 2.7,
+    "wpm": 155.6,
+    "asr": "The Nifty and the Sensex both up."
+   },
+   "cb_A/loop_0": {
+    "f0_hz": 200.4,
+    "f0_sd_st": 2.17,
+    "f0_range_st": 6.83,
+    "loud_sd_db": 9.69,
+    "pause": 0.284,
+    "dur": 2.22,
+    "wpm": 135.1,
+    "asr": "And the Sensex just jumped."
+   },
+   "cb_A/reveal_2": {
+    "f0_hz": 184.0,
+    "f0_sd_st": 4.6,
+    "f0_range_st": 17.56,
+    "loud_sd_db": 9.09,
+    "pause": 0.261,
+    "dur": 3.14,
+    "wpm": 152.9,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "cb_A/why_1": {
+    "f0_hz": 204.7,
+    "f0_sd_st": 3.54,
+    "f0_range_st": 9.05,
+    "loud_sd_db": 9.52,
+    "pause": 0.243,
+    "dur": 3.9,
+    "wpm": 123.1,
+    "asr": "Oil kept cooling and foreign investors kept buying."
+   },
+   "cb_A/you_1": {
+    "f0_hz": 195.2,
+    "f0_sd_st": 4.1,
+    "f0_range_st": 12.03,
+    "loud_sd_db": 8.55,
+    "pause": 0.174,
+    "dur": 3.94,
+    "wpm": 137.1,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "cb_B/broad_1": {
+    "f0_hz": 186.8,
+    "f0_sd_st": 3.93,
+    "f0_range_st": 11.52,
+    "loud_sd_db": 9.85,
+    "pause": 0.201,
+    "dur": 3.68,
+    "wpm": 81.5,
+    "asr": "Smaller companies, up just 0.3%."
+   },
+   "cb_B/guess_0": {
+    "f0_hz": 213.5,
+    "f0_sd_st": 4.2,
+    "f0_range_st": 14.08,
+    "loud_sd_db": 10.02,
+    "pause": 0.315,
+    "dur": 4.44,
+    "wpm": 148.6,
+    "asr": "Quick guess. Today's top nifty gainer, what does it actually do?"
+   },
+   "cb_B/hook_0": {
+    "f0_hz": 189.8,
+    "f0_sd_st": 4.02,
+    "f0_range_st": 11.65,
+    "loud_sd_db": 9.2,
+    "pause": 0.181,
+    "dur": 3.8,
+    "wpm": 94.7,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "cb_B/levels_0": {
+    "f0_hz": 191.0,
+    "f0_sd_st": 4.17,
+    "f0_range_st": 8.78,
+    "loud_sd_db": 10.08,
+    "pause": 0.241,
+    "dur": 2.96,
+    "wpm": 141.9,
+    "asr": "The nifty and the sensex? Both up."
+   },
+   "cb_B/loop_0": {
+    "f0_hz": 183.6,
+    "f0_sd_st": 3.83,
+    "f0_range_st": 12.63,
+    "loud_sd_db": 9.86,
+    "pause": 0.299,
+    "dur": 2.36,
+    "wpm": 127.1,
+    "asr": "and the sensex just jumped."
+   },
+   "cb_B/reveal_2": {
+    "f0_hz": 195.1,
+    "f0_sd_st": 5.05,
+    "f0_range_st": 20.33,
+    "loud_sd_db": 9.06,
+    "pause": 0.257,
+    "dur": 3.68,
+    "wpm": 130.4,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "cb_B/why_1": {
+    "f0_hz": 205.4,
+    "f0_sd_st": 5.44,
+    "f0_range_st": 18.96,
+    "loud_sd_db": 9.84,
+    "pause": 0.243,
+    "dur": 3.68,
+    "wpm": 130.4,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "cb_B/you_1": {
+    "f0_hz": 189.4,
+    "f0_sd_st": 3.83,
+    "f0_range_st": 10.47,
+    "loud_sd_db": 8.52,
+    "pause": 0.128,
+    "dur": 3.84,
+    "wpm": 140.6,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "cb_C/broad_1": {
+    "f0_hz": 192.9,
+    "f0_sd_st": 3.39,
+    "f0_range_st": 10.19,
+    "loud_sd_db": 10.19,
+    "pause": 0.305,
+    "dur": 3.68,
+    "wpm": 81.5,
+    "asr": "Smaller companies, up just 0.3%."
+   },
+   "cb_C/guess_0": {
+    "f0_hz": 193.6,
+    "f0_sd_st": 4.29,
+    "f0_range_st": 13.14,
+    "loud_sd_db": 9.85,
+    "pause": 0.346,
+    "dur": 4.96,
+    "wpm": 133.1,
+    "asr": "Quick guess, today's top nifty gainer, what does it actually do?"
+   },
+   "cb_C/hook_0": {
+    "f0_hz": 190.0,
+    "f0_sd_st": 2.9,
+    "f0_range_st": 9.9,
+    "loud_sd_db": 9.99,
+    "pause": 0.155,
+    "dur": 3.6,
+    "wpm": 100.0,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "cb_C/levels_0": {
+    "f0_hz": 185.5,
+    "f0_sd_st": 4.44,
+    "f0_range_st": 12.15,
+    "loud_sd_db": 10.41,
+    "pause": 0.355,
+    "dur": 3.2,
+    "wpm": 131.2,
+    "asr": "The Nifty and the Sensex? Both up."
+   },
+   "cb_C/loop_0": {
+    "f0_hz": 218.3,
+    "f0_sd_st": 3.42,
+    "f0_range_st": 11.66,
+    "loud_sd_db": 9.07,
+    "pause": 0.302,
+    "dur": 2.2,
+    "wpm": 163.6,
+    "asr": "and the sun sex just jumped."
+   },
+   "cb_C/reveal_2": {
+    "f0_hz": 201.2,
+    "f0_sd_st": 3.48,
+    "f0_range_st": 10.7,
+    "loud_sd_db": 8.73,
+    "pause": 0.242,
+    "dur": 3.6,
+    "wpm": 133.3,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "cb_C/why_1": {
+    "f0_hz": 210.4,
+    "f0_sd_st": 3.84,
+    "f0_range_st": 11.38,
+    "loud_sd_db": 9.99,
+    "pause": 0.24,
+    "dur": 3.68,
+    "wpm": 130.4,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "cb_C/you_1": {
+    "f0_hz": 183.9,
+    "f0_sd_st": 3.65,
+    "f0_range_st": 10.73,
+    "loud_sd_db": 7.86,
+    "pause": 0.178,
+    "dur": 3.92,
+    "wpm": 137.8,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "cb_D/broad_1": {
+    "f0_hz": 198.6,
+    "f0_sd_st": 3.44,
+    "f0_range_st": 10.48,
+    "loud_sd_db": 10.1,
+    "pause": 0.246,
+    "dur": 3.68,
+    "wpm": 81.5,
+    "asr": "Smaller companies, up just 0.3%."
+   },
+   "cb_D/guess_0": {
+    "f0_hz": 189.1,
+    "f0_sd_st": 4.86,
+    "f0_range_st": 19.35,
+    "loud_sd_db": 9.22,
+    "pause": 0.287,
+    "dur": 4.32,
+    "wpm": 152.8,
+    "asr": "Quick guess. Today's top nifty gainer. What does it actually do?"
+   },
+   "cb_D/hook_0": {
+    "f0_hz": 178.4,
+    "f0_sd_st": 3.91,
+    "f0_range_st": 12.3,
+    "loud_sd_db": 8.63,
+    "pause": 0.156,
+    "dur": 3.84,
+    "wpm": 93.8,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "cb_D/levels_0": {
+    "f0_hz": 192.9,
+    "f0_sd_st": 3.22,
+    "f0_range_st": 10.83,
+    "loud_sd_db": 10.3,
+    "pause": 0.386,
+    "dur": 3.2,
+    "wpm": 131.2,
+    "asr": "The nifty and the sensex? Both up."
+   },
+   "cb_D/loop_0": {
+    "f0_hz": 200.6,
+    "f0_sd_st": 1.77,
+    "f0_range_st": 5.1,
+    "loud_sd_db": 10.32,
+    "pause": 0.291,
+    "dur": 2.2,
+    "wpm": 136.4,
+    "asr": "And the sensex just jumped."
+   },
+   "cb_D/reveal_2": {
+    "f0_hz": 186.5,
+    "f0_sd_st": 5.41,
+    "f0_range_st": 20.93,
+    "loud_sd_db": 8.72,
+    "pause": 0.256,
+    "dur": 3.92,
+    "wpm": 122.4,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "cb_D/why_1": {
+    "f0_hz": 217.8,
+    "f0_sd_st": 3.82,
+    "f0_range_st": 11.1,
+    "loud_sd_db": 10.01,
+    "pause": 0.293,
+    "dur": 3.64,
+    "wpm": 131.9,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "cb_D/you_1": {
+    "f0_hz": 189.8,
+    "f0_sd_st": 4.34,
+    "f0_range_st": 10.76,
+    "loud_sd_db": 8.93,
+    "pause": 0.189,
+    "dur": 3.92,
+    "wpm": 137.8,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "cb_E/broad_1": {
+    "f0_hz": 197.9,
+    "f0_sd_st": 3.07,
+    "f0_range_st": 9.3,
+    "loud_sd_db": 10.18,
+    "pause": 0.292,
+    "dur": 3.66,
+    "wpm": 82.0,
+    "asr": "Smaller companies? Up just 0.3%."
+   },
+   "cb_E/guess_0": {
+    "f0_hz": 216.2,
+    "f0_sd_st": 4.38,
+    "f0_range_st": 11.29,
+    "loud_sd_db": 9.43,
+    "pause": 0.33,
+    "dur": 4.44,
+    "wpm": 148.6,
+    "asr": "Quick guess. Today's top nifty gainer, what does it actually do?"
+   },
+   "cb_E/hook_0": {
+    "f0_hz": 184.8,
+    "f0_sd_st": 3.84,
+    "f0_range_st": 10.71,
+    "loud_sd_db": 9.51,
+    "pause": 0.186,
+    "dur": 3.8,
+    "wpm": 94.7,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "cb_E/levels_0": {
+    "f0_hz": 217.0,
+    "f0_sd_st": 2.51,
+    "f0_range_st": 8.49,
+    "loud_sd_db": 10.97,
+    "pause": 0.474,
+    "dur": 3.12,
+    "wpm": 134.6,
+    "asr": "The Nifty and the Sensex? Both up."
+   },
+   "cb_E/loop_0": {
+    "f0_hz": 227.8,
+    "f0_sd_st": 4.12,
+    "f0_range_st": 11.1,
+    "loud_sd_db": 10.78,
+    "pause": 0.257,
+    "dur": 1.86,
+    "wpm": 161.3,
+    "asr": "and the sensex just jumped."
+   },
+   "cb_E/reveal_2": {
+    "f0_hz": 211.6,
+    "f0_sd_st": 4.48,
+    "f0_range_st": 10.48,
+    "loud_sd_db": 9.52,
+    "pause": 0.331,
+    "dur": 3.62,
+    "wpm": 132.6,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "cb_E/why_1": {
+    "f0_hz": 194.0,
+    "f0_sd_st": 2.76,
+    "f0_range_st": 8.5,
+    "loud_sd_db": 9.57,
+    "pause": 0.343,
+    "dur": 4.16,
+    "wpm": 115.4,
+    "asr": "Oil kept cooling. And foreign investors kept buying."
+   },
+   "cb_E/you_1": {
+    "f0_hz": 216.4,
+    "f0_sd_st": 3.93,
+    "f0_range_st": 11.82,
+    "loud_sd_db": 8.61,
+    "pause": 0.267,
+    "dur": 4.56,
+    "wpm": 118.4,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "cb_F/broad_1": {
+    "f0_hz": 198.8,
+    "f0_sd_st": 3.8,
+    "f0_range_st": 10.24,
+    "loud_sd_db": 9.9,
+    "pause": 0.306,
+    "dur": 3.74,
+    "wpm": 80.2,
+    "asr": "Smaller companies, up just 0.3%."
+   },
+   "cb_F/guess_0": {
+    "f0_hz": 224.5,
+    "f0_sd_st": 3.34,
+    "f0_range_st": 10.82,
+    "loud_sd_db": 9.51,
+    "pause": 0.358,
+    "dur": 4.88,
+    "wpm": 135.2,
+    "asr": "Quick guess. Today's top nifty gainer, what does it actually do?"
+   },
+   "cb_F/hook_0": {
+    "f0_hz": 228.3,
+    "f0_sd_st": 3.29,
+    "f0_range_st": 7.96,
+    "loud_sd_db": 10.06,
+    "pause": 0.193,
+    "dur": 4.44,
+    "wpm": 81.1,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "cb_F/levels_0": {
+    "f0_hz": 250.7,
+    "f0_sd_st": 3.34,
+    "f0_range_st": 9.38,
+    "loud_sd_db": 10.48,
+    "pause": 0.422,
+    "dur": 2.96,
+    "wpm": 141.9,
+    "asr": "The nifty and the sunsex? Both up."
+   },
+   "cb_F/loop_0": {
+    "f0_hz": 200.6,
+    "f0_sd_st": 2.6,
+    "f0_range_st": 7.98,
+    "loud_sd_db": 11.25,
+    "pause": 0.284,
+    "dur": 2.22,
+    "wpm": 135.1,
+    "asr": "and the sensex just jumped."
+   },
+   "cb_F/reveal_2": {
+    "f0_hz": 213.8,
+    "f0_sd_st": 5.38,
+    "f0_range_st": 14.01,
+    "loud_sd_db": 8.74,
+    "pause": 0.398,
+    "dur": 4.26,
+    "wpm": 112.7,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "cb_F/why_1": {
+    "f0_hz": 210.2,
+    "f0_sd_st": 5.17,
+    "f0_range_st": 22.67,
+    "loud_sd_db": 9.12,
+    "pause": 0.346,
+    "dur": 3.96,
+    "wpm": 121.2,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "cb_F/you_1": {
+    "f0_hz": 208.2,
+    "f0_sd_st": 4.39,
+    "f0_range_st": 10.78,
+    "loud_sd_db": 10.27,
+    "pause": 0.247,
+    "dur": 5.08,
+    "wpm": 106.3,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   },
+   "kokoro_v3/broad_1": {
+    "f0_hz": 199.1,
+    "f0_sd_st": 6.06,
+    "f0_range_st": 22.57,
+    "loud_sd_db": 9.19,
+    "pause": 0.154,
+    "dur": 3.25,
+    "wpm": 92.2,
+    "asr": "smaller companies, up just 0.3%."
+   },
+   "kokoro_v3/guess_0": {
+    "f0_hz": 194.9,
+    "f0_sd_st": 4.03,
+    "f0_range_st": 10.35,
+    "loud_sd_db": 8.68,
+    "pause": 0.154,
+    "dur": 3.54,
+    "wpm": 186.6,
+    "asr": "Quick guess today's top nifty gainer. What does it actually do?"
+   },
+   "kokoro_v3/hook_0": {
+    "f0_hz": 195.8,
+    "f0_sd_st": 2.92,
+    "f0_range_st": 9.62,
+    "loud_sd_db": 9.25,
+    "pause": 0.142,
+    "dur": 3.67,
+    "wpm": 98.0,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "kokoro_v3/levels_0": {
+    "f0_hz": 202.6,
+    "f0_sd_st": 5.71,
+    "f0_range_st": 22.27,
+    "loud_sd_db": 9.98,
+    "pause": 0.181,
+    "dur": 1.9,
+    "wpm": 157.7,
+    "asr": "Nifty and Sensex, both up."
+   },
+   "kokoro_v3/loop_0": {
+    "f0_hz": 214.9,
+    "f0_sd_st": 4.61,
+    "f0_range_st": 11.15,
+    "loud_sd_db": 10.46,
+    "pause": 0.096,
+    "dur": 1.42,
+    "wpm": 212.0,
+    "asr": "and the Sensex just jumped."
+   },
+   "kokoro_v3/reveal_2": {
+    "f0_hz": 204.6,
+    "f0_sd_st": 4.05,
+    "f0_range_st": 10.42,
+    "loud_sd_db": 8.5,
+    "pause": 0.134,
+    "dur": 3.17,
+    "wpm": 151.3,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "kokoro_v3/why_1": {
+    "f0_hz": 209.4,
+    "f0_sd_st": 2.69,
+    "f0_range_st": 9.0,
+    "loud_sd_db": 9.38,
+    "pause": 0.154,
+    "dur": 2.92,
+    "wpm": 164.6,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "kokoro_v3/you_1": {
+    "f0_hz": 204.1,
+    "f0_sd_st": 3.49,
+    "f0_range_st": 10.27,
+    "loud_sd_db": 8.43,
+    "pause": 0.163,
+    "dur": 4.2,
+    "wpm": 114.2,
+    "asr": "10,000 rupees in the Nifty, up about 158."
+   },
+   "omnivoice_v3/broad_1": {
+    "f0_hz": 197.2,
+    "f0_sd_st": 2.56,
+    "f0_range_st": 8.43,
+    "loud_sd_db": 9.72,
+    "pause": 0.155,
+    "dur": 3.17,
+    "wpm": 94.6,
+    "asr": "Smaller companies up just 0.3%."
+   },
+   "omnivoice_v3/guess_0": {
+    "f0_hz": 203.9,
+    "f0_sd_st": 4.18,
+    "f0_range_st": 14.38,
+    "loud_sd_db": 7.79,
+    "pause": 0.191,
+    "dur": 3.37,
+    "wpm": 195.7,
+    "asr": "quick guess. Today's top nifty gainer, what does it actually do?"
+   },
+   "omnivoice_v3/hook_0": {
+    "f0_hz": 192.9,
+    "f0_sd_st": 3.08,
+    "f0_range_st": 9.97,
+    "loud_sd_db": 8.63,
+    "pause": 0.058,
+    "dur": 3.56,
+    "wpm": 101.1,
+    "asr": "The Sensex just jumped 1,225 points."
+   },
+   "omnivoice_v3/levels_0": {
+    "f0_hz": 194.9,
+    "f0_sd_st": 4.94,
+    "f0_range_st": 20.45,
+    "loud_sd_db": 8.99,
+    "pause": 0.099,
+    "dur": 1.92,
+    "wpm": 218.9,
+    "asr": "The Nifty and the Sensex, both up."
+   },
+   "omnivoice_v3/loop_0": {
+    "f0_hz": 188.0,
+    "f0_sd_st": 1.98,
+    "f0_range_st": 6.35,
+    "loud_sd_db": 8.87,
+    "pause": 0.108,
+    "dur": 1.65,
+    "wpm": 181.3,
+    "asr": "and the Sensex just jumped."
+   },
+   "omnivoice_v3/reveal_2": {
+    "f0_hz": 184.1,
+    "f0_sd_st": 4.31,
+    "f0_range_st": 16.3,
+    "loud_sd_db": 7.86,
+    "pause": 0.028,
+    "dur": 2.73,
+    "wpm": 175.6,
+    "asr": "BSE, the company that runs the stock exchange."
+   },
+   "omnivoice_v3/why_1": {
+    "f0_hz": 204.5,
+    "f0_sd_st": 5.0,
+    "f0_range_st": 18.96,
+    "loud_sd_db": 9.33,
+    "pause": 0.135,
+    "dur": 2.75,
+    "wpm": 174.2,
+    "asr": "Oil kept cooling, and foreign investors kept buying."
+   },
+   "omnivoice_v3/you_1": {
+    "f0_hz": 193.4,
+    "f0_sd_st": 4.51,
+    "f0_range_st": 9.21,
+    "loud_sd_db": 9.07,
+    "pause": 0.074,
+    "dur": 4.09,
+    "wpm": 132.1,
+    "asr": "10,000 rupees in the Nifty is up about 158."
+   }
+  },
+  "aesthetics": {
+   "cb_A/broad_1": {
+    "CE": 6.36,
+    "CU": 7.23,
+    "PC": 1.43,
+    "PQ": 7.6
+   },
+   "cb_A/guess_0": {
+    "CE": 6.3,
+    "CU": 7.34,
+    "PC": 1.42,
+    "PQ": 8.01
+   },
+   "cb_A/hook_0": {
+    "CE": 6.23,
+    "CU": 7.34,
+    "PC": 1.45,
+    "PQ": 7.64
+   },
+   "cb_A/levels_0": {
+    "CE": 6.22,
+    "CU": 7.29,
+    "PC": 1.47,
+    "PQ": 7.58
+   },
+   "cb_A/loop_0": {
+    "CE": 5.95,
+    "CU": 7.18,
+    "PC": 1.42,
+    "PQ": 7.55
+   },
+   "cb_A/reveal_2": {
+    "CE": 6.14,
+    "CU": 7.29,
+    "PC": 1.44,
+    "PQ": 7.64
+   },
+   "cb_A/why_1": {
+    "CE": 6.39,
+    "CU": 7.46,
+    "PC": 1.4,
+    "PQ": 7.93
+   },
+   "cb_A/you_1": {
+    "CE": 6.18,
+    "CU": 7.53,
+    "PC": 1.45,
+    "PQ": 7.74
+   },
+   "cb_B/broad_1": {
+    "CE": 6.07,
+    "CU": 7.13,
+    "PC": 1.43,
+    "PQ": 7.33
+   },
+   "cb_B/guess_0": {
+    "CE": 6.23,
+    "CU": 7.51,
+    "PC": 1.45,
+    "PQ": 8.15
+   },
+   "cb_B/hook_0": {
+    "CE": 6.19,
+    "CU": 7.28,
+    "PC": 1.45,
+    "PQ": 7.6
+   },
+   "cb_B/levels_0": {
+    "CE": 6.22,
+    "CU": 7.45,
+    "PC": 1.43,
+    "PQ": 7.66
+   },
+   "cb_B/loop_0": {
+    "CE": 6.02,
+    "CU": 7.11,
+    "PC": 1.42,
+    "PQ": 7.53
+   },
+   "cb_B/reveal_2": {
+    "CE": 6.19,
+    "CU": 7.36,
+    "PC": 1.43,
+    "PQ": 7.75
+   },
+   "cb_B/why_1": {
+    "CE": 6.27,
+    "CU": 7.42,
+    "PC": 1.39,
+    "PQ": 7.87
+   },
+   "cb_B/you_1": {
+    "CE": 6.09,
+    "CU": 7.54,
+    "PC": 1.47,
+    "PQ": 7.7
+   },
+   "cb_C/broad_1": {
+    "CE": 6.21,
+    "CU": 7.23,
+    "PC": 1.42,
+    "PQ": 7.7
+   },
+   "cb_C/guess_0": {
+    "CE": 6.36,
+    "CU": 7.51,
+    "PC": 1.42,
+    "PQ": 8.19
+   },
+   "cb_C/hook_0": {
+    "CE": 6.09,
+    "CU": 7.35,
+    "PC": 1.47,
+    "PQ": 7.48
+   },
+   "cb_C/levels_0": {
+    "CE": 6.22,
+    "CU": 7.76,
+    "PC": 1.44,
+    "PQ": 7.99
+   },
+   "cb_C/loop_0": {
+    "CE": 6.11,
+    "CU": 7.14,
+    "PC": 1.44,
+    "PQ": 7.75
+   },
+   "cb_C/reveal_2": {
+    "CE": 6.14,
+    "CU": 7.25,
+    "PC": 1.43,
+    "PQ": 7.68
+   },
+   "cb_C/why_1": {
+    "CE": 6.43,
+    "CU": 7.47,
+    "PC": 1.4,
+    "PQ": 7.98
+   },
+   "cb_C/you_1": {
+    "CE": 6.13,
+    "CU": 7.58,
+    "PC": 1.47,
+    "PQ": 7.69
+   },
+   "cb_D/broad_1": {
+    "CE": 6.16,
+    "CU": 7.3,
+    "PC": 1.46,
+    "PQ": 7.69
+   },
+   "cb_D/guess_0": {
+    "CE": 6.29,
+    "CU": 7.42,
+    "PC": 1.44,
+    "PQ": 8.08
+   },
+   "cb_D/hook_0": {
+    "CE": 6.23,
+    "CU": 7.4,
+    "PC": 1.45,
+    "PQ": 7.64
+   },
+   "cb_D/levels_0": {
+    "CE": 6.08,
+    "CU": 7.67,
+    "PC": 1.44,
+    "PQ": 7.91
+   },
+   "cb_D/loop_0": {
+    "CE": 5.73,
+    "CU": 7.13,
+    "PC": 1.45,
+    "PQ": 7.48
+   },
+   "cb_D/reveal_2": {
+    "CE": 6.09,
+    "CU": 7.3,
+    "PC": 1.45,
+    "PQ": 7.78
+   },
+   "cb_D/why_1": {
+    "CE": 6.3,
+    "CU": 7.32,
+    "PC": 1.41,
+    "PQ": 7.89
+   },
+   "cb_D/you_1": {
+    "CE": 6.24,
+    "CU": 7.53,
+    "PC": 1.44,
+    "PQ": 7.77
+   },
+   "cb_E/broad_1": {
+    "CE": 6.17,
+    "CU": 7.36,
+    "PC": 1.45,
+    "PQ": 7.69
+   },
+   "cb_E/guess_0": {
+    "CE": 6.19,
+    "CU": 7.33,
+    "PC": 1.47,
+    "PQ": 7.93
+   },
+   "cb_E/hook_0": {
+    "CE": 6.09,
+    "CU": 7.37,
+    "PC": 1.45,
+    "PQ": 7.54
+   },
+   "cb_E/levels_0": {
+    "CE": 5.84,
+    "CU": 7.66,
+    "PC": 1.49,
+    "PQ": 7.82
+   },
+   "cb_E/loop_0": {
+    "CE": 5.84,
+    "CU": 7.05,
+    "PC": 1.5,
+    "PQ": 7.35
+   },
+   "cb_E/reveal_2": {
+    "CE": 5.9,
+    "CU": 7.36,
+    "PC": 1.47,
+    "PQ": 7.63
+   },
+   "cb_E/why_1": {
+    "CE": 6.34,
+    "CU": 7.52,
+    "PC": 1.41,
+    "PQ": 8.1
+   },
+   "cb_E/you_1": {
+    "CE": 6.37,
+    "CU": 7.62,
+    "PC": 1.45,
+    "PQ": 7.95
+   },
+   "cb_F/broad_1": {
+    "CE": 6.15,
+    "CU": 7.42,
+    "PC": 1.46,
+    "PQ": 7.81
+   },
+   "cb_F/guess_0": {
+    "CE": 6.31,
+    "CU": 7.44,
+    "PC": 1.42,
+    "PQ": 8.12
+   },
+   "cb_F/hook_0": {
+    "CE": 6.35,
+    "CU": 7.39,
+    "PC": 1.44,
+    "PQ": 7.8
+   },
+   "cb_F/levels_0": {
+    "CE": 5.94,
+    "CU": 7.64,
+    "PC": 1.46,
+    "PQ": 7.96
+   },
+   "cb_F/loop_0": {
+    "CE": 5.76,
+    "CU": 7.09,
+    "PC": 1.46,
+    "PQ": 7.45
+   },
+   "cb_F/reveal_2": {
+    "CE": 6.0,
+    "CU": 7.56,
+    "PC": 1.49,
+    "PQ": 7.93
+   },
+   "cb_F/why_1": {
+    "CE": 6.39,
+    "CU": 7.47,
+    "PC": 1.41,
+    "PQ": 7.99
+   },
+   "cb_F/you_1": {
+    "CE": 6.33,
+    "CU": 7.59,
+    "PC": 1.45,
+    "PQ": 7.95
+   },
+   "kokoro_v3/broad_1": {
+    "CE": 6.39,
+    "CU": 7.29,
+    "PC": 1.43,
+    "PQ": 7.67
+   },
+   "kokoro_v3/guess_0": {
+    "CE": 6.37,
+    "CU": 7.36,
+    "PC": 1.43,
+    "PQ": 7.81
+   },
+   "kokoro_v3/hook_0": {
+    "CE": 6.43,
+    "CU": 7.4,
+    "PC": 1.44,
+    "PQ": 7.73
+   },
+   "kokoro_v3/levels_0": {
+    "CE": 6.11,
+    "CU": 7.16,
+    "PC": 1.43,
+    "PQ": 7.46
+   },
+   "kokoro_v3/loop_0": {
+    "CE": 5.62,
+    "CU": 6.66,
+    "PC": 1.47,
+    "PQ": 6.94
+   },
+   "kokoro_v3/reveal_2": {
+    "CE": 6.33,
+    "CU": 7.25,
+    "PC": 1.42,
+    "PQ": 7.63
+   },
+   "kokoro_v3/why_1": {
+    "CE": 6.5,
+    "CU": 7.39,
+    "PC": 1.41,
+    "PQ": 7.76
+   },
+   "kokoro_v3/you_1": {
+    "CE": 6.47,
+    "CU": 7.5,
+    "PC": 1.42,
+    "PQ": 7.85
+   },
+   "omnivoice_v3/broad_1": {
+    "CE": 6.33,
+    "CU": 7.34,
+    "PC": 1.42,
+    "PQ": 7.7
+   },
+   "omnivoice_v3/guess_0": {
+    "CE": 6.22,
+    "CU": 7.5,
+    "PC": 1.47,
+    "PQ": 8.03
+   },
+   "omnivoice_v3/hook_0": {
+    "CE": 6.27,
+    "CU": 7.44,
+    "PC": 1.45,
+    "PQ": 7.72
+   },
+   "omnivoice_v3/levels_0": {
+    "CE": 6.15,
+    "CU": 7.4,
+    "PC": 1.41,
+    "PQ": 7.46
+   },
+   "omnivoice_v3/loop_0": {
+    "CE": 5.64,
+    "CU": 6.78,
+    "PC": 1.43,
+    "PQ": 7.03
+   },
+   "omnivoice_v3/reveal_2": {
+    "CE": 6.04,
+    "CU": 7.25,
+    "PC": 1.4,
+    "PQ": 7.48
+   },
+   "omnivoice_v3/why_1": {
+    "CE": 6.45,
+    "CU": 7.4,
+    "PC": 1.42,
+    "PQ": 7.85
+   },
+   "omnivoice_v3/you_1": {
+    "CE": 6.42,
+    "CU": 7.54,
+    "PC": 1.42,
+    "PQ": 7.91
+   }
+  },
+  "utmos": {
+   "cb_A/broad_1": {
+    "mos": 3.427
+   },
+   "cb_A/guess_0": {
+    "mos": 3.47
+   },
+   "cb_A/hook_0": {
+    "mos": 3.452
+   },
+   "cb_A/levels_0": {
+    "mos": 3.385
+   },
+   "cb_A/loop_0": {
+    "mos": 3.15
+   },
+   "cb_A/reveal_2": {
+    "mos": 2.955
+   },
+   "cb_A/why_1": {
+    "mos": 3.869
+   },
+   "cb_A/you_1": {
+    "mos": 2.611
+   },
+   "cb_B/broad_1": {
+    "mos": 3.542
+   },
+   "cb_B/guess_0": {
+    "mos": 3.772
+   },
+   "cb_B/hook_0": {
+    "mos": 3.465
+   },
+   "cb_B/levels_0": {
+    "mos": 3.251
+   },
+   "cb_B/loop_0": {
+    "mos": 2.887
+   },
+   "cb_B/reveal_2": {
+    "mos": 2.955
+   },
+   "cb_B/why_1": {
+    "mos": 3.875
+   },
+   "cb_B/you_1": {
+    "mos": 3.323
+   },
+   "cb_C/broad_1": {
+    "mos": 3.827
+   },
+   "cb_C/guess_0": {
+    "mos": 3.42
+   },
+   "cb_C/hook_0": {
+    "mos": 3.444
+   },
+   "cb_C/levels_0": {
+    "mos": 3.074
+   },
+   "cb_C/loop_0": {
+    "mos": 3.609
+   },
+   "cb_C/reveal_2": {
+    "mos": 3.309
+   },
+   "cb_C/why_1": {
+    "mos": 3.695
+   },
+   "cb_C/you_1": {
+    "mos": 3.286
+   },
+   "cb_D/broad_1": {
+    "mos": 3.738
+   },
+   "cb_D/guess_0": {
+    "mos": 3.495
+   },
+   "cb_D/hook_0": {
+    "mos": 3.019
+   },
+   "cb_D/levels_0": {
+    "mos": 2.794
+   },
+   "cb_D/loop_0": {
+    "mos": 3.19
+   },
+   "cb_D/reveal_2": {
+    "mos": 3.536
+   },
+   "cb_D/why_1": {
+    "mos": 3.599
+   },
+   "cb_D/you_1": {
+    "mos": 3.232
+   },
+   "cb_E/broad_1": {
+    "mos": 3.179
+   },
+   "cb_E/guess_0": {
+    "mos": 2.956
+   },
+   "cb_E/hook_0": {
+    "mos": 3.528
+   },
+   "cb_E/levels_0": {
+    "mos": 3.391
+   },
+   "cb_E/loop_0": {
+    "mos": 3.222
+   },
+   "cb_E/reveal_2": {
+    "mos": 3.417
+   },
+   "cb_E/why_1": {
+    "mos": 3.441
+   },
+   "cb_E/you_1": {
+    "mos": 3.489
+   },
+   "cb_F/broad_1": {
+    "mos": 3.711
+   },
+   "cb_F/guess_0": {
+    "mos": 3.746
+   },
+   "cb_F/hook_0": {
+    "mos": 3.173
+   },
+   "cb_F/levels_0": {
+    "mos": 2.467
+   },
+   "cb_F/loop_0": {
+    "mos": 2.736
+   },
+   "cb_F/reveal_2": {
+    "mos": 3.247
+   },
+   "cb_F/why_1": {
+    "mos": 3.21
+   },
+   "cb_F/you_1": {
+    "mos": 3.616
+   },
+   "kokoro_v3/broad_1": {
+    "mos": 3.308
+   },
+   "kokoro_v3/guess_0": {
+    "mos": 3.345
+   },
+   "kokoro_v3/hook_0": {
+    "mos": 3.824
+   },
+   "kokoro_v3/levels_0": {
+    "mos": 3.804
+   },
+   "kokoro_v3/loop_0": {
+    "mos": 2.97
+   },
+   "kokoro_v3/reveal_2": {
+    "mos": 3.817
+   },
+   "kokoro_v3/why_1": {
+    "mos": 3.597
+   },
+   "kokoro_v3/you_1": {
+    "mos": 3.262
+   },
+   "omnivoice_v3/broad_1": {
+    "mos": 3.36
+   },
+   "omnivoice_v3/guess_0": {
+    "mos": 3.447
+   },
+   "omnivoice_v3/hook_0": {
+    "mos": 3.21
+   },
+   "omnivoice_v3/levels_0": {
+    "mos": 3.185
+   },
+   "omnivoice_v3/loop_0": {
+    "mos": 3.578
+   },
+   "omnivoice_v3/reveal_2": {
+    "mos": 3.586
+   },
+   "omnivoice_v3/why_1": {
+    "mos": 3.462
+   },
+   "omnivoice_v3/you_1": {
+    "mos": 3.321
+   }
+  },
+  "speaker": {
+   "cb_A/broad_1": {
+    "sim": 0.863
+   },
+   "cb_A/guess_0": {
+    "sim": 0.858
+   },
+   "cb_A/hook_0": {
+    "sim": 0.849
+   },
+   "cb_A/levels_0": {
+    "sim": 0.779
+   },
+   "cb_A/loop_0": {
+    "sim": 0.815
+   },
+   "cb_A/reveal_2": {
+    "sim": 0.833
+   },
+   "cb_A/why_1": {
+    "sim": 0.842
+   },
+   "cb_A/you_1": {
+    "sim": 0.807
+   },
+   "cb_B/broad_1": {
+    "sim": 0.812
+   },
+   "cb_B/guess_0": {
+    "sim": 0.844
+   },
+   "cb_B/hook_0": {
+    "sim": 0.868
+   },
+   "cb_B/levels_0": {
+    "sim": 0.764
+   },
+   "cb_B/loop_0": {
+    "sim": 0.79
+   },
+   "cb_B/reveal_2": {
+    "sim": 0.866
+   },
+   "cb_B/why_1": {
+    "sim": 0.813
+   },
+   "cb_B/you_1": {
+    "sim": 0.823
+   },
+   "cb_C/broad_1": {
+    "sim": 0.802
+   },
+   "cb_C/guess_0": {
+    "sim": 0.809
+   },
+   "cb_C/hook_0": {
+    "sim": 0.815
+   },
+   "cb_C/levels_0": {
+    "sim": 0.682
+   },
+   "cb_C/loop_0": {
+    "sim": 0.718
+   },
+   "cb_C/reveal_2": {
+    "sim": 0.857
+   },
+   "cb_C/why_1": {
+    "sim": 0.783
+   },
+   "cb_C/you_1": {
+    "sim": 0.721
+   },
+   "cb_D/broad_1": {
+    "sim": 0.717
+   },
+   "cb_D/guess_0": {
+    "sim": 0.779
+   },
+   "cb_D/hook_0": {
+    "sim": 0.835
+   },
+   "cb_D/levels_0": {
+    "sim": 0.58
+   },
+   "cb_D/loop_0": {
+    "sim": 0.776
+   },
+   "cb_D/reveal_2": {
+    "sim": 0.732
+   },
+   "cb_D/why_1": {
+    "sim": 0.811
+   },
+   "cb_D/you_1": {
+    "sim": 0.862
+   },
+   "cb_E/broad_1": {
+    "sim": 0.85
+   },
+   "cb_E/guess_0": {
+    "sim": 0.787
+   },
+   "cb_E/hook_0": {
+    "sim": 0.701
+   },
+   "cb_E/levels_0": {
+    "sim": 0.499
+   },
+   "cb_E/loop_0": {
+    "sim": 0.448
+   },
+   "cb_E/reveal_2": {
+    "sim": 0.832
+   },
+   "cb_E/why_1": {
+    "sim": 0.798
+   },
+   "cb_E/you_1": {
+    "sim": 0.768
+   },
+   "cb_F/broad_1": {
+    "sim": 0.679
+   },
+   "cb_F/guess_0": {
+    "sim": 0.789
+   },
+   "cb_F/hook_0": {
+    "sim": 0.798
+   },
+   "cb_F/levels_0": {
+    "sim": 0.438
+   },
+   "cb_F/loop_0": {
+    "sim": 0.451
+   },
+   "cb_F/reveal_2": {
+    "sim": 0.752
+   },
+   "cb_F/why_1": {
+    "sim": 0.696
+   },
+   "cb_F/you_1": {
+    "sim": 0.735
+   },
+   "kokoro_v3/broad_1": {
+    "sim": 0.883
+   },
+   "kokoro_v3/guess_0": {
+    "sim": 0.874
+   },
+   "kokoro_v3/hook_0": {
+    "sim": 0.858
+   },
+   "kokoro_v3/levels_0": {
+    "sim": 0.771
+   },
+   "kokoro_v3/loop_0": {
+    "sim": 0.689
+   },
+   "kokoro_v3/reveal_2": {
+    "sim": 0.85
+   },
+   "kokoro_v3/why_1": {
+    "sim": 0.818
+   },
+   "kokoro_v3/you_1": {
+    "sim": 0.844
+   },
+   "omnivoice_v3/broad_1": {
+    "sim": 0.855
+   },
+   "omnivoice_v3/guess_0": {
+    "sim": 0.739
+   },
+   "omnivoice_v3/hook_0": {
+    "sim": 0.813
+   },
+   "omnivoice_v3/levels_0": {
+    "sim": 0.775
+   },
+   "omnivoice_v3/loop_0": {
+    "sim": 0.731
+   },
+   "omnivoice_v3/reveal_2": {
+    "sim": 0.742
+   },
+   "omnivoice_v3/why_1": {
+    "sim": 0.752
+   },
+   "omnivoice_v3/you_1": {
+    "sim": 0.837
+   }
+  }
+ }
+}
