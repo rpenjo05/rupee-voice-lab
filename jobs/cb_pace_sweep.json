@@ -1,0 +1,332 @@
+{
+ "name": "Chatterbox native pace sweep (faster ref, higher exaggeration; no speed-up)",
+ "takes": 2,
+ "defaults": {
+  "ref": "heart_fast",
+  "exaggeration": 0.5,
+  "cfg_weight": 0.5,
+  "temperature": 0.8
+ },
+ "lines": [
+  {
+   "id": "G__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "G__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "heart_fast",
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "H__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "I__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "heart_long",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.5,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "J__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "heart_fast",
+   "exaggeration": 0.7,
+   "cfg_weight": 0.3,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__hook_0",
+   "text": "The Sensex just jumped one thousand two hundred and twenty five points.",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__guess_0",
+   "text": "Quick guess. Today's top Nifty gainer, what does it actually do?",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__levels_0",
+   "text": "The Nifty and the Sensex? Both up.",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__broad_1",
+   "text": "Smaller companies? Up just zero point three percent.",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__why_1",
+   "text": "Oil kept cooling. And foreign investors kept buying.",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__you_1",
+   "text": "Ten thousand rupees in the Nifty is up about one hundred and fifty eight.",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__reveal_2",
+   "text": "B S E. The company that runs the stock exchange.",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  },
+  {
+   "id": "K__loop_0",
+   "text": "And the Sensex just jumped,",
+   "ref": "heart_fast",
+   "exaggeration": 0.6,
+   "cfg_weight": 0.6,
+   "temperature": 0.8
+  }
+ ]
+}
